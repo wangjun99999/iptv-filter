@@ -1,23 +1,23 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" group-title="山东电信-组播1",山东卫视
 http://144.255.31.40:6688/udp/239.21.1.87:5002
-#EXTINF:-1 tvg-id="山东体育频道" tvg-name="山东体育频道" group-title="山东电信-组播1",山东体育频道
+#EXTINF:-1 tvg-id="山东体育" tvg-name="山东体育频道" group-title="山东电信-组播1",山东体育频道
 http://144.255.31.40:6688/udp/239.21.1.141:5002
-#EXTINF:-1 tvg-id="山东农科频道" tvg-name="山东农科频道" group-title="山东电信-组播1",山东农科频道
+#EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科频道" group-title="山东电信-组播1",山东农科频道
 http://144.255.31.40:6688/udp/239.21.1.183:5002
-#EXTINF:-1 tvg-id="山东少儿频道" tvg-name="山东少儿频道" group-title="山东电信-组播1",山东少儿频道
+#EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿频道" group-title="山东电信-组播1",山东少儿频道
 http://144.255.31.40:6688/udp/239.21.1.208:5002
-#EXTINF:-1 tvg-id="山东教育频道" tvg-name="山东教育频道" group-title="山东电信-组播1",山东教育频道
+#EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育频道" group-title="山东电信-组播1",山东教育频道
 http://144.255.31.40:6688/udp/239.21.1.169:5002
-#EXTINF:-1 tvg-id="山东文旅频道" tvg-name="山东文旅频道" group-title="山东电信-组播1",山东文旅频道
+#EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅频道" group-title="山东电信-组播1",山东文旅频道
 http://144.255.31.40:6688/udp/239.21.1.176:5002
-#EXTINF:-1 tvg-id="山东新闻频道" tvg-name="山东新闻频道" group-title="山东电信-组播1",山东新闻频道
+#EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻频道" group-title="山东电信-组播1",山东新闻频道
 http://144.255.31.40:6688/udp/239.21.1.140:5002
-#EXTINF:-1 tvg-id="山东生活频道" tvg-name="山东生活频道" group-title="山东电信-组播1",山东生活频道
+#EXTINF:-1 tvg-id="山东生活" tvg-name="山东生活频道" group-title="山东电信-组播1",山东生活频道
 http://144.255.31.40:6688/udp/239.21.1.175:5002
-#EXTINF:-1 tvg-id="山东综艺频道" tvg-name="山东综艺频道" group-title="山东电信-组播1",山东综艺频道
+#EXTINF:-1 tvg-id="山东综艺" tvg-name="山东综艺频道" group-title="山东电信-组播1",山东综艺频道
 http://144.255.31.40:6688/udp/239.21.1.177:5002
-#EXTINF:-1 tvg-id="山东齐鲁频道" tvg-name="山东齐鲁频道" group-title="山东电信-组播1",山东齐鲁频道
+#EXTINF:-1 tvg-id="山东齐鲁" tvg-name="山东齐鲁频道" group-title="山东电信-组播1",山东齐鲁频道
 http://144.255.31.40:6688/udp/239.21.1.134:5002
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1综合" group-title="山东电信-组播1",CCTV-1综合
 http://144.255.31.40:6688/udp/239.21.1.120:5002
@@ -199,7 +199,7 @@ http://144.255.31.40:6688/udp/239.21.1.226:5002
 http://144.255.31.40:6688/udp/239.21.1.182:5002
 #EXTINF:-1 tvg-id="淄博新闻综合" tvg-name="淄博新闻综合" group-title="山东电信-组播1",淄博新闻综合
 http://144.255.31.40:6688/udp/239.21.1.84:5002
-#EXTINF:-1 tvg-id="新闻综合" tvg-name="新闻综合" group-title="山东电信-组播1",新闻综合
+#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="新闻综合" group-title="山东电信-组播1",新闻综合
 http://144.255.31.40:6688/udp/239.21.1.193:5002
 #EXTINF:-1 tvg-id="无棣综合频道" tvg-name="无棣综合频道" group-title="山东电信-组播1",无棣综合频道
 http://144.255.31.40:6688/udp/239.21.1.214:5002
@@ -215,17 +215,17 @@ http://144.255.31.40:6688/udp/239.21.1.187:5002
 http://144.255.31.40:6688/udp/239.21.1.238:5002
 #EXTINF:-1 tvg-id="济南教育频道" tvg-name="济南教育频道" group-title="山东电信-组播1",济南教育频道
 http://144.255.31.40:6688/udp/239.21.1.133:5002
-#EXTINF:-1 tvg-id="青岛1" tvg-name="青岛1" group-title="山东电信-组播1",青岛1
+#EXTINF:-1 tvg-id="青岛tv1" tvg-name="青岛1" group-title="山东电信-组播1",青岛1
 http://144.255.31.40:6688/udp/239.21.1.69:5002
-#EXTINF:-1 tvg-id="青岛2" tvg-name="青岛2" group-title="山东电信-组播1",青岛2
+#EXTINF:-1 tvg-id="青岛tv2" tvg-name="青岛2" group-title="山东电信-组播1",青岛2
 http://144.255.31.40:6688/udp/239.21.1.70:5002
-#EXTINF:-1 tvg-id="青岛3" tvg-name="青岛3" group-title="山东电信-组播1",青岛3
+#EXTINF:-1 tvg-id="青岛tv3" tvg-name="青岛3" group-title="山东电信-组播1",青岛3
 http://144.255.31.40:6688/udp/239.21.1.71:5002
-#EXTINF:-1 tvg-id="青岛4" tvg-name="青岛4" group-title="山东电信-组播1",青岛4
+#EXTINF:-1 tvg-id="青岛tv4" tvg-name="青岛4" group-title="山东电信-组播1",青岛4
 http://144.255.31.40:6688/udp/239.21.1.72:5002
-#EXTINF:-1 tvg-id="青岛5" tvg-name="青岛5" group-title="山东电信-组播1",青岛5
+#EXTINF:-1 tvg-id="青岛tv5" tvg-name="青岛5" group-title="山东电信-组播1",青岛5
 http://144.255.31.40:6688/udp/239.21.1.73:5002
-#EXTINF:-1 tvg-id="青岛6" tvg-name="青岛6" group-title="山东电信-组播1",青岛6
+#EXTINF:-1 tvg-id="青岛tv6" tvg-name="青岛6" group-title="山东电信-组播1",青岛6
 http://144.255.31.40:6688/udp/239.21.1.74:5002
 #EXTINF:-1 tvg-id="济南娱乐" tvg-name="济南娱乐" group-title="山东电信-组播1",济南娱乐
 http://144.255.31.40:6688/udp/239.21.1.66:5002
@@ -321,11 +321,11 @@ http://144.255.31.40:6688/udp/239.21.1.217:5002
 http://144.255.31.40:6688/udp/239.21.1.107:5002
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" group-title="上海电信-组播1",东方卫视
 http://116.235.57.59:4022/rtp/239.45.3.146:5140
-#EXTINF:-1 tvg-id="新闻综合" tvg-name="新闻综合" group-title="上海电信-组播1",新闻综合
+#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="新闻综合" group-title="上海电信-组播1",新闻综合
 http://116.235.57.59:4022/rtp/239.45.3.209:5140
-#EXTINF:-1 tvg-id="都市频道" tvg-name="都市频道" group-title="上海电信-组播1",都市频道
+#EXTINF:-1 tvg-id="上海都市" tvg-name="都市频道" group-title="上海电信-组播1",都市频道
 http://116.235.57.59:4022/rtp/239.45.3.236:5140
-#EXTINF:-1 tvg-id="东方影视" tvg-name="东方影视" group-title="上海电信-组播1",东方影视
+#EXTINF:-1 tvg-id="上视东方影视" tvg-name="东方影视" group-title="上海电信-组播1",东方影视
 http://116.235.57.59:4022/rtp/239.45.3.237:5140
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" group-title="上海电信-组播1",都市剧场
 http://116.235.57.59:4022/rtp/239.45.3.136:5140
@@ -477,7 +477,7 @@ http://116.235.57.59:4022/rtp/239.45.0.38:5140
 http://116.235.57.59:4022/rtp/239.45.1.45:5140
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" group-title="上海电信-组播1",北京卡酷少儿
 http://116.235.57.59:4022/rtp/239.45.0.8:5140
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" group-title="上海电信-组播1",北京纪实科教
+#EXTINF:-1 tvg-id="BTV科教" tvg-name="北京纪实科教" group-title="上海电信-组播1",北京纪实科教
 http://116.235.57.59:4022/rtp/239.45.1.14:5140
 #EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="上海电信-组播1",CETV1
 http://116.235.57.59:4022/rtp/239.45.1.125:5140
@@ -499,11 +499,11 @@ http://116.235.57.59:4022/rtp/239.45.3.75:5140
 http://116.235.57.59:4022/rtp/239.45.3.207:5140
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" group-title="上海电信-组播2",东方卫视
 http://223.167.230.84:4022/rtp/239.45.3.146:5140
-#EXTINF:-1 tvg-id="新闻综合" tvg-name="新闻综合" group-title="上海电信-组播2",新闻综合
+#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="新闻综合" group-title="上海电信-组播2",新闻综合
 http://223.167.230.84:4022/rtp/239.45.3.209:5140
-#EXTINF:-1 tvg-id="都市频道" tvg-name="都市频道" group-title="上海电信-组播2",都市频道
+#EXTINF:-1 tvg-id="上海都市" tvg-name="都市频道" group-title="上海电信-组播2",都市频道
 http://223.167.230.84:4022/rtp/239.45.3.236:5140
-#EXTINF:-1 tvg-id="东方影视" tvg-name="东方影视" group-title="上海电信-组播2",东方影视
+#EXTINF:-1 tvg-id="上视东方影视" tvg-name="东方影视" group-title="上海电信-组播2",东方影视
 http://223.167.230.84:4022/rtp/239.45.3.237:5140
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" group-title="上海电信-组播2",都市剧场
 http://223.167.230.84:4022/rtp/239.45.3.136:5140
@@ -655,7 +655,7 @@ http://223.167.230.84:4022/rtp/239.45.0.38:5140
 http://223.167.230.84:4022/rtp/239.45.1.45:5140
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" group-title="上海电信-组播2",北京卡酷少儿
 http://223.167.230.84:4022/rtp/239.45.0.8:5140
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" group-title="上海电信-组播2",北京纪实科教
+#EXTINF:-1 tvg-id="BTV科教" tvg-name="北京纪实科教" group-title="上海电信-组播2",北京纪实科教
 http://223.167.230.84:4022/rtp/239.45.1.14:5140
 #EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="上海电信-组播2",CETV1
 http://223.167.230.84:4022/rtp/239.45.1.125:5140
@@ -677,19 +677,19 @@ http://223.167.230.84:4022/rtp/239.45.3.75:5140
 http://223.167.230.84:4022/rtp/239.45.3.207:5140
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" group-title="山东联通-组播1",山东卫视
 http://39.77.27.109:4002/rtp/239.253.254.78:8000
-#EXTINF:-1 tvg-id="山东新闻频道" tvg-name="山东新闻频道" group-title="山东联通-组播1",山东新闻频道
+#EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻频道" group-title="山东联通-组播1",山东新闻频道
 http://39.77.27.109:4002/rtp/239.253.254.23:8000
-#EXTINF:-1 tvg-id="山东综艺频道" tvg-name="山东综艺频道" group-title="山东联通-组播1",山东综艺频道
+#EXTINF:-1 tvg-id="山东综艺" tvg-name="山东综艺频道" group-title="山东联通-组播1",山东综艺频道
 http://39.77.27.109:4002/rtp/239.253.254.159:8000
-#EXTINF:-1 tvg-id="山东农科频道" tvg-name="山东农科频道" group-title="山东联通-组播1",山东农科频道
+#EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科频道" group-title="山东联通-组播1",山东农科频道
 http://39.77.27.109:4002/rtp/239.253.254.24:8000
-#EXTINF:-1 tvg-id="山东齐鲁频道" tvg-name="山东齐鲁频道" group-title="山东联通-组播1",山东齐鲁频道
+#EXTINF:-1 tvg-id="山东齐鲁" tvg-name="山东齐鲁频道" group-title="山东联通-组播1",山东齐鲁频道
 http://39.77.27.109:4002/rtp/239.253.254.114:8000
-#EXTINF:-1 tvg-id="山东少儿频道" tvg-name="山东少儿频道" group-title="山东联通-组播1",山东少儿频道
+#EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿频道" group-title="山东联通-组播1",山东少儿频道
 http://39.77.27.109:4002/rtp/239.253.254.25:8000
-#EXTINF:-1 tvg-id="山东生活频道" tvg-name="山东生活频道" group-title="山东联通-组播1",山东生活频道
+#EXTINF:-1 tvg-id="山东生活" tvg-name="山东生活频道" group-title="山东联通-组播1",山东生活频道
 http://39.77.27.109:4002/rtp/239.253.254.151:8000
-#EXTINF:-1 tvg-id="山东文旅频道" tvg-name="山东文旅频道" group-title="山东联通-组播1",山东文旅频道
+#EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅频道" group-title="山东联通-组播1",山东文旅频道
 http://39.77.27.109:4002/rtp/239.253.254.160:8000
 #EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" group-title="山东联通-组播1",山东体育休闲
 http://39.77.27.109:4002/rtp/239.253.254.22:8000
@@ -697,11 +697,11 @@ http://39.77.27.109:4002/rtp/239.253.254.22:8000
 http://39.77.27.109:4002/rtp/239.253.254.59:8000
 #EXTINF:-1 tvg-id="山东居家购物" tvg-name="山东居家购物" group-title="山东联通-组播1",山东居家购物
 http://39.77.27.109:4002/rtp/239.253.254.104:8000
-#EXTINF:-1 tvg-id="青岛QTV1" tvg-name="青岛QTV1" group-title="山东联通-组播1",青岛QTV1
+#EXTINF:-1 tvg-id="青岛tv1" tvg-name="青岛QTV1" group-title="山东联通-组播1",青岛QTV1
 http://39.77.27.109:4002/rtp/239.253.254.249:8000
-#EXTINF:-1 tvg-id="青岛QTV2" tvg-name="青岛QTV2" group-title="山东联通-组播1",青岛QTV2
+#EXTINF:-1 tvg-id="青岛tv2" tvg-name="青岛QTV2" group-title="山东联通-组播1",青岛QTV2
 http://39.77.27.109:4002/rtp/239.253.254.250:8000
-#EXTINF:-1 tvg-id="青岛QTV3" tvg-name="青岛QTV3" group-title="山东联通-组播1",青岛QTV3
+#EXTINF:-1 tvg-id="青岛tv3" tvg-name="青岛QTV3" group-title="山东联通-组播1",青岛QTV3
 http://39.77.27.109:4002/rtp/239.253.254.251:8000
 #EXTINF:-1 tvg-id="青岛QTV4" tvg-name="青岛QTV4" group-title="山东联通-组播1",青岛QTV4
 http://39.77.27.109:4002/rtp/239.253.254.252:8000
@@ -871,21 +871,21 @@ http://39.77.27.109:4002/rtp/239.253.254.142:8000
 http://39.77.27.109:4002/rtp/239.253.254.253:8000
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="北京联通-组播1",北京卫视
 http://114.241.246.84:4022/rtp/239.3.1.241:8000
-#EXTINF:-1 tvg-id="北京新闻频道" tvg-name="北京新闻频道" group-title="北京联通-组播1",北京新闻频道
+#EXTINF:-1 tvg-id="BTV新闻" tvg-name="北京新闻频道" group-title="北京联通-组播1",北京新闻频道
 http://114.241.246.84:4022/rtp/239.3.1.159:8000
-#EXTINF:-1 tvg-id="北京影视频道" tvg-name="北京影视频道" group-title="北京联通-组播1",北京影视频道
+#EXTINF:-1 tvg-id="BTV影视" tvg-name="北京影视频道" group-title="北京联通-组播1",北京影视频道
 http://114.241.246.84:4022/rtp/239.3.1.158:8000
-#EXTINF:-1 tvg-id="北京文艺频道" tvg-name="北京文艺频道" group-title="北京联通-组播1",北京文艺频道
+#EXTINF:-1 tvg-id="BTV文艺" tvg-name="北京文艺频道" group-title="北京联通-组播1",北京文艺频道
 http://114.241.246.84:4022/rtp/239.3.1.242:8000
-#EXTINF:-1 tvg-id="北京财经频道" tvg-name="北京财经频道" group-title="北京联通-组播1",北京财经频道
+#EXTINF:-1 tvg-id="BTV财经" tvg-name="北京财经频道" group-title="北京联通-组播1",北京财经频道
 http://114.241.246.84:4022/rtp/239.3.1.116:8000
-#EXTINF:-1 tvg-id="北京生活频道" tvg-name="北京生活频道" group-title="北京联通-组播1",北京生活频道
+#EXTINF:-1 tvg-id="BTV生活" tvg-name="北京生活频道" group-title="北京联通-组播1",北京生活频道
 http://114.241.246.84:4022/rtp/239.3.1.117:8000
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" group-title="北京联通-组播1",北京纪实科教
+#EXTINF:-1 tvg-id="BTV科教" tvg-name="北京纪实科教" group-title="北京联通-组播1",北京纪实科教
 http://114.241.246.84:4022/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" group-title="北京联通-组播1",北京卡酷少儿
 http://114.241.246.84:4022/rtp/239.3.1.189:8000
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" group-title="北京联通-组播1",北京体育休闲
+#EXTINF:-1 tvg-id="BTV体育" tvg-name="北京体育休闲" group-title="北京联通-组播1",北京体育休闲
 http://114.241.246.84:4022/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="北京国际频道" tvg-name="北京国际频道" group-title="北京联通-组播1",北京国际频道
 http://114.241.246.84:4022/rtp/239.3.1.235:8000
@@ -1127,21 +1127,21 @@ http://114.241.246.84:4022/rtp/239.3.1.127:8001
 http://114.241.246.84:4022/rtp/239.3.1.128:8001
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="北京联通-组播2",北京卫视
 http://114.254.34.19:18888/rtp/239.3.1.241:8000
-#EXTINF:-1 tvg-id="北京新闻频道" tvg-name="北京新闻频道" group-title="北京联通-组播2",北京新闻频道
+#EXTINF:-1 tvg-id="BTV新闻" tvg-name="北京新闻频道" group-title="北京联通-组播2",北京新闻频道
 http://114.254.34.19:18888/rtp/239.3.1.159:8000
-#EXTINF:-1 tvg-id="北京影视频道" tvg-name="北京影视频道" group-title="北京联通-组播2",北京影视频道
+#EXTINF:-1 tvg-id="BTV影视" tvg-name="北京影视频道" group-title="北京联通-组播2",北京影视频道
 http://114.254.34.19:18888/rtp/239.3.1.158:8000
-#EXTINF:-1 tvg-id="北京文艺频道" tvg-name="北京文艺频道" group-title="北京联通-组播2",北京文艺频道
+#EXTINF:-1 tvg-id="BTV文艺" tvg-name="北京文艺频道" group-title="北京联通-组播2",北京文艺频道
 http://114.254.34.19:18888/rtp/239.3.1.242:8000
-#EXTINF:-1 tvg-id="北京财经频道" tvg-name="北京财经频道" group-title="北京联通-组播2",北京财经频道
+#EXTINF:-1 tvg-id="BTV财经" tvg-name="北京财经频道" group-title="北京联通-组播2",北京财经频道
 http://114.254.34.19:18888/rtp/239.3.1.116:8000
-#EXTINF:-1 tvg-id="北京生活频道" tvg-name="北京生活频道" group-title="北京联通-组播2",北京生活频道
+#EXTINF:-1 tvg-id="BTV生活" tvg-name="北京生活频道" group-title="北京联通-组播2",北京生活频道
 http://114.254.34.19:18888/rtp/239.3.1.117:8000
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" group-title="北京联通-组播2",北京纪实科教
+#EXTINF:-1 tvg-id="BTV科教" tvg-name="北京纪实科教" group-title="北京联通-组播2",北京纪实科教
 http://114.254.34.19:18888/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" group-title="北京联通-组播2",北京卡酷少儿
 http://114.254.34.19:18888/rtp/239.3.1.189:8000
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" group-title="北京联通-组播2",北京体育休闲
+#EXTINF:-1 tvg-id="BTV体育" tvg-name="北京体育休闲" group-title="北京联通-组播2",北京体育休闲
 http://114.254.34.19:18888/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="北京国际频道" tvg-name="北京国际频道" group-title="北京联通-组播2",北京国际频道
 http://114.254.34.19:18888/rtp/239.3.1.235:8000
