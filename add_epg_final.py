@@ -61,39 +61,10 @@ KEEP_RULES = {
 # ---------- LOGO ----------
 LOGO_MAP = {
     "CCTV1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png",
-    "CCTV2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV2.png",
-    "CCTV3": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV3.png",
-    "CCTV4": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4.png",
     "CCTV5": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png",
     "CCTV5+": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png",
-    "CCTV6": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV6.png",
-    "CCTV7": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV7.png",
-    "CCTV8": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV8.png",
-    "CCTV9": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV9.png",
-    "CCTV10": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV10.png",
-    "CCTV11": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV11.png",
-    "CCTV12": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV12.png",
-    "CCTV13": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV13.png",
-    "CCTV14": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV14.png",
-    "CCTV15": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV15.png",
-    "CCTV16": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV16.png",
-    "CCTV17": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV17.png",
-    "CCTV4欧洲": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png",
-    "CCTV4美洲": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png",
-    "山东体育": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png",
-    "山东农科": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%86%9C%E7%A7%91.png",
-    "山东少儿": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%B0%91%E5%84%BF.png",
-    "山东教育": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2.png",
-    "山东文旅": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%96%87%E6%97%85.png",
-    "山东新闻": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%96%B0%E9%97%BB.png",
-    "山东生活": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E7%94%9F%E6%B4%BB.png",
-    "山东综艺": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E7%BB%BC%E8%89%BA.png",
-    "山东齐鲁": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E9%BD%90%E9%B2%81.png",
-    "青岛tv1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-1.png",
-    "青岛tv2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-2.png",
+    "山东体育": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/山东体育.png",
     "青岛tv3": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-3.png",
-    "青岛tv4": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png",
-    "青岛tv5": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-5.png",
 }
 
 # ---------- 工具函数 ----------
@@ -130,9 +101,9 @@ while i < len(lines):
     raw_name = extinf.split(",")[-1].strip()
     display_name = raw_name
 
+    # ---------- 判断是否体育频道 ----------
     is_sports = False
     operator = None
-
     for op, chs in SPORTS_CHANNELS.items():
         if raw_name in chs:
             is_sports = True
@@ -140,10 +111,14 @@ while i < len(lines):
             display_name = f"{op}丨{raw_name}"
             break
 
-    # ---------- 筛选 ----------
+    # ---------- 筛选逻辑 ----------
     keep = False
-    rule = KEEP_RULES.get(operator)
-
+    rule = None
+    # 判断规则是否匹配
+    for op, r in KEEP_RULES.items():
+        if op in display_name:
+            rule = r
+            break
     if rule:
         if rule.get("cctv") and raw_name.upper().startswith("CCTV"):
             keep = True
@@ -153,18 +128,21 @@ while i < len(lines):
             keep = True
         elif any(k in raw_name for k in rule.get("keywords", [])):
             keep = True
-
+    # 体育频道强制保留
     if is_sports:
+        keep = True
+
+    # 保留所有其他未在规则里的频道（保证非体育频道也输出）
+    if not rule and not is_sports:
         keep = True
 
     if not keep:
         i += 2
         continue
 
-    # ---------- EPG & LOGO ----------
+    # ---------- EPG + LOGO ----------
     tvg_id = guess_tvg_id(raw_name)
     logo = guess_logo(tvg_id)
-
     if "tvg-id=" not in extinf:
         extinf = extinf.replace(
             "#EXTINF:-1",
@@ -188,4 +166,4 @@ while i < len(lines):
 with open("output_epg.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("✅ 生成完成：频道完整 + 体育独立分组 + EPG/Logo 正确")
+print("✅ 完成：体育 + 非体育频道均保留，EPG + LOGO + group-title 正确")
