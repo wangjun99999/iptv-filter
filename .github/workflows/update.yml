@@ -26,6 +26,9 @@ jobs:
 
       - name: Run add_epg.py
         run: python add_epg.py
+        
+      - name: Add sports channels
+        run: python add_sports.py
 
       - name: Filter epg channels
         run: python filter_epg.py
