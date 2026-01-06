@@ -34,27 +34,27 @@ SPORTS_CHANNELS = {
     "北京联通": ["北京体育休闲"],
 }
 
-# ---------- 筛选规则 ----------
+# ---------- 主频道筛选规则 ----------
 KEEP_RULES = {
     "山东电信": {
         "cctv": True,
         "satellite": True,
-        "keywords": ["山东", "青岛1", "青岛2", "青岛3", "青岛4", "青岛5", "青岛6", "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"]
+        "keywords": ["山东", "青岛1","青岛2","青岛3","青岛4","青岛5","青岛6","青岛QTV1","青岛QTV2","青岛QTV3","青岛QTV4"]
     },
     "上海电信": {
         "cctv": True,
         "satellite": True,
-        "exact": ["东方影视", "新闻综合", "都市频道", "都市剧场", "欢笑剧场", "五星体育"]
+        "exact": ["东方影视","新闻综合","都市频道","都市剧场","欢笑剧场","五星体育"]
     },
     "山东联通": {
         "cctv": True,
         "satellite": True,
-        "keywords": ["山东", "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"]
+        "keywords": ["山东","青岛QTV1","青岛QTV2","青岛QTV3","青岛QTV4"]
     },
     "北京联通": {
         "cctv": True,
         "satellite": True,
-        "keywords": ["北京", "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"]
+        "keywords": ["北京","青岛QTV1","青岛QTV2","青岛QTV3","青岛QTV4"]
     }
 }
 
@@ -96,13 +96,13 @@ while i < len(lines):
         continue
 
     extinf = lines[i]
-    url = lines[i + 1]
+    url = lines[i+1]
     raw_name = extinf.split(",")[-1].strip()
     display_name = raw_name
     is_sports = False
-
-    # 体育频道优先处理
     operator = None
+
+    # 判断体育频道
     for op, chs in SPORTS_CHANNELS.items():
         if raw_name in chs:
             is_sports = True
@@ -110,34 +110,33 @@ while i < len(lines):
             display_name = f"{op}丨{raw_name}"
             break
 
-    # ---------- 判断是否符合KEEP_RULES ----------
+    # 判断KEEP_RULES
     keep = False
-    rule = None
-    for op, r in KEEP_RULES.items():
-        if op in display_name:
-            rule = r
-            break
-
-    if rule:
-        if rule.get("cctv") and raw_name.upper().startswith("CCTV"):
-            keep = True
-        elif rule.get("satellite") and "卫视" in raw_name:
-            keep = True
-        elif raw_name in rule.get("exact", []):
-            keep = True
-        elif any(kw in raw_name for kw in rule.get("keywords", [])):
-            keep = True
+    for op, rule in KEEP_RULES.items():
+        if op in raw_name or op in display_name:
+            # CCTV 系列
+            if rule.get("cctv") and raw_name.upper().startswith("CCTV"):
+                keep = True
+            # 卫视
+            elif rule.get("satellite") and "卫视" in raw_name:
+                keep = True
+            # 精确匹配
+            elif raw_name in rule.get("exact", []):
+                keep = True
+            # 关键字匹配
+            elif any(kw in raw_name for kw in rule.get("keywords", [])):
+                keep = True
 
     # 体育频道强制保留
     if is_sports:
         keep = True
 
-    # 不符合规则就跳过
+    # 不保留就跳过
     if not keep:
         i += 2
         continue
 
-    # ---------- EPG / LOGO ----------
+    # ---------- EPG + LOGO ----------
     tvg_id = guess_tvg_id(raw_name)
     logo = guess_logo(tvg_id)
     if "tvg-id=" not in extinf:
@@ -146,7 +145,7 @@ while i < len(lines):
             f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{raw_name}" tvg-logo="{logo}"'
         )
 
-    # ---------- 体育频道分组 ----------
+    # 体育频道统一分组
     if is_sports:
         if "group-title=" in extinf:
             extinf = re.sub(r'group-title="[^"]*"', 'group-title="体育频道"', extinf)
@@ -164,4 +163,4 @@ while i < len(lines):
 with open("output_epg.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("✅ 完成：严格筛选，体育频道分组正确，EPG + LOGO")
+print("✅ 完成：保留主频道 + 体育频道，EPG + LOGO + 体育分组")
