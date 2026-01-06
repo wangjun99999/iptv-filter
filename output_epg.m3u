@@ -99,122 +99,6 @@ http://144.255.31.40:6688/udp/239.21.1.166:5002
 http://144.255.31.40:6688/udp/239.21.1.164:5002
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" group-title="山东电信-组播1",黑龙江卫视
 http://144.255.31.40:6688/udp/239.21.1.28:5002
-#EXTINF:-1 tvg-id="济南新闻综合" tvg-name="济南新闻综合" group-title="山东电信-组播1",济南新闻综合
-http://144.255.31.40:6688/udp/239.21.1.94:5002
-#EXTINF:-1 tvg-id="济宁综合频道" tvg-name="济宁综合频道" group-title="山东电信-组播1",济宁综合频道
-http://144.255.31.40:6688/udp/239.21.2.19:5002
-#EXTINF:-1 tvg-id="宁阳综合频道" tvg-name="宁阳综合频道" group-title="山东电信-组播1",宁阳综合频道
-http://144.255.31.40:6688/udp/239.21.1.143:5002
-#EXTINF:-1 tvg-id="潍坊新闻综合" tvg-name="潍坊新闻综合" group-title="山东电信-组播1",潍坊新闻综合
-http://144.255.31.40:6688/udp/239.21.1.77:5002
-#EXTINF:-1 tvg-id="潍坊经济生活" tvg-name="潍坊经济生活" group-title="山东电信-组播1",潍坊经济生活
-http://144.255.31.40:6688/udp/239.21.1.78:5002
-#EXTINF:-1 tvg-id="东平综合频道" tvg-name="东平综合频道" group-title="山东电信-组播1",东平综合频道
-http://144.255.31.40:6688/udp/239.21.1.216:5002
-#EXTINF:-1 tvg-id="乳山综合频道" tvg-name="乳山综合频道" group-title="山东电信-组播1",乳山综合频道
-http://144.255.31.40:6688/udp/239.21.1.220:5002
-#EXTINF:-1 tvg-id="兖州新闻频道" tvg-name="兖州新闻频道" group-title="山东电信-组播1",兖州新闻频道
-http://144.255.31.40:6688/udp/239.21.1.224:5002
-#EXTINF:-1 tvg-id="兰陵综合频道" tvg-name="兰陵综合频道" group-title="山东电信-组播1",兰陵综合频道
-http://144.255.31.40:6688/udp/239.21.1.237:5002
-#EXTINF:-1 tvg-id="夏津公共频道" tvg-name="夏津公共频道" group-title="山东电信-组播1",夏津公共频道
-http://144.255.31.40:6688/udp/239.21.1.102:5002
-#EXTINF:-1 tvg-id="夏津综合频道" tvg-name="夏津综合频道" group-title="山东电信-组播1",夏津综合频道
-http://144.255.31.40:6688/udp/239.21.1.106:5002
-#EXTINF:-1 tvg-id="宁津综合频道" tvg-name="宁津综合频道" group-title="山东电信-组播1",宁津综合频道
-http://144.255.31.40:6688/udp/239.21.2.50:5002
-#EXTINF:-1 tvg-id="安丘综合频道" tvg-name="安丘综合频道" group-title="山东电信-组播1",安丘综合频道
-http://144.255.31.40:6688/udp/239.21.2.13:5002
-#EXTINF:-1 tvg-id="烟台影视频道" tvg-name="烟台影视频道" group-title="山东电信-组播1",烟台影视频道
-http://144.255.31.40:6688/udp/239.21.1.204:5002
-#EXTINF:-1 tvg-id="烟台新闻综合" tvg-name="烟台新闻综合" group-title="山东电信-组播1",烟台新闻综合
-http://144.255.31.40:6688/udp/239.21.1.116:5002
-#EXTINF:-1 tvg-id="烟台经济科技" tvg-name="烟台经济科技" group-title="山东电信-组播1",烟台经济科技
-http://144.255.31.40:6688/udp/239.21.1.205:5002
-#EXTINF:-1 tvg-id="禹城综合频道" tvg-name="禹城综合频道" group-title="山东电信-组播1",禹城综合频道
-http://144.255.31.40:6688/udp/239.21.1.241:5002
-#EXTINF:-1 tvg-id="禹城综艺频道" tvg-name="禹城综艺频道" group-title="山东电信-组播1",禹城综艺频道
-http://144.255.31.40:6688/udp/239.21.1.242:5002
-#EXTINF:-1 tvg-id="聊城民生频道" tvg-name="聊城民生频道" group-title="山东电信-组播1",聊城民生频道
-http://144.255.31.40:6688/udp/239.21.1.254:5002
-#EXTINF:-1 tvg-id="聊城综合频道" tvg-name="聊城综合频道" group-title="山东电信-组播1",聊城综合频道
-http://144.255.31.40:6688/udp/239.21.1.253:5002
-#EXTINF:-1 tvg-id="茌平综合频道" tvg-name="茌平综合频道" group-title="山东电信-组播1",茌平综合频道
-http://144.255.31.40:6688/udp/239.21.1.219:5002
-#EXTINF:-1 tvg-id="荣成综合频道" tvg-name="荣成综合频道" group-title="山东电信-组播1",荣成综合频道
-http://144.255.31.40:6688/udp/239.21.1.227:5002
-#EXTINF:-1 tvg-id="莘县综合频道" tvg-name="莘县综合频道" group-title="山东电信-组播1",莘县综合频道
-http://144.255.31.40:6688/udp/239.21.1.211:5002
-#EXTINF:-1 tvg-id="莱西综合频道" tvg-name="莱西综合频道" group-title="山东电信-组播1",莱西综合频道
-http://144.255.31.40:6688/udp/239.21.1.247:5002
-#EXTINF:-1 tvg-id="定陶TV-1" tvg-name="定陶TV-1" group-title="山东电信-组播1",定陶TV-1
-http://144.255.31.40:6688/udp/239.21.1.244:5002
-#EXTINF:-1 tvg-id="文登TV-1" tvg-name="文登TV-1" group-title="山东电信-组播1",文登TV-1
-http://144.255.31.40:6688/udp/239.21.1.174:5002
-#EXTINF:-1 tvg-id="邹城综合频道" tvg-name="邹城综合频道" group-title="山东电信-组播1",邹城综合频道
-http://144.255.31.40:6688/udp/239.21.1.185:5002
-#EXTINF:-1 tvg-id="郓城综合频道" tvg-name="郓城综合频道" group-title="山东电信-组播1",郓城综合频道
-http://144.255.31.40:6688/udp/239.21.1.251:5002
-#EXTINF:-1 tvg-id="阳信新闻综合" tvg-name="阳信新闻综合" group-title="山东电信-组播1",阳信新闻综合
-http://144.255.31.40:6688/udp/239.21.1.252:5002
-#EXTINF:-1 tvg-id="陵城综合频道" tvg-name="陵城综合频道" group-title="山东电信-组播1",陵城综合频道
-http://144.255.31.40:6688/udp/239.21.2.24:5002
-#EXTINF:-1 tvg-id="青州文化旅游" tvg-name="青州文化旅游" group-title="山东电信-组播1",青州文化旅游
-http://144.255.31.40:6688/udp/239.21.1.231:5002
-#EXTINF:-1 tvg-id="青州综合频道" tvg-name="青州综合频道" group-title="山东电信-组播1",青州综合频道
-http://144.255.31.40:6688/udp/239.21.1.232:5002
-#EXTINF:-1 tvg-id="齐河新闻频道" tvg-name="齐河新闻频道" group-title="山东电信-组播1",齐河新闻频道
-http://144.255.31.40:6688/udp/239.21.1.230:5002
-#EXTINF:-1 tvg-id="巨野新闻频道" tvg-name="巨野新闻频道" group-title="山东电信-组播1",巨野新闻频道
-http://144.255.31.40:6688/udp/239.21.1.215:5002
-#EXTINF:-1 tvg-id="平原综合频道" tvg-name="平原综合频道" group-title="山东电信-组播1",平原综合频道
-http://144.255.31.40:6688/udp/239.21.1.243:5002
-#EXTINF:-1 tvg-id="平度新闻综合" tvg-name="平度新闻综合" group-title="山东电信-组播1",平度新闻综合
-http://144.255.31.40:6688/udp/239.21.1.228:5002
-#EXTINF:-1 tvg-id="平阴综合频道" tvg-name="平阴综合频道" group-title="山东电信-组播1",平阴综合频道
-http://144.255.31.40:6688/udp/239.21.1.221:5002
-#EXTINF:-1 tvg-id="德州经济生活" tvg-name="德州经济生活" group-title="山东电信-组播1",德州经济生活
-http://144.255.31.40:6688/udp/239.21.1.76:5002
-#EXTINF:-1 tvg-id="德州新闻综合" tvg-name="德州新闻综合" group-title="山东电信-组播1",德州新闻综合
-http://144.255.31.40:6688/udp/239.21.1.75:5002
-#EXTINF:-1 tvg-id="新泰乡村频道" tvg-name="新泰乡村频道" group-title="山东电信-组播1",新泰乡村频道
-http://144.255.31.40:6688/udp/239.21.1.248:5002
-#EXTINF:-1 tvg-id="新泰综合频道" tvg-name="新泰综合频道" group-title="山东电信-组播1",新泰综合频道
-http://144.255.31.40:6688/udp/239.21.1.210:5002
-#EXTINF:-1 tvg-id="昌乐综合频道" tvg-name="昌乐综合频道" group-title="山东电信-组播1",昌乐综合频道
-http://144.255.31.40:6688/udp/239.21.1.245:5002
-#EXTINF:-1 tvg-id="昌邑综合频道" tvg-name="昌邑综合频道" group-title="山东电信-组播1",昌邑综合频道
-http://144.255.31.40:6688/udp/239.21.2.27:5002
-#EXTINF:-1 tvg-id="曲阜综合频道" tvg-name="曲阜综合频道" group-title="山东电信-组播1",曲阜综合频道
-http://144.255.31.40:6688/udp/239.21.1.225:5002
-#EXTINF:-1 tvg-id="梁山综合频道" tvg-name="梁山综合频道" group-title="山东电信-组播1",梁山综合频道
-http://144.255.31.40:6688/udp/239.21.2.12:5002
-#EXTINF:-1 tvg-id="武城综艺影视" tvg-name="武城综艺影视" group-title="山东电信-组播1",武城综艺影视
-http://144.255.31.40:6688/udp/239.21.1.240:5002
-#EXTINF:-1 tvg-id="武城综合频道" tvg-name="武城综合频道" group-title="山东电信-组播1",武城综合频道
-http://144.255.31.40:6688/udp/239.21.1.239:5002
-#EXTINF:-1 tvg-id="沾化综合频道" tvg-name="沾化综合频道" group-title="山东电信-组播1",沾化综合频道
-http://144.255.31.40:6688/udp/239.21.1.226:5002
-#EXTINF:-1 tvg-id="淄博影视频道" tvg-name="淄博影视频道" group-title="山东电信-组播1",淄博影视频道
-http://144.255.31.40:6688/udp/239.21.1.182:5002
-#EXTINF:-1 tvg-id="淄博新闻综合" tvg-name="淄博新闻综合" group-title="山东电信-组播1",淄博新闻综合
-http://144.255.31.40:6688/udp/239.21.1.84:5002
-#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="新闻综合" group-title="山东电信-组播1",新闻综合
-http://144.255.31.40:6688/udp/239.21.1.193:5002
-#EXTINF:-1 tvg-id="无棣综合频道" tvg-name="无棣综合频道" group-title="山东电信-组播1",无棣综合频道
-http://144.255.31.40:6688/udp/239.21.1.214:5002
-#EXTINF:-1 tvg-id="日照岚山频道" tvg-name="日照岚山频道" group-title="山东电信-组播1",日照岚山频道
-http://144.255.31.40:6688/udp/239.21.1.209:5002
-#EXTINF:-1 tvg-id="蒙阴综合频道" tvg-name="蒙阴综合频道" group-title="山东电信-组播1",蒙阴综合频道
-http://144.255.31.40:6688/udp/239.21.2.23:5002
-#EXTINF:-1 tvg-id="单县综合频道" tvg-name="单县综合频道" group-title="山东电信-组播1",单县综合频道
-http://144.255.31.40:6688/udp/239.21.2.21:5002
-#EXTINF:-1 tvg-id="济阳综合频道" tvg-name="济阳综合频道" group-title="山东电信-组播1",济阳综合频道
-http://144.255.31.40:6688/udp/239.21.1.187:5002
-#EXTINF:-1 tvg-id="滨州综合频道" tvg-name="滨州综合频道" group-title="山东电信-组播1",滨州综合频道
-http://144.255.31.40:6688/udp/239.21.1.238:5002
-#EXTINF:-1 tvg-id="济南教育频道" tvg-name="济南教育频道" group-title="山东电信-组播1",济南教育频道
-http://144.255.31.40:6688/udp/239.21.1.133:5002
 #EXTINF:-1 tvg-id="青岛tv1" tvg-name="青岛1" group-title="山东电信-组播1",青岛1
 http://144.255.31.40:6688/udp/239.21.1.69:5002
 #EXTINF:-1 tvg-id="青岛tv2" tvg-name="青岛2" group-title="山东电信-组播1",青岛2
@@ -227,98 +111,10 @@ http://144.255.31.40:6688/udp/239.21.1.72:5002
 http://144.255.31.40:6688/udp/239.21.1.73:5002
 #EXTINF:-1 tvg-id="青岛tv6" tvg-name="青岛6" group-title="山东电信-组播1",青岛6
 http://144.255.31.40:6688/udp/239.21.1.74:5002
-#EXTINF:-1 tvg-id="济南娱乐" tvg-name="济南娱乐" group-title="山东电信-组播1",济南娱乐
-http://144.255.31.40:6688/udp/239.21.1.66:5002
-#EXTINF:-1 tvg-id="济南少儿" tvg-name="济南少儿" group-title="山东电信-组播1",济南少儿
-http://144.255.31.40:6688/udp/239.21.1.68:5002
-#EXTINF:-1 tvg-id="济南影视" tvg-name="济南影视" group-title="山东电信-组播1",济南影视
-http://144.255.31.40:6688/udp/239.21.1.65:5002
-#EXTINF:-1 tvg-id="济南生活" tvg-name="济南生活" group-title="山东电信-组播1",济南生活
-http://144.255.31.40:6688/udp/239.21.1.64:5002
-#EXTINF:-1 tvg-id="济南都市" tvg-name="济南都市" group-title="山东电信-组播1",济南都市
-http://144.255.31.40:6688/udp/239.21.1.63:5002
-#EXTINF:-1 tvg-id="济南鲁中" tvg-name="济南鲁中" group-title="山东电信-组播1",济南鲁中
-http://144.255.31.40:6688/udp/239.21.1.149:5002
-#EXTINF:-1 tvg-id="烟台公共" tvg-name="烟台公共" group-title="山东电信-组播1",烟台公共
-http://144.255.31.40:6688/udp/239.21.1.117:5002
-#EXTINF:-1 tvg-id="宁阳2" tvg-name="宁阳2" group-title="山东电信-组播1",宁阳2
-http://144.255.31.40:6688/udp/239.21.1.144:5002
-#EXTINF:-1 tvg-id="菏泽2" tvg-name="菏泽2" group-title="山东电信-组播1",菏泽2
-http://144.255.31.40:6688/udp/239.21.2.18:5002
-#EXTINF:-1 tvg-id="济宁公共" tvg-name="济宁公共" group-title="山东电信-组播1",济宁公共
-http://144.255.31.40:6688/udp/239.21.2.20:5002
-#EXTINF:-1 tvg-id="济宁生活" tvg-name="济宁生活" group-title="山东电信-组播1",济宁生活
-http://144.255.31.40:6688/udp/239.21.1.139:5002
-#EXTINF:-1 tvg-id="沂源新闻" tvg-name="沂源新闻" group-title="山东电信-组播1",沂源新闻
-http://144.255.31.40:6688/udp/239.21.1.114:5002
-#EXTINF:-1 tvg-id="淄博生活" tvg-name="淄博生活" group-title="山东电信-组播1",淄博生活
-http://144.255.31.40:6688/udp/239.21.1.109:5002
-#EXTINF:-1 tvg-id="淄博都市" tvg-name="淄博都市" group-title="山东电信-组播1",淄博都市
-http://144.255.31.40:6688/udp/239.21.1.83:5002
-#EXTINF:-1 tvg-id="BRTV纪实科教" tvg-name="BRTV纪实科教" group-title="山东电信-组播1",BRTV纪实科教
-http://144.255.31.40:6688/udp/239.21.1.172:5002
-#EXTINF:-1 tvg-id="湖南金鹰纪实" tvg-name="湖南金鹰纪实" group-title="山东电信-组播1",湖南金鹰纪实
-http://144.255.31.40:6688/udp/239.21.1.170:5002
-#EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" group-title="山东电信-组播1",上海纪实人文
-http://144.255.31.40:6688/udp/239.21.1.171:5002
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="山东电信-组播1",CETV1
-http://144.255.31.40:6688/udp/239.21.2.7:5002
-#EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" group-title="山东电信-组播1",中国交通
-http://144.255.31.40:6688/udp/239.21.1.115:5002
-#EXTINF:-1 tvg-id="海看剧场" tvg-name="海看剧场" group-title="山东电信-组播1",海看剧场
-http://144.255.31.40:6688/udp/239.21.1.98:5002
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 北美" group-title="山东电信-组播1",CCTV-4 北美
 http://144.255.31.40:6688/udp/239.21.2.29:5002
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 欧洲" group-title="山东电信-组播1",CCTV-4 欧洲
 http://144.255.31.40:6688/udp/239.21.2.28:5002
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="山东电信-组播1",CGTN
-http://144.255.31.40:6688/udp/239.21.2.30:5002
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="山东电信-组播1",CGTN俄语
-http://144.255.31.40:6688/udp/239.21.2.35:5002
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="山东电信-组播1",CGTN法语
-http://144.255.31.40:6688/udp/239.21.2.33:5002
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="山东电信-组播1",CGTN纪录
-http://144.255.31.40:6688/udp/239.21.2.31:5002
-#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" group-title="山东电信-组播1",CGTN西班牙语
-http://144.255.31.40:6688/udp/239.21.2.32:5002
-#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" group-title="山东电信-组播1",CGTN阿拉伯语
-http://144.255.31.40:6688/udp/239.21.2.34:5002
-#EXTINF:-1 tvg-id="东明1" tvg-name="东明1" group-title="山东电信-组播1",东明1
-http://144.255.31.40:6688/udp/239.21.1.246:5002
-#EXTINF:-1 tvg-id="东营公共" tvg-name="东营公共" group-title="山东电信-组播1",东营公共
-http://144.255.31.40:6688/udp/239.21.1.82:5002
-#EXTINF:-1 tvg-id="东营新闻" tvg-name="东营新闻" group-title="山东电信-组播1",东营新闻
-http://144.255.31.40:6688/udp/239.21.1.81:5002
-#EXTINF:-1 tvg-id="冠县综合" tvg-name="冠县综合" group-title="山东电信-组播1",冠县综合
-http://144.255.31.40:6688/udp/239.21.1.250:5002
-#EXTINF:-1 tvg-id="寿光蔬菜" tvg-name="寿光蔬菜" group-title="山东电信-组播1",寿光蔬菜
-http://144.255.31.40:6688/udp/239.21.1.218:5002
-#EXTINF:-1 tvg-id="惠民综合" tvg-name="惠民综合" group-title="山东电信-组播1",惠民综合
-http://144.255.31.40:6688/udp/239.21.1.181:5002
-#EXTINF:-1 tvg-id="日照新闻" tvg-name="日照新闻" group-title="山东电信-组播1",日照新闻
-http://144.255.31.40:6688/udp/239.21.1.79:5002
-#EXTINF:-1 tvg-id="日照科教" tvg-name="日照科教" group-title="山东电信-组播1",日照科教
-http://144.255.31.40:6688/udp/239.21.1.80:5002
-#EXTINF:-1 tvg-id="栖霞综合" tvg-name="栖霞综合" group-title="山东电信-组播1",栖霞综合
-http://144.255.31.40:6688/udp/239.21.1.229:5002
-#EXTINF:-1 tvg-id="桓台综合" tvg-name="桓台综合" group-title="山东电信-组播1",桓台综合
-http://144.255.31.40:6688/udp/239.21.1.105:5002
-#EXTINF:-1 tvg-id="滨州公共" tvg-name="滨州公共" group-title="山东电信-组播1",滨州公共
-http://144.255.31.40:6688/udp/239.21.1.119:5002
-#EXTINF:-1 tvg-id="滨州新闻" tvg-name="滨州新闻" group-title="山东电信-组播1",滨州新闻
-http://144.255.31.40:6688/udp/239.21.1.118:5002
-#EXTINF:-1 tvg-id="潍坊寿光新闻" tvg-name="潍坊寿光新闻" group-title="山东电信-组播1",潍坊寿光新闻
-http://144.255.31.40:6688/udp/239.21.1.180:5002
-#EXTINF:-1 tvg-id="牟平新闻" tvg-name="牟平新闻" group-title="山东电信-组播1",牟平新闻
-http://144.255.31.40:6688/udp/239.21.2.10:5002
-#EXTINF:-1 tvg-id="牟平生活" tvg-name="牟平生活" group-title="山东电信-组播1",牟平生活
-http://144.255.31.40:6688/udp/239.21.2.11:5002
-#EXTINF:-1 tvg-id="菏泽1" tvg-name="菏泽1" group-title="山东电信-组播1",菏泽1
-http://144.255.31.40:6688/udp/239.21.1.103:5002
-#EXTINF:-1 tvg-id="诸城新闻" tvg-name="诸城新闻" group-title="山东电信-组播1",诸城新闻
-http://144.255.31.40:6688/udp/239.21.1.217:5002
-#EXTINF:-1 tvg-id="长清新闻" tvg-name="长清新闻" group-title="山东电信-组播1",长清新闻
-http://144.255.31.40:6688/udp/239.21.1.107:5002
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" group-title="上海电信-组播1",东方卫视
 http://116.235.57.59:4022/rtp/239.45.3.146:5140
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="新闻综合" group-title="上海电信-组播1",新闻综合
@@ -331,28 +127,8 @@ http://116.235.57.59:4022/rtp/239.45.3.237:5140
 http://116.235.57.59:4022/rtp/239.45.3.136:5140
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" group-title="上海电信-组播1",欢笑剧场
 http://116.235.57.59:4022/rtp/239.45.3.196:5140
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" group-title="上海电信-组播1",动漫秀场
-http://116.235.57.59:4022/rtp/239.45.3.134:5140
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" group-title="上海电信-组播1",哈哈炫动
-http://116.235.57.59:4022/rtp/239.45.1.55:5140
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" group-title="上海电信-组播1",法治天地
-http://116.235.57.59:4022/rtp/239.45.1.46:5140
-#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" group-title="上海电信-组播1",金色学堂
-http://116.235.57.59:4022/rtp/239.45.0.9:5140
-#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" group-title="上海电信-组播1",游戏风云
-http://116.235.57.59:4022/rtp/239.45.3.131:5140
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" group-title="上海电信-组播1",生活时尚
-http://116.235.57.59:4022/rtp/239.45.3.132:5140
-#EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" group-title="上海电信-组播1",上海教育
-http://116.235.57.59:4022/rtp/239.45.0.13:5140
-#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="上海电信-组播1",东方财经
-http://116.235.57.59:4022/rtp/239.45.0.17:5140
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" group-title="上海电信-组播1",五星体育
 http://116.235.57.59:4022/rtp/239.45.3.210:5140
-#EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" group-title="上海电信-组播1",第一财经
-http://116.235.57.59:4022/rtp/239.45.3.211:5140
-#EXTINF:-1 tvg-id="乐游纪实" tvg-name="乐游纪实" group-title="上海电信-组播1",乐游纪实
-http://116.235.57.59:4022/rtp/239.45.3.135:5140
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1综合" group-title="上海电信-组播1",CCTV-1综合
 http://116.235.57.59:4022/rtp/239.45.3.145:5140
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV-2财经" group-title="上海电信-组播1",CCTV-2财经
@@ -387,18 +163,6 @@ http://116.235.57.59:4022/rtp/239.45.1.200:5140
 http://116.235.57.59:4022/rtp/239.45.3.52:5140
 #EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="上海电信-组播1",欢笑剧场4K
 http://116.235.57.59:4022/rtp/239.45.1.4:5140
-#EXTINF:-1 tvg-id="百事通电影4K" tvg-name="百事通电影4K" group-title="上海电信-组播1",百事通电影4K
-http://116.235.57.59:4022/rtp/239.45.1.42:5140
-#EXTINF:-1 tvg-id="百事通少儿4K" tvg-name="百事通少儿4K" group-title="上海电信-组播1",百事通少儿4K
-http://116.235.57.59:4022/rtp/239.45.1.1:5140
-#EXTINF:-1 tvg-id="百事通电影4K" tvg-name="百事通电影4K" group-title="上海电信-组播1",百事通电影4K
-http://116.235.57.59:4022/rtp/239.45.3.107:5140
-#EXTINF:-1 tvg-id="百事通纪实4K" tvg-name="百事通纪实4K" group-title="上海电信-组播1",百事通纪实4K
-http://116.235.57.59:4022/rtp/239.45.1.10:5140
-#EXTINF:-1 tvg-id="百事通体育" tvg-name="百事通体育" group-title="上海电信-组播1",百事通体育
-http://116.235.57.59:4022/rtp/239.45.3.139:5140
-#EXTINF:-1 tvg-id="百事通科教" tvg-name="百事通科教" group-title="上海电信-组播1",百事通科教
-http://116.235.57.59:4022/rtp/239.45.1.29:5140
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="上海电信-组播1",北京卫视
 http://116.235.57.59:4022/rtp/239.45.3.229:5140
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="上海电信-组播1",江苏卫视
@@ -471,32 +235,6 @@ http://116.235.57.59:4022/rtp/239.45.1.117:5140
 http://116.235.57.59:4022/rtp/239.45.1.82:5140
 #EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" group-title="上海电信-组播1",康巴卫视
 http://116.235.57.59:4022/rtp/239.45.1.251:5140
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="上海电信-组播1",金鹰卡通
-http://116.235.57.59:4022/rtp/239.45.0.38:5140
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" group-title="上海电信-组播1",金鹰纪实
-http://116.235.57.59:4022/rtp/239.45.1.45:5140
-#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" group-title="上海电信-组播1",北京卡酷少儿
-http://116.235.57.59:4022/rtp/239.45.0.8:5140
-#EXTINF:-1 tvg-id="BTV科教" tvg-name="北京纪实科教" group-title="上海电信-组播1",北京纪实科教
-http://116.235.57.59:4022/rtp/239.45.1.14:5140
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="上海电信-组播1",CETV1
-http://116.235.57.59:4022/rtp/239.45.1.125:5140
-#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" group-title="上海电信-组播1",CETV2
-http://116.235.57.59:4022/rtp/239.45.1.52:5140
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="上海电信-组播1",CETV4
-http://116.235.57.59:4022/rtp/239.45.1.50:5140
-#EXTINF:-1 tvg-id="CGTN英语" tvg-name="CGTN英语" group-title="上海电信-组播1",CGTN英语
-http://116.235.57.59:4022/rtp/239.45.1.194:5140
-#EXTINF:-1 tvg-id="嘉定频道" tvg-name="嘉定频道" group-title="上海电信-组播1",嘉定频道
-http://116.235.57.59:4022/rtp/239.45.3.185:5140
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" group-title="上海电信-组播1",嘉佳卡通
-http://116.235.57.59:4022/rtp/239.45.1.48:5140
-#EXTINF:-1 tvg-id="东方购物-1HD" tvg-name="东方购物-1HD" group-title="上海电信-组播1",东方购物-1HD
-http://116.235.57.59:4022/rtp/239.45.3.74:5140
-#EXTINF:-1 tvg-id="东方购物-2HD" tvg-name="东方购物-2HD" group-title="上海电信-组播1",东方购物-2HD
-http://116.235.57.59:4022/rtp/239.45.3.75:5140
-#EXTINF:-1 tvg-id="东方购物-3HD" tvg-name="东方购物-3HD" group-title="上海电信-组播1",东方购物-3HD
-http://116.235.57.59:4022/rtp/239.45.3.207:5140
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" group-title="上海电信-组播2",东方卫视
 http://223.167.230.84:4022/rtp/239.45.3.146:5140
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="新闻综合" group-title="上海电信-组播2",新闻综合
@@ -509,28 +247,8 @@ http://223.167.230.84:4022/rtp/239.45.3.237:5140
 http://223.167.230.84:4022/rtp/239.45.3.136:5140
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" group-title="上海电信-组播2",欢笑剧场
 http://223.167.230.84:4022/rtp/239.45.3.196:5140
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" group-title="上海电信-组播2",动漫秀场
-http://223.167.230.84:4022/rtp/239.45.3.134:5140
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" group-title="上海电信-组播2",哈哈炫动
-http://223.167.230.84:4022/rtp/239.45.1.55:5140
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" group-title="上海电信-组播2",法治天地
-http://223.167.230.84:4022/rtp/239.45.1.46:5140
-#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" group-title="上海电信-组播2",金色学堂
-http://223.167.230.84:4022/rtp/239.45.0.9:5140
-#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" group-title="上海电信-组播2",游戏风云
-http://223.167.230.84:4022/rtp/239.45.3.131:5140
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" group-title="上海电信-组播2",生活时尚
-http://223.167.230.84:4022/rtp/239.45.3.132:5140
-#EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" group-title="上海电信-组播2",上海教育
-http://223.167.230.84:4022/rtp/239.45.0.13:5140
-#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="上海电信-组播2",东方财经
-http://223.167.230.84:4022/rtp/239.45.0.17:5140
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" group-title="上海电信-组播2",五星体育
 http://223.167.230.84:4022/rtp/239.45.3.210:5140
-#EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" group-title="上海电信-组播2",第一财经
-http://223.167.230.84:4022/rtp/239.45.3.211:5140
-#EXTINF:-1 tvg-id="乐游纪实" tvg-name="乐游纪实" group-title="上海电信-组播2",乐游纪实
-http://223.167.230.84:4022/rtp/239.45.3.135:5140
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1综合" group-title="上海电信-组播2",CCTV-1综合
 http://223.167.230.84:4022/rtp/239.45.3.145:5140
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV-2财经" group-title="上海电信-组播2",CCTV-2财经
@@ -565,18 +283,6 @@ http://223.167.230.84:4022/rtp/239.45.1.200:5140
 http://223.167.230.84:4022/rtp/239.45.3.52:5140
 #EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="上海电信-组播2",欢笑剧场4K
 http://223.167.230.84:4022/rtp/239.45.1.4:5140
-#EXTINF:-1 tvg-id="百事通电影4K" tvg-name="百事通电影4K" group-title="上海电信-组播2",百事通电影4K
-http://223.167.230.84:4022/rtp/239.45.1.42:5140
-#EXTINF:-1 tvg-id="百事通少儿4K" tvg-name="百事通少儿4K" group-title="上海电信-组播2",百事通少儿4K
-http://223.167.230.84:4022/rtp/239.45.1.1:5140
-#EXTINF:-1 tvg-id="百事通电影4K" tvg-name="百事通电影4K" group-title="上海电信-组播2",百事通电影4K
-http://223.167.230.84:4022/rtp/239.45.3.107:5140
-#EXTINF:-1 tvg-id="百事通纪实4K" tvg-name="百事通纪实4K" group-title="上海电信-组播2",百事通纪实4K
-http://223.167.230.84:4022/rtp/239.45.1.10:5140
-#EXTINF:-1 tvg-id="百事通体育" tvg-name="百事通体育" group-title="上海电信-组播2",百事通体育
-http://223.167.230.84:4022/rtp/239.45.3.139:5140
-#EXTINF:-1 tvg-id="百事通科教" tvg-name="百事通科教" group-title="上海电信-组播2",百事通科教
-http://223.167.230.84:4022/rtp/239.45.1.29:5140
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="上海电信-组播2",北京卫视
 http://223.167.230.84:4022/rtp/239.45.3.229:5140
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="上海电信-组播2",江苏卫视
@@ -649,32 +355,6 @@ http://223.167.230.84:4022/rtp/239.45.1.117:5140
 http://223.167.230.84:4022/rtp/239.45.1.82:5140
 #EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" group-title="上海电信-组播2",康巴卫视
 http://223.167.230.84:4022/rtp/239.45.1.251:5140
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="上海电信-组播2",金鹰卡通
-http://223.167.230.84:4022/rtp/239.45.0.38:5140
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" group-title="上海电信-组播2",金鹰纪实
-http://223.167.230.84:4022/rtp/239.45.1.45:5140
-#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" group-title="上海电信-组播2",北京卡酷少儿
-http://223.167.230.84:4022/rtp/239.45.0.8:5140
-#EXTINF:-1 tvg-id="BTV科教" tvg-name="北京纪实科教" group-title="上海电信-组播2",北京纪实科教
-http://223.167.230.84:4022/rtp/239.45.1.14:5140
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="上海电信-组播2",CETV1
-http://223.167.230.84:4022/rtp/239.45.1.125:5140
-#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" group-title="上海电信-组播2",CETV2
-http://223.167.230.84:4022/rtp/239.45.1.52:5140
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="上海电信-组播2",CETV4
-http://223.167.230.84:4022/rtp/239.45.1.50:5140
-#EXTINF:-1 tvg-id="CGTN英语" tvg-name="CGTN英语" group-title="上海电信-组播2",CGTN英语
-http://223.167.230.84:4022/rtp/239.45.1.194:5140
-#EXTINF:-1 tvg-id="嘉定频道" tvg-name="嘉定频道" group-title="上海电信-组播2",嘉定频道
-http://223.167.230.84:4022/rtp/239.45.3.185:5140
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" group-title="上海电信-组播2",嘉佳卡通
-http://223.167.230.84:4022/rtp/239.45.1.48:5140
-#EXTINF:-1 tvg-id="东方购物-1HD" tvg-name="东方购物-1HD" group-title="上海电信-组播2",东方购物-1HD
-http://223.167.230.84:4022/rtp/239.45.3.74:5140
-#EXTINF:-1 tvg-id="东方购物-2HD" tvg-name="东方购物-2HD" group-title="上海电信-组播2",东方购物-2HD
-http://223.167.230.84:4022/rtp/239.45.3.75:5140
-#EXTINF:-1 tvg-id="东方购物-3HD" tvg-name="东方购物-3HD" group-title="上海电信-组播2",东方购物-3HD
-http://223.167.230.84:4022/rtp/239.45.3.207:5140
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" group-title="山东联通-组播1",山东卫视
 http://39.77.27.109:4002/rtp/239.253.254.78:8000
 #EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻频道" group-title="山东联通-组播1",山东新闻频道
@@ -705,22 +385,6 @@ http://39.77.27.109:4002/rtp/239.253.254.250:8000
 http://39.77.27.109:4002/rtp/239.253.254.251:8000
 #EXTINF:-1 tvg-id="青岛QTV4" tvg-name="青岛QTV4" group-title="山东联通-组播1",青岛QTV4
 http://39.77.27.109:4002/rtp/239.253.254.252:8000
-#EXTINF:-1 tvg-id="青岛生活频道" tvg-name="青岛生活频道" group-title="山东联通-组播1",青岛生活频道
-http://39.77.27.109:4002/rtp/239.253.254.244:8000
-#EXTINF:-1 tvg-id="青岛综合频道" tvg-name="青岛综合频道" group-title="山东联通-组播1",青岛综合频道
-http://39.77.27.109:4002/rtp/239.253.254.243:8000
-#EXTINF:-1 tvg-id="莱西综合频道" tvg-name="莱西综合频道" group-title="山东联通-组播1",莱西综合频道
-http://39.77.27.109:4002/rtp/239.253.254.247:8000
-#EXTINF:-1 tvg-id="崂山电视台" tvg-name="崂山电视台" group-title="山东联通-组播1",崂山电视台
-http://39.77.27.109:4002/rtp/239.253.254.242:8000
-#EXTINF:-1 tvg-id="平度新闻综合" tvg-name="平度新闻综合" group-title="山东联通-组播1",平度新闻综合
-http://39.77.27.109:4002/rtp/239.253.254.248:8000
-#EXTINF:-1 tvg-id="海洋频道" tvg-name="海洋频道" group-title="山东联通-组播1",海洋频道
-http://39.77.27.109:4002/rtp/239.253.254.67:8000
-#EXTINF:-1 tvg-id="综合1" tvg-name="综合1" group-title="山东联通-组播1",综合1
-http://39.77.27.109:4002/rtp/239.253.254.245:8000
-#EXTINF:-1 tvg-id="综合2" tvg-name="综合2" group-title="山东联通-组播1",综合2
-http://39.77.27.109:4002/rtp/239.253.254.246:8000
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1综合" group-title="山东联通-组播1",CCTV-1综合
 http://39.77.27.109:4002/rtp/239.253.254.77:8000
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV-2财经" group-title="山东联通-组播1",CCTV-2财经
@@ -759,12 +423,6 @@ http://39.77.27.109:4002/rtp/239.253.254.236:8000
 http://39.77.27.109:4002/rtp/239.253.254.170:8000
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV-17农业农村" group-title="山东联通-组播1",CCTV-17农业农村
 http://39.77.27.109:4002/rtp/239.253.254.168:8000
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" group-title="山东联通-组播1",CHC动作电影
-http://39.77.27.109:4002/rtp/239.253.254.153:8000
-#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" group-title="山东联通-组播1",CHC影迷电影
-http://39.77.27.109:4002/rtp/239.253.254.154:8000
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" group-title="山东联通-组播1",CHC家庭影院
-http://39.77.27.109:4002/rtp/239.253.254.152:8000
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" group-title="山东联通-组播1",湖南卫视
 http://39.77.27.109:4002/rtp/239.253.254.82:8000
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="山东联通-组播1",江苏卫视
@@ -815,60 +473,6 @@ http://39.77.27.109:4002/rtp/239.253.254.91:8000
 http://39.77.27.109:4002/rtp/239.253.254.180:8000
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1综合" group-title="山东联通-组播1",CCTV-1综合
 http://39.77.27.109:4002/rtp/239.253.254.89:8000
-#EXTINF:-1 tvg-id="上海动漫秀场" tvg-name="上海动漫秀场" group-title="山东联通-组播1",上海动漫秀场
-http://39.77.27.109:4002/rtp/239.253.254.115:8000
-#EXTINF:-1 tvg-id="上海都市剧场" tvg-name="上海都市剧场" group-title="山东联通-组播1",上海都市剧场
-http://39.77.27.109:4002/rtp/239.253.254.98:8000
-#EXTINF:-1 tvg-id="上海法治天地" tvg-name="上海法治天地" group-title="山东联通-组播1",上海法治天地
-http://39.77.27.109:4002/rtp/239.253.254.96:8000
-#EXTINF:-1 tvg-id="上海游戏风云" tvg-name="上海游戏风云" group-title="山东联通-组播1",上海游戏风云
-http://39.77.27.109:4002/rtp/239.253.254.95:8000
-#EXTINF:-1 tvg-id="上海生活时尚" tvg-name="上海生活时尚" group-title="山东联通-组播1",上海生活时尚
-http://39.77.27.109:4002/rtp/239.253.254.99:8000
-#EXTINF:-1 tvg-id="上海东方财经" tvg-name="上海东方财经" group-title="山东联通-组播1",上海东方财经
-http://39.77.27.109:4002/rtp/239.253.254.94:8000
-#EXTINF:-1 tvg-id="上海金色学堂" tvg-name="上海金色学堂" group-title="山东联通-组播1",上海金色学堂
-http://39.77.27.109:4002/rtp/239.253.254.101:8000
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" group-title="山东联通-组播1",金鹰纪实
-http://39.77.27.109:4002/rtp/239.253.254.103:8000
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="山东联通-组播1",金鹰卡通
-http://39.77.27.109:4002/rtp/239.253.254.117:8000
-#EXTINF:-1 tvg-id="茶频道" tvg-name="茶频道" group-title="山东联通-组播1",茶频道
-http://39.77.27.109:4002/rtp/239.253.254.143:8000
-#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" group-title="山东联通-组播1",快乐垂钓
-http://39.77.27.109:4002/rtp/239.253.254.144:8000
-#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" group-title="山东联通-组播1",北京卡酷少儿
-http://39.77.27.109:4002/rtp/239.253.254.66:8000
-#EXTINF:-1 tvg-id="河南梨园频道" tvg-name="河南梨园频道" group-title="山东联通-组播1",河南梨园频道
-http://39.77.27.109:4002/rtp/239.253.254.139:8000
-#EXTINF:-1 tvg-id="河南文物宝库" tvg-name="河南文物宝库" group-title="山东联通-组播1",河南文物宝库
-http://39.77.27.109:4002/rtp/239.253.254.141:8000
-#EXTINF:-1 tvg-id="河南武术世界" tvg-name="河南武术世界" group-title="山东联通-组播1",河南武术世界
-http://39.77.27.109:4002/rtp/239.253.254.140:8000
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="山东联通-组播1",CETV1
-http://39.77.27.109:4002/rtp/239.253.254.110:8000
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="山东联通-组播1",CETV4
-http://39.77.27.109:4002/rtp/239.253.254.116:8000
-#EXTINF:-1 tvg-id="CGTN英语" tvg-name="CGTN英语" group-title="山东联通-组播1",CGTN英语
-http://39.77.27.109:4002/rtp/239.253.254.189:8000
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="山东联通-组播1",CGTN纪录
-http://39.77.27.109:4002/rtp/239.253.254.188:8000
-#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" group-title="山东联通-组播1",CGTN西班牙语
-http://39.77.27.109:4002/rtp/239.253.254.182:8000
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="山东联通-组播1",CGTN法语
-http://39.77.27.109:4002/rtp/239.253.254.183:8000
-#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" group-title="山东联通-组播1",CGTN阿拉伯语
-http://39.77.27.109:4002/rtp/239.253.254.184:8000
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="山东联通-组播1",CGTN俄语
-http://39.77.27.109:4002/rtp/239.253.254.185:8000
-#EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" group-title="山东联通-组播1",魅力足球
-http://39.77.27.109:4002/rtp/239.253.254.100:8000
-#EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" group-title="山东联通-组播1",中国交通
-http://39.77.27.109:4002/rtp/239.253.254.177:8000
-#EXTINF:-1 tvg-id="精彩影视" tvg-name="精彩影视" group-title="山东联通-组播1",精彩影视
-http://39.77.27.109:4002/rtp/239.253.254.142:8000
-#EXTINF:-1 tvg-id="青岛李沧" tvg-name="青岛李沧" group-title="山东联通-组播1",青岛李沧
-http://39.77.27.109:4002/rtp/239.253.254.253:8000
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="北京联通-组播1",北京卫视
 http://114.241.246.84:4022/rtp/239.3.1.241:8000
 #EXTINF:-1 tvg-id="BTV新闻" tvg-name="北京新闻频道" group-title="北京联通-组播1",北京新闻频道
@@ -993,8 +597,6 @@ http://114.241.246.84:4022/rtp/239.3.1.155:4120
 http://114.241.246.84:4022/rtp/239.3.1.143:4120
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" group-title="北京联通-组播1",兵团卫视
 http://114.241.246.84:4022/rtp/239.3.1.144:4120
-#EXTINF:-1 tvg-id="华数爱上4K" tvg-name="华数爱上4K" group-title="北京联通-组播1",华数爱上4K
-http://114.241.246.84:4022/rtp/239.3.1.236:2000
 #EXTINF:-1 tvg-id="北京IPTV4K超清" tvg-name="北京IPTV4K超清" group-title="北京联通-组播1",北京IPTV4K超清
 http://114.241.246.84:4022/rtp/239.3.1.249:8001
 #EXTINF:-1 tvg-id="北京IPTV淘电影" tvg-name="北京IPTV淘电影" group-title="北京联通-组播1",北京IPTV淘电影
@@ -1011,120 +613,8 @@ http://114.241.246.84:4022/rtp/239.3.1.102:8001
 http://114.241.246.84:4022/rtp/239.3.1.213:4220
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4美洲" group-title="北京联通-组播1",CCTV-4美洲
 http://114.241.246.84:4022/rtp/239.3.1.214:4220
-#EXTINF:-1 tvg-id="CGTN英语" tvg-name="CGTN英语" group-title="北京联通-组播1",CGTN英语
-http://114.241.246.84:4022/rtp/239.3.1.215:4220
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="北京联通-组播1",CGTN纪录
-http://114.241.246.84:4022/rtp/239.3.1.216:4220
-#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" group-title="北京联通-组播1",CGTN西班牙语
-http://114.241.246.84:4022/rtp/239.3.1.217:4220
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="北京联通-组播1",CGTN法语
-http://114.241.246.84:4022/rtp/239.3.1.218:4220
-#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" group-title="北京联通-组播1",CGTN阿拉伯语
-http://114.241.246.84:4022/rtp/239.3.1.219:4220
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="北京联通-组播1",CGTN俄语
-http://114.241.246.84:4022/rtp/239.3.1.220:4220
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="北京联通-组播1",CETV1
-http://114.241.246.84:4022/rtp/239.3.1.57:8152
-#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" group-title="北京联通-组播1",CETV2
-http://114.241.246.84:4022/rtp/239.3.1.54:4120
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="北京联通-组播1",CETV4
-http://114.241.246.84:4022/rtp/239.3.1.56:4120
-#EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" group-title="北京联通-组播1",中国交通
-http://114.241.246.84:4022/rtp/239.3.1.188:8001
-#EXTINF:-1 tvg-id="朝阳融媒" tvg-name="朝阳融媒" group-title="北京联通-组播1",朝阳融媒
-http://114.241.246.84:4022/rtp/239.3.1.163:8001
-#EXTINF:-1 tvg-id="通州融媒" tvg-name="通州融媒" group-title="北京联通-组播1",通州融媒
-http://114.241.246.84:4022/rtp/239.3.1.221:8001
-#EXTINF:-1 tvg-id="房山电视台" tvg-name="房山电视台" group-title="北京联通-组播1",房山电视台
-http://114.241.246.84:4022/rtp/239.3.1.96:8001
-#EXTINF:-1 tvg-id="密云电视台" tvg-name="密云电视台" group-title="北京联通-组播1",密云电视台
-http://114.241.246.84:4022/rtp/239.3.1.154:8001
-#EXTINF:-1 tvg-id="延庆电视台" tvg-name="延庆电视台" group-title="北京联通-组播1",延庆电视台
-http://114.241.246.84:4022/rtp/239.3.1.187:8001
-#EXTINF:-1 tvg-id="湖南金鹰纪实" tvg-name="湖南金鹰纪实" group-title="北京联通-组播1",湖南金鹰纪实
-http://114.241.246.84:4022/rtp/239.3.1.58:8156
-#EXTINF:-1 tvg-id="湖南茶频道" tvg-name="湖南茶频道" group-title="北京联通-组播1",湖南茶频道
-http://114.241.246.84:4022/rtp/239.3.1.165:8001
-#EXTINF:-1 tvg-id="湖南快乐垂钓" tvg-name="湖南快乐垂钓" group-title="北京联通-组播1",湖南快乐垂钓
-http://114.241.246.84:4022/rtp/239.3.1.164:8001
-#EXTINF:-1 tvg-id="华数星影" tvg-name="华数星影" group-title="北京联通-组播1",华数星影
-http://114.241.246.84:4022/rtp/239.3.1.94:4120
-#EXTINF:-1 tvg-id="华数动作影院" tvg-name="华数动作影院" group-title="北京联通-组播1",华数动作影院
-http://114.241.246.84:4022/rtp/239.3.1.92:4120
-#EXTINF:-1 tvg-id="华数喜剧影院" tvg-name="华数喜剧影院" group-title="北京联通-组播1",华数喜剧影院
-http://114.241.246.84:4022/rtp/239.3.1.91:4120
-#EXTINF:-1 tvg-id="华数家庭影院" tvg-name="华数家庭影院" group-title="北京联通-组播1",华数家庭影院
-http://114.241.246.84:4022/rtp/239.3.1.93:4120
-#EXTINF:-1 tvg-id="华数精选" tvg-name="华数精选" group-title="北京联通-组播1",华数精选
-http://114.241.246.84:4022/rtp/239.3.1.74:4120
-#EXTINF:-1 tvg-id="华数经典电影" tvg-name="华数经典电影" group-title="北京联通-组播1",华数经典电影
-http://114.241.246.84:4022/rtp/239.3.1.195:9024
-#EXTINF:-1 tvg-id="华数热播剧场" tvg-name="华数热播剧场" group-title="北京联通-组播1",华数热播剧场
-http://114.241.246.84:4022/rtp/239.3.1.194:9020
-#EXTINF:-1 tvg-id="华数军旅剧场" tvg-name="华数军旅剧场" group-title="北京联通-组播1",华数军旅剧场
-http://114.241.246.84:4022/rtp/239.3.1.68:4120
-#EXTINF:-1 tvg-id="华数城市剧场" tvg-name="华数城市剧场" group-title="北京联通-组播1",华数城市剧场
-http://114.241.246.84:4022/rtp/239.3.1.67:4120
-#EXTINF:-1 tvg-id="华数武侠剧场" tvg-name="华数武侠剧场" group-title="北京联通-组播1",华数武侠剧场
-http://114.241.246.84:4022/rtp/239.3.1.90:4120
-#EXTINF:-1 tvg-id="华数魅力时尚" tvg-name="华数魅力时尚" group-title="北京联通-组播1",华数魅力时尚
-http://114.241.246.84:4022/rtp/239.3.1.196:9012
-#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" group-title="北京联通-组播1",古装剧场
-http://114.241.246.84:4022/rtp/239.3.1.69:4120
-#EXTINF:-1 tvg-id="华数少儿动画" tvg-name="华数少儿动画" group-title="北京联通-组播1",华数少儿动画
-http://114.241.246.84:4022/rtp/239.3.1.199:9000
-#EXTINF:-1 tvg-id="华数动画" tvg-name="华数动画" group-title="北京联通-组播1",华数动画
-http://114.241.246.84:4022/rtp/239.3.1.80:4120
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="北京联通-组播1",金鹰卡通
-http://114.241.246.84:4022/rtp/239.3.1.51:9252
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" group-title="北京联通-组播1",嘉佳卡通
-http://114.241.246.84:4022/rtp/239.3.1.147:9268
-#EXTINF:-1 tvg-id="IPTV地理" tvg-name="IPTV地理" group-title="北京联通-组播1",IPTV地理
-http://114.241.246.84:4022/rtp/239.3.1.71:4120
-#EXTINF:-1 tvg-id="IPTV10解密" tvg-name="IPTV10解密" group-title="北京联通-组播1",IPTV10解密
-http://114.241.246.84:4022/rtp/239.3.1.75:4120
-#EXTINF:-1 tvg-id="IPTV7军事" tvg-name="IPTV7军事" group-title="北京联通-组播1",IPTV7军事
-http://114.241.246.84:4022/rtp/239.3.1.76:4120
-#EXTINF:-1 tvg-id="IPTV台球" tvg-name="IPTV台球" group-title="北京联通-组播1",IPTV台球
-http://114.241.246.84:4022/rtp/239.3.1.85:4120
-#EXTINF:-1 tvg-id="IPTV国学" tvg-name="IPTV国学" group-title="北京联通-组播1",IPTV国学
-http://114.241.246.84:4022/rtp/239.3.1.77:4120
-#EXTINF:-1 tvg-id="IPTV墨宝" tvg-name="IPTV墨宝" group-title="北京联通-组播1",IPTV墨宝
-http://114.241.246.84:4022/rtp/239.3.1.83:4120
-#EXTINF:-1 tvg-id="IPTV好学生" tvg-name="IPTV好学生" group-title="北京联通-组播1",IPTV好学生
-http://114.241.246.84:4022/rtp/239.3.1.81:4120
 #EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" group-title="北京联通-组播1",山东教育卫视
 http://114.241.246.84:4022/rtp/239.3.1.52:4120
-#EXTINF:-1 tvg-id="IPTV11戏曲" tvg-name="IPTV11戏曲" group-title="北京联通-组播1",IPTV11戏曲
-http://114.241.246.84:4022/rtp/239.3.1.78:4120
-#EXTINF:-1 tvg-id="IPTV收视指南" tvg-name="IPTV收视指南" group-title="北京联通-组播1",IPTV收视指南
-http://114.241.246.84:4022/rtp/239.3.1.193:8012
-#EXTINF:-1 tvg-id="IPTV14早教" tvg-name="IPTV14早教" group-title="北京联通-组播1",IPTV14早教
-http://114.241.246.84:4022/rtp/239.3.1.79:4120
-#EXTINF:-1 tvg-id="IPTV武术" tvg-name="IPTV武术" group-title="北京联通-组播1",IPTV武术
-http://114.241.246.84:4022/rtp/239.3.1.87:4120
-#EXTINF:-1 tvg-id="IPTV爱生活" tvg-name="IPTV爱生活" group-title="北京联通-组播1",IPTV爱生活
-http://114.241.246.84:4022/rtp/239.3.1.86:4120
-#EXTINF:-1 tvg-id="IPTV美人" tvg-name="IPTV美人" group-title="北京联通-组播1",IPTV美人
-http://114.241.246.84:4022/rtp/239.3.1.73:4120
-#EXTINF:-1 tvg-id="IPTV美妆" tvg-name="IPTV美妆" group-title="北京联通-组播1",IPTV美妆
-http://114.241.246.84:4022/rtp/239.3.1.72:4120
-#EXTINF:-1 tvg-id="IPTV足球" tvg-name="IPTV足球" group-title="北京联通-组播1",IPTV足球
-http://114.241.246.84:4022/rtp/239.3.1.89:4120
-#EXTINF:-1 tvg-id="IPTV鉴赏" tvg-name="IPTV鉴赏" group-title="北京联通-组播1",IPTV鉴赏
-http://114.241.246.84:4022/rtp/239.3.1.82:4120
-#EXTINF:-1 tvg-id="IPTV15音乐现场" tvg-name="IPTV15音乐现场" group-title="北京联通-组播1",IPTV15音乐现场
-http://114.241.246.84:4022/rtp/239.3.1.70:4120
-#EXTINF:-1 tvg-id="光影" tvg-name="光影" group-title="北京联通-组播1",光影
-http://114.241.246.84:4022/rtp/239.3.1.84:4120
-#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" group-title="北京联通-组播1",睛彩竞技
-http://114.241.246.84:4022/rtp/239.3.1.125:8001
-#EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" group-title="北京联通-组播1",睛彩篮球
-http://114.241.246.84:4022/rtp/239.3.1.126:8001
-#EXTINF:-1 tvg-id="睛彩羽毛球" tvg-name="睛彩羽毛球" group-title="北京联通-组播1",睛彩羽毛球
-http://114.241.246.84:4022/rtp/239.3.1.127:8001
-#EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" group-title="北京联通-组播1",睛彩广场舞
-http://114.241.246.84:4022/rtp/239.3.1.128:8001
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="北京联通-组播2",北京卫视
 http://114.254.34.19:18888/rtp/239.3.1.241:8000
 #EXTINF:-1 tvg-id="BTV新闻" tvg-name="北京新闻频道" group-title="北京联通-组播2",北京新闻频道
@@ -1249,8 +739,6 @@ http://114.254.34.19:18888/rtp/239.3.1.155:4120
 http://114.254.34.19:18888/rtp/239.3.1.143:4120
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" group-title="北京联通-组播2",兵团卫视
 http://114.254.34.19:18888/rtp/239.3.1.144:4120
-#EXTINF:-1 tvg-id="华数爱上4K" tvg-name="华数爱上4K" group-title="北京联通-组播2",华数爱上4K
-http://114.254.34.19:18888/rtp/239.3.1.236:2000
 #EXTINF:-1 tvg-id="北京IPTV4K超清" tvg-name="北京IPTV4K超清" group-title="北京联通-组播2",北京IPTV4K超清
 http://114.254.34.19:18888/rtp/239.3.1.249:8001
 #EXTINF:-1 tvg-id="北京IPTV淘电影" tvg-name="北京IPTV淘电影" group-title="北京联通-组播2",北京IPTV淘电影
@@ -1267,117 +755,5 @@ http://114.254.34.19:18888/rtp/239.3.1.102:8001
 http://114.254.34.19:18888/rtp/239.3.1.213:4220
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4美洲" group-title="北京联通-组播2",CCTV-4美洲
 http://114.254.34.19:18888/rtp/239.3.1.214:4220
-#EXTINF:-1 tvg-id="CGTN英语" tvg-name="CGTN英语" group-title="北京联通-组播2",CGTN英语
-http://114.254.34.19:18888/rtp/239.3.1.215:4220
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="北京联通-组播2",CGTN纪录
-http://114.254.34.19:18888/rtp/239.3.1.216:4220
-#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" group-title="北京联通-组播2",CGTN西班牙语
-http://114.254.34.19:18888/rtp/239.3.1.217:4220
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="北京联通-组播2",CGTN法语
-http://114.254.34.19:18888/rtp/239.3.1.218:4220
-#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" group-title="北京联通-组播2",CGTN阿拉伯语
-http://114.254.34.19:18888/rtp/239.3.1.219:4220
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="北京联通-组播2",CGTN俄语
-http://114.254.34.19:18888/rtp/239.3.1.220:4220
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="北京联通-组播2",CETV1
-http://114.254.34.19:18888/rtp/239.3.1.57:8152
-#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" group-title="北京联通-组播2",CETV2
-http://114.254.34.19:18888/rtp/239.3.1.54:4120
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="北京联通-组播2",CETV4
-http://114.254.34.19:18888/rtp/239.3.1.56:4120
-#EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" group-title="北京联通-组播2",中国交通
-http://114.254.34.19:18888/rtp/239.3.1.188:8001
-#EXTINF:-1 tvg-id="朝阳融媒" tvg-name="朝阳融媒" group-title="北京联通-组播2",朝阳融媒
-http://114.254.34.19:18888/rtp/239.3.1.163:8001
-#EXTINF:-1 tvg-id="通州融媒" tvg-name="通州融媒" group-title="北京联通-组播2",通州融媒
-http://114.254.34.19:18888/rtp/239.3.1.221:8001
-#EXTINF:-1 tvg-id="房山电视台" tvg-name="房山电视台" group-title="北京联通-组播2",房山电视台
-http://114.254.34.19:18888/rtp/239.3.1.96:8001
-#EXTINF:-1 tvg-id="密云电视台" tvg-name="密云电视台" group-title="北京联通-组播2",密云电视台
-http://114.254.34.19:18888/rtp/239.3.1.154:8001
-#EXTINF:-1 tvg-id="延庆电视台" tvg-name="延庆电视台" group-title="北京联通-组播2",延庆电视台
-http://114.254.34.19:18888/rtp/239.3.1.187:8001
-#EXTINF:-1 tvg-id="湖南金鹰纪实" tvg-name="湖南金鹰纪实" group-title="北京联通-组播2",湖南金鹰纪实
-http://114.254.34.19:18888/rtp/239.3.1.58:8156
-#EXTINF:-1 tvg-id="湖南茶频道" tvg-name="湖南茶频道" group-title="北京联通-组播2",湖南茶频道
-http://114.254.34.19:18888/rtp/239.3.1.165:8001
-#EXTINF:-1 tvg-id="湖南快乐垂钓" tvg-name="湖南快乐垂钓" group-title="北京联通-组播2",湖南快乐垂钓
-http://114.254.34.19:18888/rtp/239.3.1.164:8001
-#EXTINF:-1 tvg-id="华数星影" tvg-name="华数星影" group-title="北京联通-组播2",华数星影
-http://114.254.34.19:18888/rtp/239.3.1.94:4120
-#EXTINF:-1 tvg-id="华数动作影院" tvg-name="华数动作影院" group-title="北京联通-组播2",华数动作影院
-http://114.254.34.19:18888/rtp/239.3.1.92:4120
-#EXTINF:-1 tvg-id="华数喜剧影院" tvg-name="华数喜剧影院" group-title="北京联通-组播2",华数喜剧影院
-http://114.254.34.19:18888/rtp/239.3.1.91:4120
-#EXTINF:-1 tvg-id="华数家庭影院" tvg-name="华数家庭影院" group-title="北京联通-组播2",华数家庭影院
-http://114.254.34.19:18888/rtp/239.3.1.93:4120
-#EXTINF:-1 tvg-id="华数精选" tvg-name="华数精选" group-title="北京联通-组播2",华数精选
-http://114.254.34.19:18888/rtp/239.3.1.74:4120
-#EXTINF:-1 tvg-id="华数经典电影" tvg-name="华数经典电影" group-title="北京联通-组播2",华数经典电影
-http://114.254.34.19:18888/rtp/239.3.1.195:9024
-#EXTINF:-1 tvg-id="华数热播剧场" tvg-name="华数热播剧场" group-title="北京联通-组播2",华数热播剧场
-http://114.254.34.19:18888/rtp/239.3.1.194:9020
-#EXTINF:-1 tvg-id="华数军旅剧场" tvg-name="华数军旅剧场" group-title="北京联通-组播2",华数军旅剧场
-http://114.254.34.19:18888/rtp/239.3.1.68:4120
-#EXTINF:-1 tvg-id="华数城市剧场" tvg-name="华数城市剧场" group-title="北京联通-组播2",华数城市剧场
-http://114.254.34.19:18888/rtp/239.3.1.67:4120
-#EXTINF:-1 tvg-id="华数武侠剧场" tvg-name="华数武侠剧场" group-title="北京联通-组播2",华数武侠剧场
-http://114.254.34.19:18888/rtp/239.3.1.90:4120
-#EXTINF:-1 tvg-id="华数魅力时尚" tvg-name="华数魅力时尚" group-title="北京联通-组播2",华数魅力时尚
-http://114.254.34.19:18888/rtp/239.3.1.196:9012
-#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" group-title="北京联通-组播2",古装剧场
-http://114.254.34.19:18888/rtp/239.3.1.69:4120
-#EXTINF:-1 tvg-id="华数少儿动画" tvg-name="华数少儿动画" group-title="北京联通-组播2",华数少儿动画
-http://114.254.34.19:18888/rtp/239.3.1.199:9000
-#EXTINF:-1 tvg-id="华数动画" tvg-name="华数动画" group-title="北京联通-组播2",华数动画
-http://114.254.34.19:18888/rtp/239.3.1.80:4120
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="北京联通-组播2",金鹰卡通
-http://114.254.34.19:18888/rtp/239.3.1.51:9252
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" group-title="北京联通-组播2",嘉佳卡通
-http://114.254.34.19:18888/rtp/239.3.1.147:9268
-#EXTINF:-1 tvg-id="IPTV地理" tvg-name="IPTV地理" group-title="北京联通-组播2",IPTV地理
-http://114.254.34.19:18888/rtp/239.3.1.71:4120
-#EXTINF:-1 tvg-id="IPTV10解密" tvg-name="IPTV10解密" group-title="北京联通-组播2",IPTV10解密
-http://114.254.34.19:18888/rtp/239.3.1.75:4120
-#EXTINF:-1 tvg-id="IPTV7军事" tvg-name="IPTV7军事" group-title="北京联通-组播2",IPTV7军事
-http://114.254.34.19:18888/rtp/239.3.1.76:4120
-#EXTINF:-1 tvg-id="IPTV台球" tvg-name="IPTV台球" group-title="北京联通-组播2",IPTV台球
-http://114.254.34.19:18888/rtp/239.3.1.85:4120
-#EXTINF:-1 tvg-id="IPTV国学" tvg-name="IPTV国学" group-title="北京联通-组播2",IPTV国学
-http://114.254.34.19:18888/rtp/239.3.1.77:4120
-#EXTINF:-1 tvg-id="IPTV墨宝" tvg-name="IPTV墨宝" group-title="北京联通-组播2",IPTV墨宝
-http://114.254.34.19:18888/rtp/239.3.1.83:4120
-#EXTINF:-1 tvg-id="IPTV好学生" tvg-name="IPTV好学生" group-title="北京联通-组播2",IPTV好学生
-http://114.254.34.19:18888/rtp/239.3.1.81:4120
 #EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" group-title="北京联通-组播2",山东教育卫视
 http://114.254.34.19:18888/rtp/239.3.1.52:4120
-#EXTINF:-1 tvg-id="IPTV11戏曲" tvg-name="IPTV11戏曲" group-title="北京联通-组播2",IPTV11戏曲
-http://114.254.34.19:18888/rtp/239.3.1.78:4120
-#EXTINF:-1 tvg-id="IPTV收视指南" tvg-name="IPTV收视指南" group-title="北京联通-组播2",IPTV收视指南
-http://114.254.34.19:18888/rtp/239.3.1.193:8012
-#EXTINF:-1 tvg-id="IPTV14早教" tvg-name="IPTV14早教" group-title="北京联通-组播2",IPTV14早教
-http://114.254.34.19:18888/rtp/239.3.1.79:4120
-#EXTINF:-1 tvg-id="IPTV武术" tvg-name="IPTV武术" group-title="北京联通-组播2",IPTV武术
-http://114.254.34.19:18888/rtp/239.3.1.87:4120
-#EXTINF:-1 tvg-id="IPTV爱生活" tvg-name="IPTV爱生活" group-title="北京联通-组播2",IPTV爱生活
-http://114.254.34.19:18888/rtp/239.3.1.86:4120
-#EXTINF:-1 tvg-id="IPTV美人" tvg-name="IPTV美人" group-title="北京联通-组播2",IPTV美人
-http://114.254.34.19:18888/rtp/239.3.1.73:4120
-#EXTINF:-1 tvg-id="IPTV美妆" tvg-name="IPTV美妆" group-title="北京联通-组播2",IPTV美妆
-http://114.254.34.19:18888/rtp/239.3.1.72:4120
-#EXTINF:-1 tvg-id="IPTV足球" tvg-name="IPTV足球" group-title="北京联通-组播2",IPTV足球
-http://114.254.34.19:18888/rtp/239.3.1.89:4120
-#EXTINF:-1 tvg-id="IPTV鉴赏" tvg-name="IPTV鉴赏" group-title="北京联通-组播2",IPTV鉴赏
-http://114.254.34.19:18888/rtp/239.3.1.82:4120
-#EXTINF:-1 tvg-id="IPTV15音乐现场" tvg-name="IPTV15音乐现场" group-title="北京联通-组播2",IPTV15音乐现场
-http://114.254.34.19:18888/rtp/239.3.1.70:4120
-#EXTINF:-1 tvg-id="光影" tvg-name="光影" group-title="北京联通-组播2",光影
-http://114.254.34.19:18888/rtp/239.3.1.84:4120
-#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" group-title="北京联通-组播2",睛彩竞技
-http://114.254.34.19:18888/rtp/239.3.1.125:8001
-#EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" group-title="北京联通-组播2",睛彩篮球
-http://114.254.34.19:18888/rtp/239.3.1.126:8001
-#EXTINF:-1 tvg-id="睛彩羽毛球" tvg-name="睛彩羽毛球" group-title="北京联通-组播2",睛彩羽毛球
-http://114.254.34.19:18888/rtp/239.3.1.127:8001
-#EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" group-title="北京联通-组播2",睛彩广场舞
-http://114.254.34.19:18888/rtp/239.3.1.128:8001
