@@ -1,19 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="广东体育频道" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育频道.png" group-title="体育频道",广东联通丨广东体育频道
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育.png" group-title="体育频道",广东联通丨广东体育频道
 http://113.119.25.53:58888/udp/239.77.0.112:5146
-#EXTINF:-1 tvg-id="广东体育频道" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育频道.png" group-title="体育频道",广东联通丨广东体育频道
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育.png" group-title="体育频道",广东联通丨广东体育频道
 http://113.119.25.53:58888/udp/239.77.0.168:5146
 #EXTINF:-1 tvg-id="深圳体育健康" tvg-name="深圳体育健康" tvg-logo="https://example.com/logo/深圳体育健康.png" group-title="体育频道",广东电信丨深圳体育健康
 http://113.119.25.53:58888/udp/239.77.1.128:5146
-#EXTINF:-1 tvg-id="广东体育频道" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育频道.png" group-title="体育频道",广东联通丨广东体育频道
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育.png" group-title="体育频道",广东联通丨广东体育频道
 http://113.119.26.179:58888/udp/239.77.0.112:5146
-#EXTINF:-1 tvg-id="广东体育频道" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育频道.png" group-title="体育频道",广东联通丨广东体育频道
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育.png" group-title="体育频道",广东联通丨广东体育频道
 http://113.119.26.179:58888/udp/239.77.0.168:5146
 #EXTINF:-1 tvg-id="深圳体育健康" tvg-name="深圳体育健康" tvg-logo="https://example.com/logo/深圳体育健康.png" group-title="体育频道",广东电信丨深圳体育健康
 http://113.119.26.179:58888/udp/239.77.1.128:5146
-#EXTINF:-1 tvg-id="广东体育频道" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育频道.png" group-title="体育频道",广东联通丨广东体育频道
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育.png" group-title="体育频道",广东联通丨广东体育频道
 http://183.236.43.98:4013/udp/239.77.0.112:5146
-#EXTINF:-1 tvg-id="广东体育频道" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育频道.png" group-title="体育频道",广东联通丨广东体育频道
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育.png" group-title="体育频道",广东联通丨广东体育频道
 http://183.236.43.98:4013/udp/239.77.0.168:5146
 #EXTINF:-1 tvg-id="深圳体育健康" tvg-name="深圳体育健康" tvg-logo="https://example.com/logo/深圳体育健康.png" group-title="体育频道",广东电信丨深圳体育健康
 http://183.236.43.98:4013/udp/239.77.1.128:5146
@@ -21,21 +21,21 @@ http://183.236.43.98:4013/udp/239.77.1.128:5146
 http://144.255.31.40:6688/udp/239.21.1.87:5002
 #EXTINF:-1 tvg-id="山东体育" tvg-name="山东体育频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="体育频道",山东电信丨山东体育频道
 http://144.255.31.40:6688/udp/239.21.1.141:5002
-#EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科频道" tvg-logo="https://example.com/logo/山东农科.png" group-title="山东电信-组播1",山东农科频道
+#EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%86%9C%E7%A7%91.png" group-title="山东电信-组播1",山东农科频道
 http://144.255.31.40:6688/udp/239.21.1.183:5002
-#EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿频道" tvg-logo="https://example.com/logo/山东少儿.png" group-title="山东电信-组播1",山东少儿频道
+#EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%B0%91%E5%84%BF.png" group-title="山东电信-组播1",山东少儿频道
 http://144.255.31.40:6688/udp/239.21.1.208:5002
-#EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育频道" tvg-logo="https://example.com/logo/山东教育.png" group-title="山东电信-组播1",山东教育频道
+#EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2.png" group-title="山东电信-组播1",山东教育频道
 http://144.255.31.40:6688/udp/239.21.1.169:5002
-#EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅频道" tvg-logo="https://example.com/logo/山东文旅.png" group-title="山东电信-组播1",山东文旅频道
+#EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%96%87%E6%97%85.png" group-title="山东电信-组播1",山东文旅频道
 http://144.255.31.40:6688/udp/239.21.1.176:5002
-#EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻频道" tvg-logo="https://example.com/logo/山东新闻.png" group-title="山东电信-组播1",山东新闻频道
+#EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%96%B0%E9%97%BB.png" group-title="山东电信-组播1",山东新闻频道
 http://144.255.31.40:6688/udp/239.21.1.140:5002
-#EXTINF:-1 tvg-id="山东生活" tvg-name="山东生活频道" tvg-logo="https://example.com/logo/山东生活.png" group-title="山东电信-组播1",山东生活频道
+#EXTINF:-1 tvg-id="山东生活" tvg-name="山东生活频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E7%94%9F%E6%B4%BB.png" group-title="山东电信-组播1",山东生活频道
 http://144.255.31.40:6688/udp/239.21.1.175:5002
-#EXTINF:-1 tvg-id="山东综艺" tvg-name="山东综艺频道" tvg-logo="https://example.com/logo/山东综艺.png" group-title="山东电信-组播1",山东综艺频道
+#EXTINF:-1 tvg-id="山东综艺" tvg-name="山东综艺频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E7%BB%BC%E8%89%BA.png" group-title="山东电信-组播1",山东综艺频道
 http://144.255.31.40:6688/udp/239.21.1.177:5002
-#EXTINF:-1 tvg-id="山东齐鲁" tvg-name="山东齐鲁频道" tvg-logo="https://example.com/logo/山东齐鲁.png" group-title="山东电信-组播1",山东齐鲁频道
+#EXTINF:-1 tvg-id="山东齐鲁" tvg-name="山东齐鲁频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E9%BD%90%E9%B2%81.png" group-title="山东电信-组播1",山东齐鲁频道
 http://144.255.31.40:6688/udp/239.21.1.134:5002
 #EXTINF:-1 tvg-id="CCTV-1综合" tvg-name="CCTV-1综合" tvg-logo="https://example.com/logo/CCTV-1综合.png" group-title="山东电信-组播1",CCTV-1综合
 http://144.255.31.40:6688/udp/239.21.1.120:5002
@@ -69,7 +69,7 @@ http://144.255.31.40:6688/udp/239.21.1.157:5002
 http://144.255.31.40:6688/udp/239.21.2.4:5002
 #EXTINF:-1 tvg-id="CCTV-17农业农村" tvg-name="CCTV-17农业农村" tvg-logo="https://example.com/logo/CCTV-17农业农村.png" group-title="山东电信-组播1",CCTV-17农业农村
 http://144.255.31.40:6688/udp/239.21.1.186:5002
-#EXTINF:-1 tvg-id="CCTV-5+体育赛事" tvg-name="CCTV-5+体育赛事" tvg-logo="https://example.com/logo/CCTV-5+体育赛事.png" group-title="山东电信-组播1",CCTV-5+体育赛事
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV-5+体育赛事" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png" group-title="山东电信-组播1",CCTV-5+体育赛事
 http://144.255.31.40:6688/udp/239.21.1.142:5002
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://example.com/logo/江苏卫视.png" group-title="山东电信-组播1",江苏卫视
 http://144.255.31.40:6688/udp/239.21.1.89:5002
@@ -125,13 +125,13 @@ http://144.255.31.40:6688/udp/239.21.1.70:5002
 http://144.255.31.40:6688/udp/239.21.1.71:5002
 #EXTINF:-1 tvg-id="青岛tv4" tvg-name="青岛4" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png" group-title="山东电信-组播1",青岛4
 http://144.255.31.40:6688/udp/239.21.1.72:5002
-#EXTINF:-1 tvg-id="青岛tv5" tvg-name="青岛5" tvg-logo="https://example.com/logo/青岛tv5.png" group-title="山东电信-组播1",青岛5
+#EXTINF:-1 tvg-id="青岛tv5" tvg-name="青岛5" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-5.png" group-title="山东电信-组播1",青岛5
 http://144.255.31.40:6688/udp/239.21.1.73:5002
 #EXTINF:-1 tvg-id="青岛tv6" tvg-name="青岛6" tvg-logo="https://example.com/logo/青岛tv6.png" group-title="山东电信-组播1",青岛6
 http://144.255.31.40:6688/udp/239.21.1.74:5002
-#EXTINF:-1 tvg-id="CCTV-4北美" tvg-name="CCTV-4 北美" tvg-logo="https://example.com/logo/CCTV-4北美.png" group-title="山东电信-组播1",CCTV-4 北美
+#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV-4 北美" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png" group-title="山东电信-组播1",CCTV-4 北美
 http://144.255.31.40:6688/udp/239.21.2.29:5002
-#EXTINF:-1 tvg-id="CCTV-4欧洲" tvg-name="CCTV-4 欧洲" tvg-logo="https://example.com/logo/CCTV-4欧洲.png" group-title="山东电信-组播1",CCTV-4 欧洲
+#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV-4 欧洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png" group-title="山东电信-组播1",CCTV-4 欧洲
 http://144.255.31.40:6688/udp/239.21.2.28:5002
 #EXTINF:-1 tvg-id="吉林篮球" tvg-name="吉林篮球" tvg-logo="https://example.com/logo/吉林篮球.png" group-title="体育频道",吉林电信丨吉林篮球
 http://36.49.53.110:8800/rtp/239.37.0.212:5540
@@ -147,13 +147,13 @@ http://115.171.216.39:4000/udp/225.1.8.23:8002
 http://115.171.216.84:4000/udp/225.1.8.23:8002
 #EXTINF:-1 tvg-id="BTV体育" tvg-name="北京体育休闲" tvg-logo="https://example.com/logo/BTV体育.png" group-title="体育频道",北京联通丨北京体育休闲
 http://115.171.80.52:1688/udp/225.1.8.23:8002
-#EXTINF:-1 tvg-id="武汉文体频道" tvg-name="武汉文体频道" tvg-logo="https://example.com/logo/武汉文体频道.png" group-title="体育频道",湖北电信丨武汉文体频道
+#EXTINF:-1 tvg-id="武汉文体" tvg-name="武汉文体频道" tvg-logo="https://example.com/logo/武汉文体.png" group-title="体育频道",湖北电信丨武汉文体频道
 http://58.48.104.151:4022/rtp/239.69.1.147:10518
-#EXTINF:-1 tvg-id="陕西体育休闲" tvg-name="陕西体育休闲" tvg-logo="https://example.com/logo/陕西体育休闲.png" group-title="体育频道",陕西电信丨陕西体育休闲
+#EXTINF:-1 tvg-id="陕西七套" tvg-name="陕西体育休闲" tvg-logo="https://example.com/logo/陕西七套.png" group-title="体育频道",陕西电信丨陕西体育休闲
 http://36.46.98.88:8025/rtp/239.111.205.36:5140
-#EXTINF:-1 tvg-id="天津体育频道" tvg-name="天津体育频道" tvg-logo="https://example.com/logo/天津体育频道.png" group-title="体育频道",天津联通丨天津体育频道
+#EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育频道" tvg-logo="https://example.com/logo/天津体育.png" group-title="体育频道",天津联通丨天津体育频道
 http://180.213.170.24:8188/rtp/239.5.1.3:5000
-#EXTINF:-1 tvg-id="江苏体育休闲" tvg-name="江苏体育休闲" tvg-logo="https://example.com/logo/江苏体育休闲.png" group-title="体育频道",江苏电信丨江苏体育休闲
+#EXTINF:-1 tvg-id="江苏休闲体育" tvg-name="江苏体育休闲" tvg-logo="https://example.com/logo/江苏休闲体育.png" group-title="体育频道",江苏电信丨江苏体育休闲
 http://180.105.201.135:9981/rtp/239.49.8.117:8000
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://example.com/logo/东方卫视.png" group-title="上海电信-组播1",东方卫视
 http://116.235.57.59:4022/rtp/239.45.3.146:5140
@@ -167,7 +167,7 @@ http://116.235.57.59:4022/rtp/239.45.3.237:5140
 http://116.235.57.59:4022/rtp/239.45.3.136:5140
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://example.com/logo/欢笑剧场.png" group-title="上海电信-组播1",欢笑剧场
 http://116.235.57.59:4022/rtp/239.45.3.196:5140
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png" group-title="体育频道",上海电信丨五星体育
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://example.com/logo/五星体育.png" group-title="体育频道",上海电信丨五星体育
 http://116.235.57.59:4022/rtp/239.45.3.210:5140
 #EXTINF:-1 tvg-id="CCTV-1综合" tvg-name="CCTV-1综合" tvg-logo="https://example.com/logo/CCTV-1综合.png" group-title="上海电信-组播1",CCTV-1综合
 http://116.235.57.59:4022/rtp/239.45.3.145:5140
@@ -285,7 +285,7 @@ http://223.167.230.84:4022/rtp/239.45.3.237:5140
 http://223.167.230.84:4022/rtp/239.45.3.136:5140
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://example.com/logo/欢笑剧场.png" group-title="上海电信-组播2",欢笑剧场
 http://223.167.230.84:4022/rtp/239.45.3.196:5140
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png" group-title="体育频道",上海电信丨五星体育
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://example.com/logo/五星体育.png" group-title="体育频道",上海电信丨五星体育
 http://223.167.230.84:4022/rtp/239.45.3.210:5140
 #EXTINF:-1 tvg-id="CCTV-1综合" tvg-name="CCTV-1综合" tvg-logo="https://example.com/logo/CCTV-1综合.png" group-title="上海电信-组播2",CCTV-1综合
 http://223.167.230.84:4022/rtp/239.45.3.145:5140
@@ -391,33 +391,33 @@ http://223.167.230.84:4022/rtp/239.45.1.117:5140
 http://223.167.230.84:4022/rtp/239.45.1.82:5140
 #EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" tvg-logo="https://example.com/logo/康巴卫视.png" group-title="上海电信-组播2",康巴卫视
 http://223.167.230.84:4022/rtp/239.45.1.251:5140
-#EXTINF:-1 tvg-id="成都公共频道" tvg-name="成都公共频道" tvg-logo="https://example.com/logo/成都公共频道.png" group-title="体育频道",四川电信丨成都公共频道
+#EXTINF:-1 tvg-id="CDTV5" tvg-name="成都公共频道" tvg-logo="https://example.com/logo/CDTV5.png" group-title="体育频道",四川电信丨成都公共频道
 http://171.213.208.159:4022/udp/239.93.1.231:5140
-#EXTINF:-1 tvg-id="成都公共频道" tvg-name="成都公共频道" tvg-logo="https://example.com/logo/成都公共频道.png" group-title="体育频道",四川电信丨成都公共频道
+#EXTINF:-1 tvg-id="CDTV5" tvg-name="成都公共频道" tvg-logo="https://example.com/logo/CDTV5.png" group-title="体育频道",四川电信丨成都公共频道
 http://171.213.239.208:8188/udp/239.93.1.231:5140
-#EXTINF:-1 tvg-id="云南康旅频道" tvg-name="云南康旅频道" tvg-logo="https://example.com/logo/云南康旅频道.png" group-title="体育频道",云南电信丨云南康旅频道
+#EXTINF:-1 tvg-id="云南康旅" tvg-name="云南康旅频道" tvg-logo="https://example.com/logo/云南康旅.png" group-title="体育频道",云南电信丨云南康旅频道
 http://106.59.2.153:55555/rtp/239.200.200.31:8860
-#EXTINF:-1 tvg-id="云南康旅频道" tvg-name="云南康旅频道" tvg-logo="https://example.com/logo/云南康旅频道.png" group-title="体育频道",云南电信丨云南康旅频道
+#EXTINF:-1 tvg-id="云南康旅" tvg-name="云南康旅频道" tvg-logo="https://example.com/logo/云南康旅.png" group-title="体育频道",云南电信丨云南康旅频道
 http://106.59.3.109:55555/rtp/239.200.200.31:8860
 #EXTINF:-1 tvg-id="杭州青少" tvg-name="杭州青少" tvg-logo="https://example.com/logo/杭州青少.png" group-title="体育频道",浙江电信丨杭州青少
 http://220.190.54.26:8188/udp/233.50.201.177:5140
-#EXTINF:-1 tvg-id="广东体育频道" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育频道.png" group-title="体育频道",广东联通丨广东体育频道
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://example.com/logo/广东体育.png" group-title="体育频道",广东联通丨广东体育频道
 http://58.253.171.244:8188/udp/239.0.1.95:5057
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://example.com/logo/山东卫视.png" group-title="山东联通-组播1",山东卫视
 http://39.77.27.109:4002/rtp/239.253.254.78:8000
-#EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻频道" tvg-logo="https://example.com/logo/山东新闻.png" group-title="山东联通-组播1",山东新闻频道
+#EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%96%B0%E9%97%BB.png" group-title="山东联通-组播1",山东新闻频道
 http://39.77.27.109:4002/rtp/239.253.254.23:8000
-#EXTINF:-1 tvg-id="山东综艺" tvg-name="山东综艺频道" tvg-logo="https://example.com/logo/山东综艺.png" group-title="山东联通-组播1",山东综艺频道
+#EXTINF:-1 tvg-id="山东综艺" tvg-name="山东综艺频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E7%BB%BC%E8%89%BA.png" group-title="山东联通-组播1",山东综艺频道
 http://39.77.27.109:4002/rtp/239.253.254.159:8000
-#EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科频道" tvg-logo="https://example.com/logo/山东农科.png" group-title="山东联通-组播1",山东农科频道
+#EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%86%9C%E7%A7%91.png" group-title="山东联通-组播1",山东农科频道
 http://39.77.27.109:4002/rtp/239.253.254.24:8000
-#EXTINF:-1 tvg-id="山东齐鲁" tvg-name="山东齐鲁频道" tvg-logo="https://example.com/logo/山东齐鲁.png" group-title="山东联通-组播1",山东齐鲁频道
+#EXTINF:-1 tvg-id="山东齐鲁" tvg-name="山东齐鲁频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E9%BD%90%E9%B2%81.png" group-title="山东联通-组播1",山东齐鲁频道
 http://39.77.27.109:4002/rtp/239.253.254.114:8000
-#EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿频道" tvg-logo="https://example.com/logo/山东少儿.png" group-title="山东联通-组播1",山东少儿频道
+#EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%B0%91%E5%84%BF.png" group-title="山东联通-组播1",山东少儿频道
 http://39.77.27.109:4002/rtp/239.253.254.25:8000
-#EXTINF:-1 tvg-id="山东生活" tvg-name="山东生活频道" tvg-logo="https://example.com/logo/山东生活.png" group-title="山东联通-组播1",山东生活频道
+#EXTINF:-1 tvg-id="山东生活" tvg-name="山东生活频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E7%94%9F%E6%B4%BB.png" group-title="山东联通-组播1",山东生活频道
 http://39.77.27.109:4002/rtp/239.253.254.151:8000
-#EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅频道" tvg-logo="https://example.com/logo/山东文旅.png" group-title="山东联通-组播1",山东文旅频道
+#EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E6%96%87%E6%97%85.png" group-title="山东联通-组播1",山东文旅频道
 http://39.77.27.109:4002/rtp/239.253.254.160:8000
 #EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" tvg-logo="https://example.com/logo/山东体育休闲.png" group-title="体育频道",山东联通丨山东体育休闲
 http://39.77.27.109:4002/rtp/239.253.254.22:8000
@@ -441,13 +441,13 @@ http://39.77.27.109:4002/rtp/239.253.254.232:8000
 http://39.77.27.109:4002/rtp/239.253.254.191:8000
 #EXTINF:-1 tvg-id="CCTV-4中文国际" tvg-name="CCTV-4中文国际" tvg-logo="https://example.com/logo/CCTV-4中文国际.png" group-title="山东联通-组播1",CCTV-4中文国际
 http://39.77.27.109:4002/rtp/239.253.254.111:8000
-#EXTINF:-1 tvg-id="CCTV-4欧洲" tvg-name="CCTV-4欧洲" tvg-logo="https://example.com/logo/CCTV-4欧洲.png" group-title="山东联通-组播1",CCTV-4欧洲
+#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV-4欧洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png" group-title="山东联通-组播1",CCTV-4欧洲
 http://39.77.27.109:4002/rtp/239.253.254.186:8000
-#EXTINF:-1 tvg-id="CCTV-4美洲" tvg-name="CCTV-4美洲" tvg-logo="https://example.com/logo/CCTV-4美洲.png" group-title="山东联通-组播1",CCTV-4美洲
+#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV-4美洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png" group-title="山东联通-组播1",CCTV-4美洲
 http://39.77.27.109:4002/rtp/239.253.254.187:8000
 #EXTINF:-1 tvg-id="CCTV-5体育" tvg-name="CCTV-5体育" tvg-logo="https://example.com/logo/CCTV-5体育.png" group-title="山东联通-组播1",CCTV-5体育
 http://39.77.27.109:4002/rtp/239.253.254.192:8000
-#EXTINF:-1 tvg-id="CCTV-5+体育赛事" tvg-name="CCTV-5+体育赛事" tvg-logo="https://example.com/logo/CCTV-5+体育赛事.png" group-title="山东联通-组播1",CCTV-5+体育赛事
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV-5+体育赛事" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png" group-title="山东联通-组播1",CCTV-5+体育赛事
 http://39.77.27.109:4002/rtp/239.253.254.80:8000
 #EXTINF:-1 tvg-id="CCTV-6电影" tvg-name="CCTV-6电影" tvg-logo="https://example.com/logo/CCTV-6电影.png" group-title="山东联通-组播1",CCTV-6电影
 http://39.77.27.109:4002/rtp/239.253.254.193:8000
@@ -533,13 +533,13 @@ http://123.145.15.79:8005/udp/225.0.4.194:7980
 http://123.145.2.78:8001/udp/225.0.4.194:7980
 #EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://example.com/logo/重庆文体娱乐.png" group-title="体育频道",重庆联通丨重庆文体娱乐
 http://123.145.2.78:8005/udp/225.0.4.194:7980
-#EXTINF:-1 tvg-id="辽宁体育休闲" tvg-name="辽宁体育休闲" tvg-logo="https://example.com/logo/辽宁体育休闲.png" group-title="体育频道",辽宁联通丨辽宁体育休闲
+#EXTINF:-1 tvg-id="辽宁体育" tvg-name="辽宁体育休闲" tvg-logo="https://example.com/logo/辽宁体育.png" group-title="体育频道",辽宁联通丨辽宁体育休闲
 http://123.191.26.168:1111/rtp/232.0.0.164:1234
 #EXTINF:-1 tvg-id="福建文体频道" tvg-name="福建文体频道" tvg-logo="https://example.com/logo/福建文体频道.png" group-title="体育频道",福建电信丨福建文体频道
 http://112.109.206.106:9999/rtp/239.255.40.155:8208
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://example.com/logo/北京卫视.png" group-title="北京联通-组播1",北京卫视
 http://114.241.246.84:4022/rtp/239.3.1.241:8000
-#EXTINF:-1 tvg-id="BTV新闻" tvg-name="北京新闻频道" tvg-logo="https://example.com/logo/BTV新闻.png" group-title="北京联通-组播1",北京新闻频道
+#EXTINF:-1 tvg-id="北京新闻频道" tvg-name="北京新闻频道" tvg-logo="https://example.com/logo/北京新闻频道.png" group-title="北京联通-组播1",北京新闻频道
 http://114.241.246.84:4022/rtp/239.3.1.159:8000
 #EXTINF:-1 tvg-id="北京影视频道" tvg-name="北京影视频道" tvg-logo="https://example.com/logo/北京影视频道.png" group-title="北京联通-组播1",北京影视频道
 http://114.241.246.84:4022/rtp/239.3.1.158:8000
@@ -567,7 +567,7 @@ http://114.241.246.84:4022/rtp/239.3.1.172:8001
 http://114.241.246.84:4022/rtp/239.3.1.105:8092
 #EXTINF:-1 tvg-id="CCTV-5体育" tvg-name="CCTV-5体育" tvg-logo="https://example.com/logo/CCTV-5体育.png" group-title="北京联通-组播1",CCTV-5体育
 http://114.241.246.84:4022/rtp/239.3.1.173:8001
-#EXTINF:-1 tvg-id="CCTV-5+体育赛事" tvg-name="CCTV-5+体育赛事" tvg-logo="https://example.com/logo/CCTV-5+体育赛事.png" group-title="北京联通-组播1",CCTV-5+体育赛事
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV-5+体育赛事" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png" group-title="北京联通-组播1",CCTV-5+体育赛事
 http://114.241.246.84:4022/rtp/239.3.1.130:8004
 #EXTINF:-1 tvg-id="CCTV-6电影" tvg-name="CCTV-6电影" tvg-logo="https://example.com/logo/CCTV-6电影.png" group-title="北京联通-组播1",CCTV-6电影
 http://114.241.246.84:4022/rtp/239.3.1.174:8001
@@ -673,15 +673,15 @@ http://114.241.246.84:4022/rtp/239.3.1.100:8001
 http://114.241.246.84:4022/rtp/239.3.1.238:8001
 #EXTINF:-1 tvg-id="北京IPTV萌宠TV" tvg-name="北京IPTV萌宠TV" tvg-logo="https://example.com/logo/北京IPTV萌宠TV.png" group-title="北京联通-组播1",北京IPTV萌宠TV
 http://114.241.246.84:4022/rtp/239.3.1.102:8001
-#EXTINF:-1 tvg-id="CCTV-4欧洲" tvg-name="CCTV-4欧洲" tvg-logo="https://example.com/logo/CCTV-4欧洲.png" group-title="北京联通-组播1",CCTV-4欧洲
+#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV-4欧洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png" group-title="北京联通-组播1",CCTV-4欧洲
 http://114.241.246.84:4022/rtp/239.3.1.213:4220
-#EXTINF:-1 tvg-id="CCTV-4美洲" tvg-name="CCTV-4美洲" tvg-logo="https://example.com/logo/CCTV-4美洲.png" group-title="北京联通-组播1",CCTV-4美洲
+#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV-4美洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png" group-title="北京联通-组播1",CCTV-4美洲
 http://114.241.246.84:4022/rtp/239.3.1.214:4220
 #EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://example.com/logo/山东教育卫视.png" group-title="北京联通-组播1",山东教育卫视
 http://114.241.246.84:4022/rtp/239.3.1.52:4120
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://example.com/logo/北京卫视.png" group-title="北京联通-组播2",北京卫视
 http://114.254.34.19:18888/rtp/239.3.1.241:8000
-#EXTINF:-1 tvg-id="BTV新闻" tvg-name="北京新闻频道" tvg-logo="https://example.com/logo/BTV新闻.png" group-title="北京联通-组播2",北京新闻频道
+#EXTINF:-1 tvg-id="北京新闻频道" tvg-name="北京新闻频道" tvg-logo="https://example.com/logo/北京新闻频道.png" group-title="北京联通-组播2",北京新闻频道
 http://114.254.34.19:18888/rtp/239.3.1.159:8000
 #EXTINF:-1 tvg-id="北京影视频道" tvg-name="北京影视频道" tvg-logo="https://example.com/logo/北京影视频道.png" group-title="北京联通-组播2",北京影视频道
 http://114.254.34.19:18888/rtp/239.3.1.158:8000
@@ -709,7 +709,7 @@ http://114.254.34.19:18888/rtp/239.3.1.172:8001
 http://114.254.34.19:18888/rtp/239.3.1.105:8092
 #EXTINF:-1 tvg-id="CCTV-5体育" tvg-name="CCTV-5体育" tvg-logo="https://example.com/logo/CCTV-5体育.png" group-title="北京联通-组播2",CCTV-5体育
 http://114.254.34.19:18888/rtp/239.3.1.173:8001
-#EXTINF:-1 tvg-id="CCTV-5+体育赛事" tvg-name="CCTV-5+体育赛事" tvg-logo="https://example.com/logo/CCTV-5+体育赛事.png" group-title="北京联通-组播2",CCTV-5+体育赛事
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV-5+体育赛事" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png" group-title="北京联通-组播2",CCTV-5+体育赛事
 http://114.254.34.19:18888/rtp/239.3.1.130:8004
 #EXTINF:-1 tvg-id="CCTV-6电影" tvg-name="CCTV-6电影" tvg-logo="https://example.com/logo/CCTV-6电影.png" group-title="北京联通-组播2",CCTV-6电影
 http://114.254.34.19:18888/rtp/239.3.1.174:8001
@@ -815,11 +815,11 @@ http://114.254.34.19:18888/rtp/239.3.1.100:8001
 http://114.254.34.19:18888/rtp/239.3.1.238:8001
 #EXTINF:-1 tvg-id="北京IPTV萌宠TV" tvg-name="北京IPTV萌宠TV" tvg-logo="https://example.com/logo/北京IPTV萌宠TV.png" group-title="北京联通-组播2",北京IPTV萌宠TV
 http://114.254.34.19:18888/rtp/239.3.1.102:8001
-#EXTINF:-1 tvg-id="CCTV-4欧洲" tvg-name="CCTV-4欧洲" tvg-logo="https://example.com/logo/CCTV-4欧洲.png" group-title="北京联通-组播2",CCTV-4欧洲
+#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV-4欧洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png" group-title="北京联通-组播2",CCTV-4欧洲
 http://114.254.34.19:18888/rtp/239.3.1.213:4220
-#EXTINF:-1 tvg-id="CCTV-4美洲" tvg-name="CCTV-4美洲" tvg-logo="https://example.com/logo/CCTV-4美洲.png" group-title="北京联通-组播2",CCTV-4美洲
+#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV-4美洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png" group-title="北京联通-组播2",CCTV-4美洲
 http://114.254.34.19:18888/rtp/239.3.1.214:4220
 #EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://example.com/logo/山东教育卫视.png" group-title="北京联通-组播2",山东教育卫视
 http://114.254.34.19:18888/rtp/239.3.1.52:4120
-#EXTINF:-1 tvg-id="天津体育频道" tvg-name="天津体育频道" tvg-logo="https://example.com/logo/天津体育频道.png" group-title="体育频道",天津联通丨天津体育频道
+#EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育频道" tvg-logo="https://example.com/logo/天津体育.png" group-title="体育频道",天津联通丨天津体育频道
 http://111.162.204.145:8686/rtp/225.1.1.122:5002
