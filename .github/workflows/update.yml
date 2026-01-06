@@ -1,8 +1,8 @@
-name: Update IPTV M3U
+name: Daily IPTV Update
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # UTC 23:00 = 北京时间 07:00
+    - cron: "0 23 * * *"  # UTC 23:00 = 北京时间 07:00
   workflow_dispatch:
 
 jobs:
@@ -10,33 +10,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. 拉取仓库
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 2. 安装 Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Run filter.py
+      # 3. 过滤组播
+      - name: Filter multicast channels
         run: python filter.py
 
-      - name: Run add_epg.py
+      # 4. 补 tvg-id / tvg-name（含地方台映射）
+      - name: Add EPG info
         run: python add_epg.py
-        
+
+      # 5. 精准筛选运营商频道
+      - name: Filter channels per operator
+        run: python filter_epg.py
+
+      # 6. 添加体育频道
       - name: Add sports channels
         run: python add_sports.py
 
-      - name: Filter epg channels
-        run: python filter_epg.py
-
-      - name: Commit output
+      # 7. 提交更新
+      - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add output.m3u output_epg.m3u
-          git commit -m "auto update m3u with EPG" || echo "no change"
+          git add output_epg.m3u
+          git commit -m "Auto update output_epg.m3u" || echo "No changes"
           git push
