@@ -57,8 +57,8 @@ SPORTS_CHANNELS = {
     "浙江电信": ["杭州青少"],
 }
 
-# 主频道 group-title 白名单
-KEEP_GROUPS = ["山东电信", "山东联通", "上海电信", "北京联通"]
+# 主频道 group-title 前缀白名单
+KEEP_GROUP_PREFIX = ["山东电信", "山东联通", "上海电信", "北京联通"]
 
 # tvg-logo 映射示例
 LOGO_MAP = {
@@ -109,8 +109,17 @@ while i < len(lines):
             sports_name = f"{operator}丨{raw_name}"
             break
 
-    # 判断是否保留
-    if group not in KEEP_GROUPS and not is_sports:
+    # 判断是否保留：体育频道或 group-title 前缀匹配
+    keep = False
+    if is_sports:
+        keep = True
+    else:
+        for prefix in KEEP_GROUP_PREFIX:
+            if group.startswith(prefix):
+                keep = True
+                break
+
+    if not keep:
         i += 2
         continue
 
@@ -132,4 +141,4 @@ while i < len(lines):
 with open("output_epg.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("生成完成：output_epg.m3u（只保留指定 group + 体育频道，含 tvg + logo）")
+print("生成完成：output_epg.m3u（只保留指定 group 前缀 + 体育频道，含 tvg + logo）")
