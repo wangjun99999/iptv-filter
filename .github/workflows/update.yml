@@ -1,0 +1,33 @@
+name: Update IPTV M3U
+
+on:
+  schedule:
+    - cron: "0 23 * * *"   # UTC 23:00 = 北京时间 07:00
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run filter
+        run: python filter.py
+
+      - name: Commit output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output.m3u
+          git commit -m "auto update m3u" || echo "no change"
+          git push
