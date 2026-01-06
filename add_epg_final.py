@@ -155,49 +155,41 @@ while i < len(lines):
             f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}" tvg-logo="{tvg_logo}"'
         )
 
-# ---------- 是否保留该频道 ----------
-keep = False
+    # ---------- 是否保留该频道 ----------
+    keep = False
 
-# 判断运营商
-operator = None
-for op in KEEP_RULES:
-    if op in name:
-        operator = op
-        break
+    operator = None
+    for op in KEEP_RULES:
+        if op in name:
+            operator = op
+            break
 
-if operator:
-    rule = KEEP_RULES[operator]
+    if operator:
+        rule = KEEP_RULES[operator]
 
-    # CCTV
-    if rule.get("cctv") and name.upper().startswith("CCTV"):
-        keep = True
+        if rule.get("cctv") and name.upper().startswith("CCTV"):
+            keep = True
+        elif rule.get("satellite") and "卫视" in name:
+            keep = True
+        elif "exact" in rule and name in rule["exact"]:
+            keep = True
+        elif "keywords" in rule:
+            for kw in rule["keywords"]:
+                if kw in name:
+                    keep = True
+                    break
 
-    # 卫视
-    elif rule.get("satellite") and "卫视" in name:
-        keep = True
-
-    # 精确匹配
-    elif "exact" in rule and name in rule["exact"]:
-        keep = True
-
-    # 关键字匹配
-    elif "keywords" in rule:
-        for kw in rule["keywords"]:
-            if kw in name:
+    # 体育频道额外允许
+    if not keep:
+        for channels in SPORTS_CHANNELS.values():
+            if name.replace(f"{operator}丨", "") in channels:
                 keep = True
                 break
 
-# 体育频道是“额外允许”
-if not keep:
-    for channels in SPORTS_CHANNELS.values():
-        if name in channels:
-            keep = True
-            break
-
-# 不保留就跳过
-if not keep:
-    i += 2
-    continue
+    # ❌ 不保留，直接跳过这一条
+    if not keep:
+        i += 2
+        continue
     
     # 体育频道统一分组
     if is_sports:
