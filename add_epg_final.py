@@ -3,10 +3,8 @@ import re
 
 # --------------------- 配置 ---------------------
 
-# 原始源
 SRC_URL = "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.m3u"
 
-# 地方台映射：频道名 -> tvg-id
 LOCAL_TVG = {
     "山东体育频道": "山东体育",
     "山东农科频道": "山东农科",
@@ -42,10 +40,8 @@ LOCAL_TVG = {
     "北京生活频道": "BTV生活",
     "北京纪实科教": "BTV科教",
     "北京财经频道": "BTV财经",
-    # 可以继续扩充
 }
 
-# 体育频道映射：运营商 -> 频道名列表
 SPORTS_CHANNELS = {
     "广东联通": ["广东体育频道"],
     "山东联通": ["山东体育休闲", "青岛QTV3"],
@@ -69,8 +65,6 @@ SPORTS_CHANNELS = {
     "浙江电信": ["杭州青少"],
 }
 
-# tvg-logo 映射（频道名 -> logo URL）
-# 可按需要自定义
 LOGO_MAP = {
     "CCTV1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png",
     "CCTV2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV2.png",
@@ -106,84 +100,78 @@ LOGO_MAP = {
     "青岛tv3": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-3.png",
     "青岛tv4": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png",
     "青岛tv5": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-5.png",
-    # 可以继续补充
 }
 
 # --------------------- 工具函数 ---------------------
 
 def guess_tvg_id(name):
-    """返回 tvg-id"""
     name_upper = name.upper()
-    # CCTV 系列
     m = re.match(r"CCTV[- ]?(\d+)", name_upper)
     if m:
         return f"CCTV{m.group(1)}"
     if name_upper == "CCTV5+":
         return "CCTV5+"
-    # 地方台映射
     if name in LOCAL_TVG:
         return LOCAL_TVG[name]
-    # 卫视 fallback
     if "卫视" in name:
         return name.replace("卫视", "") + "卫视"
-    # 体育频道 fallback
-    for operator, channels in SPORTS_CHANNELS.items():
-        if name in channels:
-            return name.replace(" ", "")
-    # 默认
     return name.replace(" ", "")
 
 def guess_logo(tvg_id):
-    """返回 tvg-logo URL"""
-    return LOGO_MAP.get(tvg_id, f"https://example.com/logo/{tvg_id}.png")  # 默认规则
+    return LOGO_MAP.get(tvg_id, f"https://example.com/logo/{tvg_id}.png")
 
-# --------------------- 读取源 ---------------------
+# --------------------- 主处理 ---------------------
 
 resp = requests.get(SRC_URL)
-resp.encoding = 'utf-8'
+resp.encoding = "utf-8"
 lines = resp.text.splitlines()
 
 out = ["#EXTM3U"]
-
 i = 0
+
 while i < len(lines):
-    if lines[i].startswith("#EXTINF"):
-        extinf_line = lines[i]
-        url_line = lines[i + 1]
+    if not lines[i].startswith("#EXTINF"):
+        i += 1
+        continue
 
-        # 频道名
-        name = extinf_line.split(",")[-1].strip()
+    extinf = lines[i]
+    url = lines[i + 1]
+    name = extinf.split(",")[-1].strip()
 
-        # 判断是否体育频道
-        is_sports = False
-        for operator, channels in SPORTS_CHANNELS.items():
-            if name in channels:
-                name = f"{operator}丨{name}"
-                is_sports = True
-                break
+    is_sports = False
+    for operator, channels in SPORTS_CHANNELS.items():
+        if name in channels:
+            name = f"{operator}丨{name}"
+            is_sports = True
+            break
 
-        tvg_id = guess_tvg_id(name)
-        tvg_logo = guess_logo(tvg_id)
+    tvg_id = guess_tvg_id(name)
+    tvg_logo = guess_logo(tvg_id)
 
-        # 替换 EXTINF
-        new_line = re.sub(
-            r'#EXTINF:-1.*?,.*',
-            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}" tvg-logo="{tvg_logo}",{name}',
-            extinf_line
+    # 只插入属性，不整体替换
+    if 'tvg-id=' not in extinf:
+        extinf = extinf.replace(
+            "#EXTINF:-1",
+            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}" tvg-logo="{tvg_logo}"'
         )
 
-        # 如果是体育频道，统一 group-title="体育频道"
-        if is_sports:
-            new_line = re.sub(r'group-title="[^"]*"', 'group-title="体育频道"', new_line)
-        out.append(new_line)
-        out.append(url_line)
-        i += 2
-    else:
-        i += 1
+    # 体育频道统一分组
+    if is_sports:
+        if 'group-title=' in extinf:
+            extinf = re.sub(r'group-title="[^"]*"', 'group-title="体育频道"', extinf)
+        else:
+            extinf = extinf.replace(
+                "#EXTINF:-1",
+                '#EXTINF:-1 group-title="体育频道"'
+            )
 
-# --------------------- 写文件 ---------------------
+    out.append(extinf)
+    out.append(url)
+    i += 2
+
+# --------------------- 输出 ---------------------
 
 with open("output_epg.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("生成完成：output_epg.m3u（含体育频道 + 所有台加logo）")
+print("生成完成：保留原 group-title，体育频道独立分组，全部含 EPG + Logo")
