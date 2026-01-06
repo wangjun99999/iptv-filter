@@ -26,6 +26,7 @@ LOCAL_TVG = {
     "青岛QTV1": "青岛tv1",
     "青岛QTV2": "青岛tv2",
     "青岛QTV3": "青岛tv3",
+    "青岛QTV4": "青岛tv4",
     "CCTV-4 欧洲": "CCTV4欧洲",
     "CCTV-4欧洲": "CCTV4欧洲",
     "CCTV-4 北美": "CCTV4美洲",
