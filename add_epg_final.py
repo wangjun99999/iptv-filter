@@ -65,6 +65,48 @@ SPORTS_CHANNELS = {
     "浙江电信": ["杭州青少"],
 }
 
+# --------------------- 主频道筛选规则 ---------------------
+
+KEEP_RULES = {
+    "山东电信": {
+        "cctv": True,
+        "satellite": True,
+        "keywords": [
+            "山东",
+            "青岛1", "青岛2", "青岛3", "青岛4", "青岛5", "青岛6",
+            "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"
+        ]
+    },
+    "上海电信": {
+        "cctv": True,
+        "satellite": True,
+        "exact": [
+            "东方影视",
+            "新闻综合",
+            "都市频道",
+            "都市剧场",
+            "欢笑剧场",
+            "五星体育"
+        ]
+    },
+    "山东联通": {
+        "cctv": True,
+        "satellite": True,
+        "keywords": [
+            "山东",
+            "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"
+        ]
+    },
+    "北京联通": {
+        "cctv": True,
+        "satellite": True,
+        "keywords": [
+            "北京",
+            "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"
+        ]
+    }
+}
+
 LOGO_MAP = {
     "CCTV1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png",
     "CCTV2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV2.png",
