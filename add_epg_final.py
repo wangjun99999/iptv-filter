@@ -155,6 +155,50 @@ while i < len(lines):
             f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}" tvg-logo="{tvg_logo}"'
         )
 
+# ---------- 是否保留该频道 ----------
+keep = False
+
+# 判断运营商
+operator = None
+for op in KEEP_RULES:
+    if op in name:
+        operator = op
+        break
+
+if operator:
+    rule = KEEP_RULES[operator]
+
+    # CCTV
+    if rule.get("cctv") and name.upper().startswith("CCTV"):
+        keep = True
+
+    # 卫视
+    elif rule.get("satellite") and "卫视" in name:
+        keep = True
+
+    # 精确匹配
+    elif "exact" in rule and name in rule["exact"]:
+        keep = True
+
+    # 关键字匹配
+    elif "keywords" in rule:
+        for kw in rule["keywords"]:
+            if kw in name:
+                keep = True
+                break
+
+# 体育频道是“额外允许”
+if not keep:
+    for channels in SPORTS_CHANNELS.values():
+        if name in channels:
+            keep = True
+            break
+
+# 不保留就跳过
+if not keep:
+    i += 2
+    continue
+    
     # 体育频道统一分组
     if is_sports:
         if 'group-title=' in extinf:
