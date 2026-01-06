@@ -11,36 +11,29 @@ jobs:
 
     steps:
       # 1. 拉取仓库
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       # 2. 安装 Python
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 3. 安装 requests
       - name: Install dependencies
         run: pip install requests
 
-      # 3. 过滤组播
+      # 4. 过滤组播频道
       - name: Filter multicast channels
         run: python filter.py
 
-      # 4. 补 tvg-id / tvg-name（含地方台映射）
-      - name: Add EPG info
-        run: python add_epg.py
+      # 5. 增强版 add_epg_final.py 处理
+      - name: Add EPG, sports channels and logos
+        run: python add_epg_final.py
 
-      # 5. 精准筛选运营商频道
-      - name: Filter channels per operator
-        run: python filter_epg.py
-
-      # 6. 添加体育频道
-      - name: Add sports channels
-        run: python add_sports.py
-
-      # 7. 提交更新
-      - name: Commit and push
+      # 6. 提交更新
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
