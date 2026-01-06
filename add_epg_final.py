@@ -8,11 +8,11 @@ SRC_URL = "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/z
 # 地方台 tvg-id 映射
 LOCAL_TVG = {
     "山东体育频道": "山东体育",
+    "山东新闻频道": "山东新闻",
     "山东农科频道": "山东农科",
     "山东少儿频道": "山东少儿",
     "山东教育频道": "山东教育",
     "山东文旅频道": "山东文旅",
-    "山东新闻频道": "山东新闻",
     "山东生活频道": "山东生活",
     "山东综艺频道": "山东综艺",
     "山东齐鲁频道": "山东齐鲁",
@@ -57,14 +57,39 @@ SPORTS_CHANNELS = {
     "浙江电信": ["杭州青少"],
 }
 
-# 主频道 group-title 前缀白名单
-KEEP_GROUP_PREFIX = ["山东电信", "山东联通", "上海电信", "北京联通"]
-
 # tvg-logo 映射示例
 LOGO_MAP = {
     "山东体育": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png",
+    "青岛tv1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-1.png",
+    "青岛tv2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-2.png",
     "青岛tv3": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-3.png",
+    "青岛tv4": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png",
     "五星体育": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png",
+}
+
+# --------------------- 筛选规则 ---------------------
+
+KEEP_RULES = {
+    "山东电信": {
+        "cctv": True,
+        "satellite": True,
+        "keywords": ["山东", "青岛1","青岛2","青岛3","青岛4","青岛5","青岛6"]
+    },
+    "上海电信": {
+        "cctv": True,
+        "satellite": True,
+        "exact": ["东方影视","新闻综合","都市频道","都市剧场","欢笑剧场","五星体育"]
+    },
+    "山东联通": {
+        "cctv": True,
+        "satellite": True,
+        "keywords": ["山东","青岛QTV1","青岛QTV2","青岛QTV3","青岛QTV4"]
+    },
+    "北京联通": {
+        "cctv": True,
+        "satellite": True,
+        "keywords": ["北京","青岛QTV1","青岛QTV2","青岛QTV3","青岛QTV4"]
+    },
 }
 
 # --------------------- 工具函数 ---------------------
@@ -109,16 +134,29 @@ while i < len(lines):
             sports_name = f"{operator}丨{raw_name}"
             break
 
-    # 判断是否保留：体育频道或 group-title 前缀匹配
+    # --------------------- 是否保留 ---------------------
     keep = False
     if is_sports:
         keep = True
     else:
-        for prefix in KEEP_GROUP_PREFIX:
+        for prefix, rule in KEEP_RULES.items():
             if group.startswith(prefix):
-                keep = True
-                break
-
+                # CCTV
+                if rule.get("cctv") and raw_name.upper().startswith("CCTV"):
+                    keep = True
+                # 卫视
+                elif rule.get("satellite") and "卫视" in raw_name:
+                    keep = True
+                # 精确匹配
+                elif "exact" in rule and raw_name in rule["exact"]:
+                    keep = True
+                # 关键词匹配
+                elif "keywords" in rule:
+                    for kw in rule["keywords"]:
+                        if kw in raw_name:
+                            keep = True
+                            break
+                break  # 匹配到分组就不用继续看
     if not keep:
         i += 2
         continue
@@ -141,4 +179,4 @@ while i < len(lines):
 with open("output_epg.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("生成完成：output_epg.m3u（只保留指定 group 前缀 + 体育频道，含 tvg + logo）")
+print("生成完成：output_epg.m3u（按规则筛选 + 体育频道 + tvg + logo）")
