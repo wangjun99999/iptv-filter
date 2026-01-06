@@ -33,13 +33,6 @@ LOCAL_TVG = {
     "新闻综合": "上海新闻综合",
     "都市频道": "上海都市",
     "东方影视": "上视东方影视",
-    "北京新闻频道": "BTV新闻",
-    "北京体育休闲": "BTV体育",
-    "北京影视频道": "BTV影视",
-    "北京文艺频道": "BTV文艺",
-    "北京生活频道": "BTV生活",
-    "北京纪实科教": "BTV科教",
-    "北京财经频道": "BTV财经",
 }
 
 SPORTS_CHANNELS = {
@@ -65,45 +58,30 @@ SPORTS_CHANNELS = {
     "浙江电信": ["杭州青少"],
 }
 
-# --------------------- 主频道筛选规则 ---------------------
-
 KEEP_RULES = {
     "山东电信": {
         "cctv": True,
         "satellite": True,
-        "keywords": [
-            "山东",
-            "青岛1", "青岛2", "青岛3", "青岛4", "青岛5", "青岛6",
-            "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"
-        ]
+        "keywords": ["山东", "青岛"]
     },
     "上海电信": {
         "cctv": True,
         "satellite": True,
         "exact": [
-            "东方影视",
-            "新闻综合",
-            "都市频道",
-            "都市剧场",
-            "欢笑剧场",
-            "五星体育"
+            "东方影视", "新闻综合",
+            "都市频道", "都市剧场",
+            "欢笑剧场", "五星体育"
         ]
     },
     "山东联通": {
         "cctv": True,
         "satellite": True,
-        "keywords": [
-            "山东",
-            "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"
-        ]
+        "keywords": ["山东", "青岛QTV"]
     },
     "北京联通": {
         "cctv": True,
         "satellite": True,
-        "keywords": [
-            "北京",
-            "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"
-        ]
+        "keywords": ["北京", "青岛QTV"]
     }
 }
 
@@ -147,12 +125,9 @@ LOGO_MAP = {
 # --------------------- 工具函数 ---------------------
 
 def guess_tvg_id(name):
-    name_upper = name.upper()
-    m = re.match(r"CCTV[- ]?(\d+)", name_upper)
+    m = re.match(r"CCTV[- ]?(\d+)", name.upper())
     if m:
         return f"CCTV{m.group(1)}"
-    if name_upper == "CCTV5+":
-        return "CCTV5+"
     if name in LOCAL_TVG:
         return LOCAL_TVG[name]
     if "卫视" in name:
@@ -161,6 +136,12 @@ def guess_tvg_id(name):
 
 def guess_logo(tvg_id):
     return LOGO_MAP.get(tvg_id, f"https://example.com/logo/{tvg_id}.png")
+
+def is_sports_channel(name):
+    for chs in SPORTS_CHANNELS.values():
+        if name in chs:
+            return True
+    return False
 
 # --------------------- 主处理 ---------------------
 
@@ -178,62 +159,57 @@ while i < len(lines):
 
     extinf = lines[i]
     url = lines[i + 1]
-    name = extinf.split(",")[-1].strip()
+    raw_name = extinf.split(",")[-1].strip()
 
+    keep = False
+
+    # 主规则筛选
+    for op, rule in KEEP_RULES.items():
+        if op not in raw_name:
+            continue
+
+        if rule.get("cctv") and raw_name.upper().startswith("CCTV"):
+            keep = True
+        elif rule.get("satellite") and "卫视" in raw_name:
+            keep = True
+        elif "exact" in rule and raw_name in rule["exact"]:
+            keep = True
+        elif "keywords" in rule:
+            for kw in rule["keywords"]:
+                if kw in raw_name:
+                    keep = True
+                    break
+
+        if keep:
+            break
+
+    # 体育频道额外放行
+    if not keep and is_sports_channel(raw_name):
+        keep = True
+
+    if not keep:
+        i += 2
+        continue
+
+    # ---------- 下面只处理“保留下来的频道” ----------
+
+    name = raw_name
     is_sports = False
-    for operator, channels in SPORTS_CHANNELS.items():
-        if name in channels:
-            name = f"{operator}丨{name}"
+    for op, chs in SPORTS_CHANNELS.items():
+        if raw_name in chs:
+            name = f"{op}丨{raw_name}"
             is_sports = True
             break
 
-    tvg_id = guess_tvg_id(name)
+    tvg_id = guess_tvg_id(raw_name)
     tvg_logo = guess_logo(tvg_id)
 
-    # 只插入属性，不整体替换
     if 'tvg-id=' not in extinf:
         extinf = extinf.replace(
             "#EXTINF:-1",
             f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}" tvg-logo="{tvg_logo}"'
         )
 
-    # ---------- 是否保留该频道 ----------
-    keep = False
-
-    operator = None
-    for op in KEEP_RULES:
-        if op in name:
-            operator = op
-            break
-
-    if operator:
-        rule = KEEP_RULES[operator]
-
-        if rule.get("cctv") and name.upper().startswith("CCTV"):
-            keep = True
-        elif rule.get("satellite") and "卫视" in name:
-            keep = True
-        elif "exact" in rule and name in rule["exact"]:
-            keep = True
-        elif "keywords" in rule:
-            for kw in rule["keywords"]:
-                if kw in name:
-                    keep = True
-                    break
-
-    # 体育频道额外允许
-    if not keep:
-        for channels in SPORTS_CHANNELS.values():
-            if name.replace(f"{operator}丨", "") in channels:
-                keep = True
-                break
-
-    # ❌ 不保留，直接跳过这一条
-    if not keep:
-        i += 2
-        continue
-    
-    # 体育频道统一分组
     if is_sports:
         if 'group-title=' in extinf:
             extinf = re.sub(r'group-title="[^"]*"', 'group-title="体育频道"', extinf)
@@ -247,9 +223,7 @@ while i < len(lines):
     out.append(url)
     i += 2
 
-# --------------------- 输出 ---------------------
-
 with open("output_epg.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("生成完成：保留原 group-title，体育频道独立分组，全部含 EPG + Logo")
+print("生成完成：已正确筛选 + EPG + Logo + 体育频道分组")
