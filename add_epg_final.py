@@ -29,6 +29,7 @@ LOCAL_TVG = {
     "CCTV-15音乐": "CCTV15",
     "CCTV-16奥林匹克": "CCTV16",
     "CCTV-17农业农村": "CCTV17",
+    "CCTV4K超高清": "CCTV4K",   
     "山东体育频道": "山东体育",
     "山东体育休闲": "山东体育",
     "山东农科频道": "山东农科",
@@ -51,6 +52,7 @@ LOCAL_TVG = {
     "青岛QTV3": "青岛tv3",
     "青岛QTV4": "青岛tv4",
     "新闻综合": "上海新闻综合",
+    "北京卫视4K超高清": "北京卫视",
     "北京体育休闲": "BTV体育",
     "北京影视频道": "BTV影视",
     "北京文艺频道": "BTV文艺",
@@ -69,6 +71,7 @@ LOCAL_TVG = {
     "云南康旅频道": "云南康旅",
     "福建文体频道": "福建体育频道",
     "杭州青少": "杭州HTV5", 
+    "广东4K超高清": "广东4K超",    
 }
 
 # 4K 超高清频道（精确匹配）
@@ -119,6 +122,7 @@ LOGO_MAP = {
     "CCTV17": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV17.png",
     "CCTV4欧洲": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png",
     "CCTV4美洲": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png",
+    "CCTV4K": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png",
     "山东体育": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png",
     "山东农科": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%86%9C%E7%A7%91.png",
     "山东少儿": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%B0%91%E5%84%BF.png",
@@ -184,7 +188,8 @@ LOGO_MAP = {
     "内蒙古卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png",
     "三沙卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86.png",
     "厦门卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8E%A6%E9%97%A8%E5%8D%AB%E8%A7%86.png",
-    "兵团卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png",  
+    "兵团卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png",
+    "广东4K超": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C4K.png",
     "CDTV5": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png",
     "武汉文体": "https://gitee.com/wuxiyihu/logo/raw/master/tv/Wuhan5.png",
     "天津体育": "https://gitee.com/wuxiyihu/logo/raw/master/tv/Tianjin5.png",
