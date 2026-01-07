@@ -71,6 +71,13 @@ LOCAL_TVG = {
     "杭州青少": "杭州HTV5", 
 }
 
+# 4K 超高清频道（精确匹配）
+FOUR_K_CHANNELS = {
+    "四川联通": ["CCTV4K超高清"],
+    "河北联通": ["CCTV4K超高清", "北京卫视4K超高清"],
+    "广东联通": ["广东4K超高清"],
+}
+
 # 体育频道
 SPORTS_CHANNELS = {
     "广东联通": ["广东体育频道"],
@@ -246,32 +253,42 @@ while i < len(lines):
     m = re.search(r'group-title="([^"]+)"', extinf)
     group = m.group(1) if m else "其他频道"
 
-    # 体育频道
+
+    # ---------- 4K 频道 ----------
+    is_4k = False
+    for operator, channels in FOUR_K_CHANNELS.items():
+        if group.startswith(operator) and raw_name in channels:
+            is_4k = True
+            break
+
+    # ---------- 体育频道 ----------
     is_sports = False
     sports_name = ""
-    for operator, channels in SPORTS_CHANNELS.items():
-        if raw_name in channels:
-            is_sports = True
-            sports_name = f"{operator}丨{raw_name}"
-            break
+    if not is_4k:
+        for operator, channels in SPORTS_CHANNELS.items():
+            if group.startswith(operator) and raw_name in channels:
+                is_sports = True
+                sports_name = f"{operator}丨{raw_name}"
+                break
 
     # --------------------- 是否保留 ---------------------
     keep = False
-    if is_sports:
+
+    if is_4k:
         keep = True
+
+    elif is_sports:
+        keep = True
+
     else:
         for prefix, rule in KEEP_RULES.items():
             if group.startswith(prefix):
-                # CCTV
                 if rule.get("cctv") and raw_name.upper().startswith("CCTV"):
                     keep = True
-                # 卫视
                 elif rule.get("satellite") and "卫视" in raw_name:
                     keep = True
-                # 精确匹配
                 elif "exact" in rule and raw_name in rule["exact"]:
                     keep = True
-                # 关键词匹配
                 elif "keywords" in rule:
                     for kw in rule["keywords"]:
                         if kw in raw_name:
@@ -286,10 +303,23 @@ while i < len(lines):
     tvg_name = raw_name
     tvg_logo = guess_logo(tvg_id)
 
-    if is_sports:
-        extinf_new = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{tvg_logo}" group-title="体育频道",{sports_name}'
+    if is_4k:
+        extinf_new = (
+            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+            f'tvg-logo="{tvg_logo}" group-title="4K频道",{raw_name}'
+        )
+
+    elif is_sports:
+        extinf_new = (
+            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+            f'tvg-logo="{tvg_logo}" group-title="体育频道",{sports_name}'
+        )
+
     else:
-        extinf_new = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{tvg_logo}" group-title="{group}",{raw_name}'
+        extinf_new = (
+            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+            f'tvg-logo="{tvg_logo}" group-title="{group}",{raw_name}'
+        )
 
     out.append(extinf_new)
     out.append(url)
