@@ -145,15 +145,15 @@ http://171.213.208.159:4022/udp/239.93.1.231:5140
 http://106.59.2.187:55555/rtp/239.200.200.31:8860
 #EXTINF:-1 tvg-id="杭州HTV5" tvg-name="杭州青少" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%9D%AD%E5%B7%9E%E9%9D%92%E5%B0%91.png" group-title="体育频道",浙江电信丨杭州青少
 http://220.190.54.26:8188/udp/233.50.201.177:5140
-#EXTINF:-1 tvg-id="广东4K超高清" tvg-name="广东4K超高清" tvg-logo="https://example.com/logo/广东4K超高清.png" group-title="4K频道",广东4K超高清
+#EXTINF:-1 tvg-id="广东4K超" tvg-name="广东4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C4K.png" group-title="4K频道",广东4K超高清
 http://58.253.171.244:8188/udp/239.0.1.169:6030
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育频道" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="体育频道",广东联通丨广东体育频道
 http://58.253.171.244:8188/udp/239.0.1.95:5057
-#EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://example.com/logo/北京卫视4K超高清.png" group-title="4K频道",北京卫视4K超高清
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="4K频道",北京卫视4K超高清
 http://121.29.141.237:4022/rtp/239.253.92.220:6229
-#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://example.com/logo/CCTV4K超高清.png" group-title="4K频道",CCTV4K超高清
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://121.29.141.237:4022/rtp/239.253.92.219:6228
-#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://example.com/logo/CCTV4K超高清.png" group-title="4K频道",CCTV4K超高清
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://121.29.141.237:4022/rtp/239.253.93.134:6631
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="山东联通-组播1",山东卫视
 http://39.77.27.109:4002/rtp/239.253.254.78:8000
@@ -277,13 +277,13 @@ http://39.77.27.109:4002/rtp/239.253.254.89:8000
 http://123.145.21.227:8001/udp/225.0.4.194:7980
 #EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E5%BA%86%E6%96%87%E4%BD%93%E5%A8%B1%E4%B9%90.png" group-title="体育频道",重庆联通丨重庆文体娱乐
 http://123.145.21.227:8005/udp/225.0.4.194:7980
-#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://example.com/logo/CCTV4K超高清.png" group-title="4K频道",CCTV4K超高清
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://112.192.73.102:8484/rtp/239.0.0.184:5140
-#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://example.com/logo/CCTV4K超高清.png" group-title="4K频道",CCTV4K超高清
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://112.192.73.154:8484/rtp/239.0.0.184:5140
-#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://example.com/logo/CCTV4K超高清.png" group-title="4K频道",CCTV4K超高清
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://112.192.73.161:8484/rtp/239.0.0.184:5140
-#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超高清" tvg-logo="https://example.com/logo/CCTV4K超高清.png" group-title="4K频道",CCTV4K超高清
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://117.174.25.254:8188/rtp/239.0.0.184:5140
 #EXTINF:-1 tvg-id="辽宁体育" tvg-name="辽宁体育休闲" tvg-logo="https://gitee.com/wuxiyihu/logo/raw/master/tv/Liaoning6.png" group-title="体育频道",辽宁联通丨辽宁体育休闲
 http://123.191.26.168:1111/rtp/232.0.0.164:1234
