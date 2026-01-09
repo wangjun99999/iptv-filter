@@ -82,6 +82,14 @@ def guess_tvg(raw_name, display_name):
         return info["id"], info["name"]
     return raw_name.replace(" ", ""), display_name
 
+# ===================== 4K =====================
+
+FOUR_K_CHANNELS = {
+    "四川联通": ["CCTV4K超高清"],
+    "河北联通": ["CCTV4K超高清", "北京卫视4K超高清"],
+    "广东联通": ["广东4K超高清"],
+}
+
 # ======================================================
 # 体育频道（顺序即输出顺序）
 # ======================================================
@@ -192,33 +200,45 @@ while i < len(lines) - 1:
     m = re.search(r'group-title="([^"]+)"', extinf)
     group = m.group(1) if m else ""
 
-    # ========== 体育 ==========
-    for op, ch in SPORTS_CHANNELS:
-        if group.startswith(op) and raw_name == ch:
-            display = f"{op}丨{raw_name}"
-            tvg_id, tvg_name = guess_tvg(raw_name, display)
-            sports_cache[(op, ch)].append(
+    # ========== 4K ==========
+    for op, names in FOUR_K_CHANNELS.items():
+        if group.startswith(op) and raw_name in names:
+            tvg_id, tvg_name = guess_tvg(raw_name, raw_name)
+            out.append(
                 f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
-                f'group-title="体育频道",{display}\n{url}'
+                f'group-title="4K频道",{raw_name}'
             )
+            out.append(url)
             break
     else:
-        # ========== 地方 ==========
-        for prefix, rule in KEEP_RULES.items():
-            if group.startswith(prefix):
-                keep = (
-                    (rule["cctv"] and raw_name.startswith("CCTV"))
-                    or (rule["satellite"] and "卫视" in raw_name)
-                    or any(k in raw_name for k in rule["keywords"])
+        # ========== 体育 ==========
+        for op, ch in SPORTS_CHANNELS:
+            if group.startswith(op) and raw_name == ch:
+                display = f"{op}丨{raw_name}"
+                tvg_id, _ = guess_tvg(raw_name, raw_name)
+                tvg_name = display
+                sports_cache[(op, ch)].append(
+                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+                    f'group-title="体育频道",{display}\n{url}'
                 )
-                if keep:
-                    tvg_id, tvg_name = guess_tvg(raw_name, raw_name)
-                    out.append(
-                        f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
-                        f'group-title="{group}",{raw_name}'
-                    )
-                    out.append(url)
                 break
+        else:
+            # ========== 地方 ==========
+            for prefix, rule in KEEP_RULES.items():
+                if group.startswith(prefix):
+                    keep = (
+                        (rule["cctv"] and raw_name.startswith("CCTV"))
+                        or (rule["satellite"] and "卫视" in raw_name)
+                        or any(k in raw_name for k in rule["keywords"])
+                    )
+                    if keep:
+                        tvg_id, tvg_name = guess_tvg(raw_name, raw_name)
+                        out.append(
+                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+                            f'group-title="{group}",{raw_name}'
+                        )
+                        out.append(url)
+                    break
 
     i += 2
 
