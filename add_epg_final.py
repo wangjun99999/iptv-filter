@@ -1,11 +1,13 @@
 import requests
 import re
+from collections import defaultdict
 
-# --------------------- 配置 ---------------------
+# ===================== 配置 =====================
 
 SRC_URL = "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.m3u"
 
-# 地方台 tvg-id 映射
+# ===================== tvg-id 映射 =====================
+
 LOCAL_TVG = {
     "CCTV-1综合": "CCTV1",
     "CCTV-2财经": "CCTV2",
@@ -71,67 +73,12 @@ LOCAL_TVG = {
     "成都公共频道": "CDTV5",
     "云南康旅频道": "云南康旅",
     "福建文体频道": "福建体育频道",
-    "杭州青少": "杭州HTV5", 
-    "广东4K超高清": "广东4K超",    
+    "杭州青少": "杭州HTV5",
+    "广东4K超高清": "广东4K超",
 }
 
-# 4K 超高清频道（精确匹配）
-FOUR_K_CHANNELS = {
-    "四川联通": ["CCTV4K超高清"],
-    "河北联通": ["CCTV4K超高清", "北京卫视4K超高清"],
-    "广东联通": ["广东4K超高清"],
-}
+# ===================== LOGO =====================
 
-# 体育频道
-SPORTS_CHANNELS = {
-    "广东联通": ["广东体育频道"],
-    "广东联通": ["CCTV-5体育"],
-    "广东联通": ["CCTV-5+体育赛事"],
-    "河北联通": ["CCTV-5体育"],
-    "河北联通": ["CCTV-5+体育赛事"],
-    "河南联通": ["CCTV-5体育"],
-    "河南联通": ["CCTV-5+体育赛事"],
-    "重庆联通": ["CCTV-5体育"],
-    "重庆联通": ["CCTV-5+体育赛事"],
-    "重庆联通": ["重庆文体娱乐"],
-    "四川联通": ["CCTV-5体育"],
-    "四川联通": ["CCTV-5+体育赛事"],
-    "山西联通": ["CCTV-5体育"],
-    "山西联通": ["CCTV-5+体育赛事"],    
-    "山西联通": ["CCTV-16奥林匹克"],
-    "海南联通": ["CCTV-5体育"],
-    "海南联通": ["CCTV-5+体育赛事"],   
-    "海南联通": ["CCTV-16奥林匹克"],
-    "黑龙江联通": ["CCTV-5体育"],
-    "黑龙江联通": ["CCTV-5+体育赛事"],
-    "辽宁联通": ["CCTV-5体育"],
-    "辽宁联通": ["CCTV-5+体育赛事"], 
-    "辽宁联通": ["CCTV-16奥林匹克"],
-    "辽宁联通": ["辽宁体育休闲"],
-    "福建联通": ["CCTV-5体育"],
-    "福建联通": ["CCTV-5+体育赛事"],     
-    "福建联通": ["CCTV-16奥林匹克"],
-    "湖北联通": ["CCTV-5体育"],
-    "湖北联通": ["CCTV5+体育赛事"],     
-    "湖北联通": ["CCTV-16奥林匹克"],
-    "天津联通": ["CCTV-5体育"],
-    "天津联通": ["CCTV-5+体育赛事"], 
-    "天津联通": ["CCTV-16奥林匹克"],
-    "天津联通": ["天津体育频道"],
-    "广东电信": ["深圳体育健康"],
-    "重庆电信": ["重庆文体娱乐"],
-    "福建电信": ["福建文体频道"],
-    "湖北电信": ["武汉文体频道"],
-    "陕西电信": ["陕西体育休闲"],
-    "天津电信": ["天津体育频道"],
-    "江苏电信": ["江苏体育休闲"],
-    "上海电信": ["五星体育"],
-    "四川电信": ["成都公共频道"],
-    "云南电信": ["云南康旅频道"],
-    "浙江电信": ["杭州青少"],
-}
-
-# tvg-logo 映射示例
 LOGO_MAP = {
     "CCTV1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png",
     "CCTV2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV2.png",
@@ -236,48 +183,121 @@ LOGO_MAP = {
     "陕西七套": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png",   
 }
 
-# --------------------- 筛选规则 ---------------------
+def guess_tvg_id(name):
+    return LOCAL_TVG.get(name, name.replace(" ", ""))
+
+def guess_logo(tvg_id):
+    return LOGO_MAP.get(tvg_id, "")
+
+# ===================== 4K =====================
+
+FOUR_K_CHANNELS = {
+    "四川联通": ["CCTV4K超高清"],
+    "河北联通": ["CCTV4K超高清", "北京卫视4K超高清"],
+    "广东联通": ["广东4K超高清"],
+}
+
+# ===================== 体育频道（顺序即输出顺序） =====================
+
+SPORTS_CHANNELS = [
+    ("广东联通", "广东体育频道"),
+    ("广东联通", "CCTV-5体育"),
+    ("广东联通", "CCTV-5+体育赛事"),
+
+    ("河北联通", "CCTV-5体育"),
+    ("河北联通", "CCTV-5+体育赛事"),
+
+    ("河南联通", "CCTV-5体育"),
+    ("河南联通", "CCTV-5+体育赛事"),
+
+    ("重庆联通", "CCTV-5体育"),
+    ("重庆联通", "CCTV-5+体育赛事"),
+    ("重庆联通", "重庆文体娱乐"),
+
+    ("四川联通", "CCTV-5体育"),
+    ("四川联通", "CCTV-5+体育赛事"),
+
+    ("山西联通", "CCTV-5体育"),
+    ("山西联通", "CCTV-5+体育赛事"),
+    ("山西联通", "CCTV-16奥林匹克"),
+
+    ("海南联通", "CCTV-5体育"),
+    ("海南联通", "CCTV-5+体育赛事"),
+    ("海南联通", "CCTV-16奥林匹克"),
+
+    ("黑龙江联通", "CCTV-5体育"),
+    ("黑龙江联通", "CCTV-5+体育赛事"),
+
+    ("辽宁联通", "CCTV-5体育"),
+    ("辽宁联通", "CCTV-5+体育赛事"),
+    ("辽宁联通", "CCTV-16奥林匹克"),
+    ("辽宁联通", "辽宁体育休闲"),
+
+    ("福建联通", "CCTV-5体育"),
+    ("福建联通", "CCTV-5+体育赛事"),
+    ("福建联通", "CCTV-16奥林匹克"),
+
+    ("湖北联通", "CCTV-5体育"),
+    ("湖北联通", "CCTV5+体育赛事"),     
+    ("湖北联通", "CCTV-16奥林匹克"),
+    
+    ("天津联通", "CCTV-5体育"),
+    ("天津联通", "CCTV-5+体育赛事"), 
+    ("天津联通", "CCTV-16奥林匹克"),
+    ("天津联通", "天津体育频道"),
+    
+    ("广东电信", "深圳体育健康"),
+    ("重庆电信", "重庆文体娱乐"),
+    ("福建电信", "福建文体频道"),
+    ("湖北电信", "武汉文体频道"),
+    ("陕西电信", "陕西体育休闲"),
+    ("天津电信", "天津体育频道"),
+    ("江苏电信", "江苏体育休闲"),
+    ("上海电信", "五星体育"),
+    ("四川电信", "成都公共频道"),
+    ("云南电信", "云南康旅频道"),
+    ("浙江电信", "杭州青少"),
+]
+
+# ===================== 地方保留规则 =====================
 
 KEEP_RULES = {
     "山东电信": {
         "cctv": True,
         "satellite": True,
-        "keywords": ["山东", "青岛1","青岛2","青岛3","青岛4","青岛5","青岛6"]
+        "keywords": ["山东", "青岛1", "青岛2", "青岛3", "青岛4", "青岛5", "青岛6"]
     },
     "山东联通": {
         "cctv": True,
         "satellite": True,
-        "keywords": ["山东","青岛QTV1","青岛QTV2","青岛QTV3","青岛QTV4"]
+        "keywords": ["山东", "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"]
     },
     "北京联通": {
         "cctv": True,
         "satellite": True,
-        "keywords": ["北京","青岛QTV1","青岛QTV2","青岛QTV3","青岛QTV4"]
+        "keywords": ["北京", "青岛QTV1", "青岛QTV2", "青岛QTV3", "青岛QTV4"]
     },
 }
 
-# --------------------- 工具函数 ---------------------
+# ===================== 主处理 =====================
 
-def guess_tvg_id(name):
-    if name in LOCAL_TVG:
-        return LOCAL_TVG[name]
-    return name.replace(" ", "")
-
-def guess_logo(tvg_id):
-    return LOGO_MAP.get(tvg_id, f"https://example.com/logo/{tvg_id}.png")
-
-# --------------------- 主处理 ---------------------
-
-resp = requests.get(SRC_URL)
+resp = requests.get(SRC_URL, timeout=15)
 resp.encoding = "utf-8"
 lines = resp.text.splitlines()
 
-out = ["#EXTM3U"]
-i = 0
+groups = {
+    "4K频道": [],
+    "体育频道": [],
+    "山东联通": [],
+    "山东电信": [],
+    "北京联通": [],
+}
 
-while i < len(lines):
-    line = lines[i]
-    if not line.startswith("#EXTINF"):
+sports_cache = defaultdict(list)
+
+i = 0
+while i < len(lines) - 1:
+    if not lines[i].startswith("#EXTINF"):
         i += 1
         continue
 
@@ -285,85 +305,60 @@ while i < len(lines):
     url = lines[i + 1]
     raw_name = extinf.split(",")[-1].strip()
 
-    # group-title
     m = re.search(r'group-title="([^"]+)"', extinf)
-    group = m.group(1) if m else "其他频道"
-
-
-    # ---------- 4K 频道 ----------
-    is_4k = False
-    for operator, channels in FOUR_K_CHANNELS.items():
-        if group.startswith(operator) and raw_name in channels:
-            is_4k = True
-            break
-
-    # ---------- 体育频道 ----------
-    is_sports = False
-    sports_name = ""
-    if not is_4k:
-        for operator, channels in SPORTS_CHANNELS.items():
-            if group.startswith(operator) and raw_name in channels:
-                is_sports = True
-                sports_name = f"{operator}丨{raw_name}"
-                break
-
-    # --------------------- 是否保留 ---------------------
-    keep = False
-
-    if is_4k:
-        keep = True
-
-    elif is_sports:
-        keep = True
-
-    else:
-        for prefix, rule in KEEP_RULES.items():
-            if group.startswith(prefix):
-                if rule.get("cctv") and raw_name.upper().startswith("CCTV"):
-                    keep = True
-                elif rule.get("satellite") and "卫视" in raw_name:
-                    keep = True
-                elif "exact" in rule and raw_name in rule["exact"]:
-                    keep = True
-                elif "keywords" in rule:
-                    for kw in rule["keywords"]:
-                        if kw in raw_name:
-                            keep = True
-                            break
-                break  # 匹配到分组就不用继续看
-    if not keep:
-        i += 2
-        continue
+    group = m.group(1) if m else ""
 
     tvg_id = guess_tvg_id(raw_name)
-    tvg_name = raw_name
-    tvg_logo = guess_logo(tvg_id)
+    logo = guess_logo(tvg_id)
 
-    if is_4k:
-        extinf_new = (
-            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
-            f'tvg-logo="{tvg_logo}" group-title="4K频道",{raw_name}'
-        )
-
-    elif is_sports:
-        extinf_new = (
-            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
-            f'tvg-logo="{tvg_logo}" group-title="体育频道",{sports_name}'
-        )
-
+    # ---------- 4K ----------
+    for op, names in FOUR_K_CHANNELS.items():
+        if group.startswith(op) and raw_name in names:
+            groups["4K频道"].append((
+                f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="4K频道",{raw_name}',
+                url
+            ))
+            break
     else:
-        extinf_new = (
-            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
-            f'tvg-logo="{tvg_logo}" group-title="{group}",{raw_name}'
-        )
+        # ---------- 体育 ----------
+        for op, ch in SPORTS_CHANNELS:
+            if group.startswith(op) and raw_name == ch:
+                sports_cache[(op, ch)].append((
+                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="体育频道",{raw_name}',
+                    url
+                ))
+                break
+        else:
+            # ---------- 地方 ----------
+            for prefix, rule in KEEP_RULES.items():
+                if group.startswith(prefix):
+                    keep = (
+                        (rule["cctv"] and raw_name.startswith("CCTV")) or
+                        (rule["satellite"] and "卫视" in raw_name) or
+                        any(k in raw_name for k in rule["keywords"])
+                    )
+                    if keep:
+                        groups[prefix].append((
+                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{prefix}",{raw_name}',
+                            url
+                        ))
+                    break
 
-    out.append(extinf_new)
-    out.append(url)
     i += 2
 
-# --------------------- 输出 ---------------------
+# ---------- 体育按顺序输出 ----------
+for key in SPORTS_CHANNELS:
+    groups["体育频道"].extend(sports_cache.get(key, []))
+
+# ===================== 输出 =====================
+
+out = ["#EXTM3U"]
+for g in ["4K频道", "体育频道", "山东联通", "山东电信", "北京联通"]:
+    for ext, url in groups[g]:
+        out.append(ext)
+        out.append(url)
 
 with open("output_epg.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("生成完成：output_epg.m3u（按规则筛选 + 体育频道 + tvg + logo）")
+print("生成完成：output_epg.m3u")
