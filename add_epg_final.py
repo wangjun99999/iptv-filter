@@ -35,6 +35,7 @@ LOCAL_TVG = {
     "CCTV-17农业农村": {"id": "CCTV17", "name": "CCTV17"},
     "CCTV4K超高清": {"id": "CCTV4K", "name": "CCTV4K"},
     
+    # 地方频道
     "山东体育频道": {"id": "山东体育休闲", "name": "山东体育休闲"},
     "山东新闻频道": {"id": "山东新闻", "name": "山东新闻"},
     "山东农科频道": {"id": "山东农科", "name": "山东农科"},
@@ -56,6 +57,7 @@ LOCAL_TVG = {
     "青岛5": {"id": "青岛教育", "name": "青岛教育"},
     "青岛6": {"id": "青岛tv6", "name": "青岛TV6"},
 
+    # 北京
     "北京卫视4K超高清": {"id": "北京卫视", "name": "北京卫视"},
     "北京影视频道": {"id": "北京影视", "name": "北京影视"},
     "北京文艺频道": {"id": "北京文艺", "name": "北京文艺"},
@@ -64,6 +66,7 @@ LOCAL_TVG = {
     "北京财经频道": {"id": "北京财经", "name": "北京财经"},
     "北京卡酷少儿": {"id": "卡酷少儿", "name": "卡酷少儿"},
 
+    # 其他
     "广东体育频道": {"id": "广东体育", "name": "广东体育"},
     "辽宁体育休闲": {"id": "辽宁体育", "name": "辽宁体育"},
     "天津体育频道": {"id": "天津体育", "name": "天津体育"},
@@ -76,11 +79,122 @@ LOCAL_TVG = {
     "广东4K超高清": {"id": "广东4K超", "name": "广东4K超"},
 }
 
-def guess_tvg(raw_name, display_name):
+# ======================================================
+# LOGO 映射（自定义）
+# ======================================================
+
+LOGO_MAP = {
+    "CCTV1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png",
+    "CCTV2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV2.png",
+    "CCTV3": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV3.png",
+    "CCTV4": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4.png",
+    "CCTV5": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png",
+    "CCTV5+": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png",
+    "CCTV6": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV6.png",
+    "CCTV7": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV7.png",
+    "CCTV8": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV8.png",
+    "CCTV9": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV9.png",
+    "CCTV10": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV10.png",
+    "CCTV11": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV11.png",
+    "CCTV12": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV12.png",
+    "CCTV13": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV13.png",
+    "CCTV14": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV14.png",
+    "CCTV15": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV15.png",
+    "CCTV16": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV16.png",
+    "CCTV17": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV17.png",
+    "CCTV4欧洲": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png",
+    "CCTV4美洲": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png",
+    "CCTV4K": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png",
+    "山东体育": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png",
+    "山东农科": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%86%9C%E7%A7%91.png",
+    "山东少儿": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%B0%91%E5%84%BF.png",
+    "山东教育": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2.png",
+    "山东文旅": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%96%87%E6%97%85.png",
+    "山东新闻": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%96%B0%E9%97%BB.png",
+    "山东生活": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E7%94%9F%E6%B4%BB.png",
+    "山东综艺": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E7%BB%BC%E8%89%BA.png",
+    "山东齐鲁": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E9%BD%90%E9%B2%81.png",
+    "山东居家购物": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%B1%85%E5%AE%B6%E8%B4%AD%E7%89%A9.png",    
+    "青岛tv1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-1.png",
+    "青岛tv2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-2.png",
+    "青岛tv3": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-3.png",
+    "青岛tv4": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png",
+    "青岛tv5": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-5.png",
+    "青岛tv6": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/QTV6.png",
+    "BTV体育": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png",
+    "BTV影视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%BD%B1%E8%A7%86.png",
+    "BTV文艺": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E6%96%87%E8%89%BA.png",
+    "BTV新闻": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E6%96%B0%E9%97%BB.png",
+    "BTV生活": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E7%94%9F%E6%B4%BB.png",
+    "BTV科教": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E7%BA%AA%E5%AE%9E%E7%A7%91%E6%95%99.png",
+    "BTV财经": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E8%B4%A2%E7%BB%8F.png",
+    "卡酷少儿": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF.png",
+    "北京国际频道": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E9%A2%91%E9%81%93.png",
+    "北京IPTV4K超清": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%ACIPTV4K.png",
+    "北京IPTV淘电影": "https://gitee.com/wuxiyihu/logo/raw/master/tv/bjtdy.png",
+    "北京IPTV淘剧场": "https://gitee.com/wuxiyihu/logo/raw/master/tv/bjtjc.png",
+    "北京IPTV淘娱乐": "https://gitee.com/wuxiyihu/logo/raw/master/tv/bjtyl.png",
+    "北京IPTV淘BABY": "https://gitee.com/wuxiyihu/logo/raw/master/tv/bjtbb.png",
+    "北京IPTV萌宠TV": "https://gitee.com/wuxiyihu/logo/raw/master/tv/bjmctv.png",
+    "北京卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png",
+    "湖南卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+    "东方卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png",
+    "浙江卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png",
+    "江苏卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png",
+    "深圳卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png",
+    "广东卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png",
+    "安徽卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png",
+    "天津卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png",
+    "重庆卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png",
+    "山东卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png",
+    "河北卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png",
+    "辽宁卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png",
+    "湖北卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png",
+    "吉林卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png",
+    "贵州卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png",
+    "东南卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+    "江西卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
+    "海南卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+    "黑龙江卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png",
+    "云南卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+    "四川卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png",
+    "宁夏卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png",
+    "山西卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
+    "广西卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
+    "新疆卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png",
+    "河南卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+    "甘肃卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png",
+    "西藏卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png",
+    "陕西卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
+    "青海卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png",
+    "内蒙古卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png",
+    "三沙卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86.png",
+    "厦门卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8E%A6%E9%97%A8%E5%8D%AB%E8%A7%86.png",
+    "兵团卫视": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png",
+    "广东4K超": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C4K.png",
+    "CDTV5": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png",
+    "武汉文体": "https://gitee.com/wuxiyihu/logo/raw/master/tv/Wuhan5.png",
+    "天津体育": "https://gitee.com/wuxiyihu/logo/raw/master/tv/Tianjin5.png",
+    "辽宁体育": "https://gitee.com/wuxiyihu/logo/raw/master/tv/Liaoning6.png",
+    "云南康旅": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%91%E5%8D%97%E5%BA%B7%E6%97%85.png",
+    "杭州HTV5": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%9D%AD%E5%B7%9E%E9%9D%92%E5%B0%91.png",     
+    "五星体育": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2.png",
+    "广东体育": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C%E4%BD%93%E8%82%B2.png",
+    "深圳体育健康": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%B7%B1%E5%9C%B3%E4%BD%93%E8%82%B2%E5%81%A5%E5%BA%B7.png",
+    "江苏休闲体育": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B1%9F%E8%8B%8F%E4%BC%91%E9%97%B2%E4%BD%93%E8%82%B2.png",
+    "福建体育频道": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E7%A6%8F%E5%BB%BA%E6%96%87%E4%BD%93.png",
+    "重庆文体娱乐": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E5%BA%86%E6%96%87%E4%BD%93%E5%A8%B1%E4%B9%90.png",
+    "陕西七套": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png",   
+}
+
+def guess_tvg(raw_name, display_name=None):
     info = LOCAL_TVG.get(raw_name)
     if info:
         return info["id"], info["name"]
-    return raw_name.replace(" ", ""), display_name
+    return raw_name.replace(" ", ""), display_name or raw_name
+
+def get_logo(raw_name, tvg_id):
+    return LOGO_MAP.get(raw_name, f"https://example.com/logo/{tvg_id}.png")
 
 # ===================== 4K =====================
 
@@ -203,9 +317,10 @@ while i < len(lines) - 1:
     # ========== 4K ==========
     for op, names in FOUR_K_CHANNELS.items():
         if group.startswith(op) and raw_name in names:
-            tvg_id, tvg_name = guess_tvg(raw_name, raw_name)
+            tvg_id, tvg_name = guess_tvg(raw_name)
+            logo = get_logo(raw_name, tvg_id)
             out.append(
-                f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+                f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" '
                 f'group-title="4K频道",{raw_name}'
             )
             out.append(url)
@@ -214,11 +329,12 @@ while i < len(lines) - 1:
         # ========== 体育 ==========
         for op, ch in SPORTS_CHANNELS:
             if group.startswith(op) and raw_name == ch:
+                tvg_id, _ = guess_tvg(raw_name)
+                tvg_name = LOCAL_TVG.get(raw_name, {}).get("name", raw_name)
+                logo = get_logo(raw_name, tvg_id)
                 display = f"{op}丨{raw_name}"
-                tvg_id, _ = guess_tvg(raw_name, raw_name)
-                tvg_name = display
                 sports_cache[(op, ch)].append(
-                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" '
                     f'group-title="体育频道",{display}\n{url}'
                 )
                 break
@@ -232,9 +348,10 @@ while i < len(lines) - 1:
                         or any(k in raw_name for k in rule["keywords"])
                     )
                     if keep:
-                        tvg_id, tvg_name = guess_tvg(raw_name, raw_name)
+                        tvg_id, tvg_name = guess_tvg(raw_name)
+                        logo = get_logo(raw_name, tvg_id)
                         out.append(
-                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '
+                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" '
                             f'group-title="{group}",{raw_name}'
                         )
                         out.append(url)
