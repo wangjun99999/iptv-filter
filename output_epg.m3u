@@ -23,11 +23,11 @@ http://113.119.27.213:58888/udp/239.77.1.128:5146
 http://183.236.43.98:4013/udp/239.77.1.128:5146
 #EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E5%BA%86%E6%96%87%E4%BD%93%E5%A8%B1%E4%B9%90.png" group-title="体育频道",重庆电信丨重庆文体娱乐
 http://106.83.118.51:8188/rtp/235.254.198.187:7980
-#EXTINF:-1 tvg-id="福建文体" tvg-name="福建文体" tvg-logo="https://example.com/logo/福建文体.png" group-title="体育频道",福建电信丨福建文体频道
+#EXTINF:-1 tvg-id="福建文体" tvg-name="福建文体" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E7%A6%8F%E5%BB%BA%E6%96%87%E4%BD%93.png" group-title="体育频道",福建电信丨福建文体频道
 http://117.30.58.241:18888/rtp/239.61.2.160:8948
 #EXTINF:-1 tvg-id="武汉文体" tvg-name="武汉文体" tvg-logo="https://gitee.com/wuxiyihu/logo/raw/master/tv/Wuhan5.png" group-title="体育频道",湖北电信丨武汉文体频道
 http://58.48.104.165:4022/rtp/239.69.1.147:10518
-#EXTINF:-1 tvg-id="陕西体育休闲" tvg-name="陕西体育休闲" tvg-logo="https://example.com/logo/陕西体育休闲.png" group-title="体育频道",陕西电信丨陕西体育休闲
+#EXTINF:-1 tvg-id="陕西体育休闲" tvg-name="陕西体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png" group-title="体育频道",陕西电信丨陕西体育休闲
 http://36.46.98.181:8025/rtp/239.111.205.36:5140
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" tvg-logo="https://gitee.com/wuxiyihu/logo/raw/master/tv/Tianjin5.png" group-title="体育频道",天津电信丨天津体育频道
 http://180.213.170.24:8188/rtp/239.5.1.3:5000
@@ -37,13 +37,13 @@ http://180.105.201.170:9981/rtp/239.49.8.117:8000
 http://116.235.57.59:4022/rtp/239.45.3.210:5140
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2.png" group-title="体育频道",上海电信丨五星体育
 http://223.167.230.132:4022/rtp/239.45.3.210:5140
-#EXTINF:-1 tvg-id="成都公共" tvg-name="成都公共" tvg-logo="https://example.com/logo/成都公共.png" group-title="体育频道",四川电信丨成都公共频道
+#EXTINF:-1 tvg-id="成都公共" tvg-name="成都公共" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png" group-title="体育频道",四川电信丨成都公共频道
 http://171.213.208.159:4022/udp/239.93.1.231:5140
 #EXTINF:-1 tvg-id="云南康旅" tvg-name="云南康旅" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%91%E5%8D%97%E5%BA%B7%E6%97%85.png" group-title="体育频道",云南电信丨云南康旅频道
 http://106.59.2.187:55555/rtp/239.200.200.31:8860
 #EXTINF:-1 tvg-id="云南康旅" tvg-name="云南康旅" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%91%E5%8D%97%E5%BA%B7%E6%97%85.png" group-title="体育频道",云南电信丨云南康旅频道
 http://106.59.2.229:55555/rtp/239.200.200.31:8860
-#EXTINF:-1 tvg-id="杭州青少体育" tvg-name="杭州青少体育" tvg-logo="https://example.com/logo/杭州青少体育.png" group-title="体育频道",浙江电信丨杭州青少
+#EXTINF:-1 tvg-id="杭州青少体育" tvg-name="杭州青少体育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%9D%AD%E5%B7%9E%E9%9D%92%E5%B0%91.png" group-title="体育频道",浙江电信丨杭州青少
 http://220.190.54.26:8188/udp/233.50.201.177:5140
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="体育频道",广东联通丨广东体育频道
 http://58.253.171.244:8188/udp/239.0.1.95:5057
@@ -159,7 +159,7 @@ http://111.162.204.145:8686/rtp/225.1.1.121:5002
 http://111.162.204.145:8686/rtp/225.1.2.237:5002
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播1",山东卫视
 http://144.255.16.69:6688/udp/239.21.1.87:5002
-#EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" tvg-logo="https://example.com/logo/山东体育休闲.png" group-title="山东电信-组播1",山东体育频道
+#EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="山东电信-组播1",山东体育频道
 http://144.255.16.69:6688/udp/239.21.1.141:5002
 #EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%86%9C%E7%A7%91.png" group-title="山东电信-组播1",山东农科频道
 http://144.255.16.69:6688/udp/239.21.1.183:5002
@@ -257,15 +257,15 @@ http://144.255.16.69:6688/udp/239.21.1.166:5002
 http://144.255.16.69:6688/udp/239.21.1.164:5002
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播1",黑龙江卫视
 http://144.255.16.69:6688/udp/239.21.1.28:5002
-#EXTINF:-1 tvg-id="青岛新闻综合" tvg-name="青岛新闻综合" tvg-logo="https://example.com/logo/青岛新闻综合.png" group-title="山东电信-组播1",青岛1
+#EXTINF:-1 tvg-id="青岛新闻综合" tvg-name="青岛新闻综合" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-1.png" group-title="山东电信-组播1",青岛1
 http://144.255.16.69:6688/udp/239.21.1.69:5002
-#EXTINF:-1 tvg-id="青岛生活服务" tvg-name="青岛生活服务" tvg-logo="https://example.com/logo/青岛生活服务.png" group-title="山东电信-组播1",青岛2
+#EXTINF:-1 tvg-id="青岛生活服务" tvg-name="青岛生活服务" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-2.png" group-title="山东电信-组播1",青岛2
 http://144.255.16.69:6688/udp/239.21.1.70:5002
-#EXTINF:-1 tvg-id="青岛影视" tvg-name="青岛影视" tvg-logo="https://example.com/logo/青岛影视.png" group-title="山东电信-组播1",青岛3
+#EXTINF:-1 tvg-id="青岛影视" tvg-name="青岛影视" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-3.png" group-title="山东电信-组播1",青岛3
 http://144.255.16.69:6688/udp/239.21.1.71:5002
-#EXTINF:-1 tvg-id="青岛都市" tvg-name="青岛都市" tvg-logo="https://example.com/logo/青岛都市.png" group-title="山东电信-组播1",青岛4
+#EXTINF:-1 tvg-id="青岛都市" tvg-name="青岛都市" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png" group-title="山东电信-组播1",青岛4
 http://144.255.16.69:6688/udp/239.21.1.72:5002
-#EXTINF:-1 tvg-id="青岛教育" tvg-name="青岛教育" tvg-logo="https://example.com/logo/青岛教育.png" group-title="山东电信-组播1",青岛5
+#EXTINF:-1 tvg-id="青岛教育" tvg-name="青岛教育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-5.png" group-title="山东电信-组播1",青岛5
 http://144.255.16.69:6688/udp/239.21.1.73:5002
 #EXTINF:-1 tvg-id="青岛tv6" tvg-name="青岛TV6" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/QTV6.png" group-title="山东电信-组播1",青岛6
 http://144.255.16.69:6688/udp/239.21.1.74:5002
@@ -289,19 +289,19 @@ http://39.77.27.109:4002/rtp/239.253.254.25:8000
 http://39.77.27.109:4002/rtp/239.253.254.151:8000
 #EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%96%87%E6%97%85.png" group-title="山东联通-组播1",山东文旅频道
 http://39.77.27.109:4002/rtp/239.253.254.160:8000
-#EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" tvg-logo="https://example.com/logo/山东体育休闲.png" group-title="山东联通-组播1",山东体育休闲
+#EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="山东联通-组播1",山东体育休闲
 http://39.77.27.109:4002/rtp/239.253.254.22:8000
 #EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2.png" group-title="山东联通-组播1",山东教育卫视
 http://39.77.27.109:4002/rtp/239.253.254.59:8000
 #EXTINF:-1 tvg-id="山东居家购物" tvg-name="山东居家购物" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%B1%B1%E4%B8%9C%E5%B1%85%E5%AE%B6%E8%B4%AD%E7%89%A9.png" group-title="山东联通-组播1",山东居家购物
 http://39.77.27.109:4002/rtp/239.253.254.104:8000
-#EXTINF:-1 tvg-id="青岛新闻综合" tvg-name="青岛新闻综合" tvg-logo="https://example.com/logo/青岛新闻综合.png" group-title="山东联通-组播1",青岛QTV1
+#EXTINF:-1 tvg-id="青岛新闻综合" tvg-name="青岛新闻综合" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-1.png" group-title="山东联通-组播1",青岛QTV1
 http://39.77.27.109:4002/rtp/239.253.254.249:8000
-#EXTINF:-1 tvg-id="青岛生活服务" tvg-name="青岛生活服务" tvg-logo="https://example.com/logo/青岛生活服务.png" group-title="山东联通-组播1",青岛QTV2
+#EXTINF:-1 tvg-id="青岛生活服务" tvg-name="青岛生活服务" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-2.png" group-title="山东联通-组播1",青岛QTV2
 http://39.77.27.109:4002/rtp/239.253.254.250:8000
-#EXTINF:-1 tvg-id="青岛影视" tvg-name="青岛影视" tvg-logo="https://example.com/logo/青岛影视.png" group-title="山东联通-组播1",青岛QTV3
+#EXTINF:-1 tvg-id="青岛影视" tvg-name="青岛影视" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-3.png" group-title="山东联通-组播1",青岛QTV3
 http://39.77.27.109:4002/rtp/239.253.254.251:8000
-#EXTINF:-1 tvg-id="青岛都市" tvg-name="青岛都市" tvg-logo="https://example.com/logo/青岛都市.png" group-title="山东联通-组播1",青岛QTV4
+#EXTINF:-1 tvg-id="青岛都市" tvg-name="青岛都市" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png" group-title="山东联通-组播1",青岛QTV4
 http://39.77.27.109:4002/rtp/239.253.254.252:8000
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png" group-title="山东联通-组播1",CCTV-1综合
 http://39.77.27.109:4002/rtp/239.253.254.77:8000
@@ -393,21 +393,21 @@ http://39.77.27.109:4002/rtp/239.253.254.180:8000
 http://39.77.27.109:4002/rtp/239.253.254.89:8000
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="北京联通-组播1",北京卫视
 http://114.241.250.59:4022/rtp/239.3.1.241:8000
-#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://example.com/logo/北京新闻.png" group-title="北京联通-组播1",北京新闻频道
+#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E6%96%B0%E9%97%BB.png" group-title="北京联通-组播1",北京新闻频道
 http://114.241.250.59:4022/rtp/239.3.1.159:8000
-#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://example.com/logo/北京影视.png" group-title="北京联通-组播1",北京影视频道
+#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%BD%B1%E8%A7%86.png" group-title="北京联通-组播1",北京影视频道
 http://114.241.250.59:4022/rtp/239.3.1.158:8000
-#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://example.com/logo/北京文艺.png" group-title="北京联通-组播1",北京文艺频道
+#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E6%96%87%E8%89%BA.png" group-title="北京联通-组播1",北京文艺频道
 http://114.241.250.59:4022/rtp/239.3.1.242:8000
-#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://example.com/logo/北京财经.png" group-title="北京联通-组播1",北京财经频道
+#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E8%B4%A2%E7%BB%8F.png" group-title="北京联通-组播1",北京财经频道
 http://114.241.250.59:4022/rtp/239.3.1.116:8000
-#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://example.com/logo/北京生活.png" group-title="北京联通-组播1",北京生活频道
+#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E7%94%9F%E6%B4%BB.png" group-title="北京联通-组播1",北京生活频道
 http://114.241.250.59:4022/rtp/239.3.1.117:8000
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://example.com/logo/北京纪实科教.png" group-title="北京联通-组播1",北京纪实科教
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E7%BA%AA%E5%AE%9E%E7%A7%91%E6%95%99.png" group-title="北京联通-组播1",北京纪实科教
 http://114.241.250.59:4022/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF.png" group-title="北京联通-组播1",北京卡酷少儿
 http://114.241.250.59:4022/rtp/239.3.1.189:8000
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://example.com/logo/北京体育休闲.png" group-title="北京联通-组播1",北京体育休闲
+#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png" group-title="北京联通-组播1",北京体育休闲
 http://114.241.250.59:4022/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="北京国际频道" tvg-name="北京国际频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E9%A2%91%E9%81%93.png" group-title="北京联通-组播1",北京国际频道
 http://114.241.250.59:4022/rtp/239.3.1.235:8000
@@ -535,21 +535,21 @@ http://114.241.250.59:4022/rtp/239.3.1.214:4220
 http://114.241.250.59:4022/rtp/239.3.1.52:4120
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="北京联通-组播2",北京卫视
 http://114.254.34.19:18888/rtp/239.3.1.241:8000
-#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://example.com/logo/北京新闻.png" group-title="北京联通-组播2",北京新闻频道
+#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E6%96%B0%E9%97%BB.png" group-title="北京联通-组播2",北京新闻频道
 http://114.254.34.19:18888/rtp/239.3.1.159:8000
-#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://example.com/logo/北京影视.png" group-title="北京联通-组播2",北京影视频道
+#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%BD%B1%E8%A7%86.png" group-title="北京联通-组播2",北京影视频道
 http://114.254.34.19:18888/rtp/239.3.1.158:8000
-#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://example.com/logo/北京文艺.png" group-title="北京联通-组播2",北京文艺频道
+#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E6%96%87%E8%89%BA.png" group-title="北京联通-组播2",北京文艺频道
 http://114.254.34.19:18888/rtp/239.3.1.242:8000
-#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://example.com/logo/北京财经.png" group-title="北京联通-组播2",北京财经频道
+#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E8%B4%A2%E7%BB%8F.png" group-title="北京联通-组播2",北京财经频道
 http://114.254.34.19:18888/rtp/239.3.1.116:8000
-#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://example.com/logo/北京生活.png" group-title="北京联通-组播2",北京生活频道
+#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E7%94%9F%E6%B4%BB.png" group-title="北京联通-组播2",北京生活频道
 http://114.254.34.19:18888/rtp/239.3.1.117:8000
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://example.com/logo/北京纪实科教.png" group-title="北京联通-组播2",北京纪实科教
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E7%BA%AA%E5%AE%9E%E7%A7%91%E6%95%99.png" group-title="北京联通-组播2",北京纪实科教
 http://114.254.34.19:18888/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF.png" group-title="北京联通-组播2",北京卡酷少儿
 http://114.254.34.19:18888/rtp/239.3.1.189:8000
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://example.com/logo/北京体育休闲.png" group-title="北京联通-组播2",北京体育休闲
+#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png" group-title="北京联通-组播2",北京体育休闲
 http://114.254.34.19:18888/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="北京国际频道" tvg-name="北京国际频道" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E9%A2%91%E9%81%93.png" group-title="北京联通-组播2",北京国际频道
 http://114.254.34.19:18888/rtp/239.3.1.235:8000
