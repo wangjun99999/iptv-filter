@@ -324,7 +324,7 @@ while i < len(lines) - 1:
         for op, ch in SPORTS_CHANNELS:
             if group.startswith(op) and raw_name == ch:
                 sports_cache[(op, ch)].append((
-                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="体育频道",{raw_name}',
+                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="体育频道",{op}丨{raw_name}',
                     url
                 ))
                 break
@@ -339,7 +339,7 @@ while i < len(lines) - 1:
                     )
                     if keep:
                         groups[prefix].append((
-                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{prefix}",{raw_name}',
+                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{group}",{raw_name}',
                             url
                         ))
                     break
