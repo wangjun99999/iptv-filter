@@ -5,11 +5,9 @@ from collections import defaultdict
 SRC_URL = "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.m3u"
 OUT_FILE = "output_epg.m3u"
 
-# ======================================================
-# tvg-id / tvg-name 映射（EPG 核心）
-# ======================================================
-
+# ===================== TVG 映射 =====================
 LOCAL_TVG = {
+    # CCTV
     "CCTV-1综合": {"id": "CCTV1", "name": "CCTV1"},
     "CCTV-2财经": {"id": "CCTV2", "name": "CCTV2"},
     "CCTV-3综艺": {"id": "CCTV3", "name": "CCTV3"},
@@ -79,10 +77,7 @@ LOCAL_TVG = {
     "广东4K超高清": {"id": "广东4K超", "name": "广东4K超"},
 }
 
-# ======================================================
-# LOGO 映射（自定义）
-# ======================================================
-
+# ===================== LOGO 映射 =====================
 LOGO_MAP = {
     "CCTV1": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png",
     "CCTV2": "https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV2.png",
@@ -187,27 +182,14 @@ LOGO_MAP = {
     "陕西七套": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png",   
 }
 
-def guess_tvg(raw_name, display_name=None):
-    info = LOCAL_TVG.get(raw_name)
-    if info:
-        return info["id"], info["name"]
-    return raw_name.replace(" ", ""), display_name or raw_name
-
-def get_logo(raw_name, tvg_id):
-    return LOGO_MAP.get(raw_name, f"https://example.com/logo/{tvg_id}.png")
-
 # ===================== 4K =====================
-
 FOUR_K_CHANNELS = {
     "四川联通": ["CCTV4K超高清"],
     "河北联通": ["CCTV4K超高清", "北京卫视4K超高清"],
     "广东联通": ["广东4K超高清"],
 }
 
-# ======================================================
-# 体育频道（顺序即输出顺序）
-# ======================================================
-
+# ===================== 体育 =====================
 SPORTS_CHANNELS = [
     ("广东联通", "广东体育频道"),
     ("广东联通", "CCTV-5体育"),
@@ -268,10 +250,7 @@ SPORTS_CHANNELS = [
     ("浙江电信", "杭州青少"),
 ]
 
-# ======================================================
-# 地方筛选规则
-# ======================================================
-
+# ===================== 地方筛选规则 =====================
 KEEP_RULES = {
     "山东电信": {
         "cctv": True,
@@ -290,16 +269,24 @@ KEEP_RULES = {
     },
 }
 
-# ======================================================
-# 主流程
-# ======================================================
+# ===================== 辅助函数 =====================
+def guess_tvg(raw_name):
+    info = LOCAL_TVG.get(raw_name)
+    if info:
+        return info["id"], info["name"]
+    return raw_name.replace(" ", ""), raw_name
 
+def get_logo(tvg_id):
+    return LOGO_MAP.get(tvg_id, f"https://example.com/logo/{tvg_id}.png")
+
+# ===================== 主流程 =====================
 resp = requests.get(SRC_URL, timeout=15)
 resp.encoding = "utf-8"
 lines = resp.text.splitlines()
 
-out = ["#EXTM3U"]
-sports_cache = defaultdict(list)
+m3u_4k = []
+m3u_sports = []
+m3u_sd = defaultdict(list)
 
 i = 0
 while i < len(lines) - 1:
@@ -310,36 +297,30 @@ while i < len(lines) - 1:
     extinf = lines[i]
     url = lines[i + 1]
     raw_name = extinf.split(",")[-1].strip()
-
     m = re.search(r'group-title="([^"]+)"', extinf)
     group = m.group(1) if m else ""
 
-    # ========== 4K ==========
+    # ===== 4K =====
     for op, names in FOUR_K_CHANNELS.items():
         if group.startswith(op) and raw_name in names:
             tvg_id, tvg_name = guess_tvg(raw_name)
-            logo = get_logo(raw_name, tvg_id)
-            out.append(
-                f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" '
-                f'group-title="4K频道",{raw_name}'
+            logo = get_logo(tvg_id)
+            m3u_4k.append(
+                f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" group-title="4K频道",{raw_name}\n{url}'
             )
-            out.append(url)
             break
     else:
-        # ========== 体育 ==========
+        # ===== 体育 =====
         for op, ch in SPORTS_CHANNELS:
             if group.startswith(op) and raw_name == ch:
-                tvg_id, _ = guess_tvg(raw_name)
-                tvg_name = LOCAL_TVG.get(raw_name, {}).get("name", raw_name)
-                logo = get_logo(raw_name, tvg_id)
-                display = f"{op}丨{raw_name}"
-                sports_cache[(op, ch)].append(
-                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" '
-                    f'group-title="体育频道",{display}\n{url}'
+                tvg_id, tvg_name = guess_tvg(raw_name)
+                logo = get_logo(tvg_id)
+                m3u_sports.append(
+                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" group-title="体育频道",{op}丨{raw_name}\n{url}'
                 )
                 break
         else:
-            # ========== 地方 ==========
+            # ===== 地方 =====
             for prefix, rule in KEEP_RULES.items():
                 if group.startswith(prefix):
                     keep = (
@@ -349,19 +330,20 @@ while i < len(lines) - 1:
                     )
                     if keep:
                         tvg_id, tvg_name = guess_tvg(raw_name)
-                        logo = get_logo(raw_name, tvg_id)
-                        out.append(
-                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" '
-                            f'group-title="{group}",{raw_name}'
+                        logo = get_logo(tvg_id)
+                        m3u_sd[prefix].append(
+                            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" group-title="{group}",{raw_name}\n{url}'
                         )
-                        out.append(url)
                     break
 
     i += 2
 
-# ========== 输出体育（按顺序） ==========
-for key in SPORTS_CHANNELS:
-    out.extend(sports_cache.get(key, []))
+# ===== 输出顺序 =====
+out = ["#EXTM3U"]
+out.extend(m3u_4k)
+out.extend(m3u_sports)
+for prefix in ["山东电信", "山东联通", "北京联通"]:
+    out.extend(m3u_sd.get(prefix, []))
 
 with open(OUT_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(out))
