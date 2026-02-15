@@ -8,27 +8,31 @@ http://121.29.141.162:4022/rtp/239.253.92.219:6228
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://121.29.141.162:4022/rtp/239.253.93.134:6631
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
+http://112.192.73.191:8484/rtp/239.0.0.184:5140
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://112.192.73.234:8484/rtp/239.0.0.184:5140
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/CCTV4K.png" group-title="4K频道",CCTV4K超高清
 http://117.174.25.254:8188/rtp/239.0.0.184:5140
 #EXTINF:-1 tvg-id="陕西体育休闲" tvg-name="陕西体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png" group-title="体育频道",陕西电信丨陕西体育休闲
-http://117.39.32.11:4022/rtp/239.111.205.36:5140
+http://117.39.34.255:4022/rtp/239.111.205.36:5140
 #EXTINF:-1 tvg-id="陕西体育休闲" tvg-name="陕西体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png" group-title="体育频道",陕西电信丨陕西体育休闲
-http://36.46.98.81:8025/rtp/239.111.205.36:5140
+http://36.46.98.179:8025/rtp/239.111.205.36:5140
 #EXTINF:-1 tvg-id="云南康旅" tvg-name="云南康旅" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%91%E5%8D%97%E5%BA%B7%E6%97%85.png" group-title="体育频道",云南电信丨云南康旅频道
-http://106.59.2.241:55555/rtp/239.200.200.31:8860
+http://106.59.2.113:55555/rtp/239.200.200.31:8860
+#EXTINF:-1 tvg-id="云南康旅" tvg-name="云南康旅" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%91%E5%8D%97%E5%BA%B7%E6%97%85.png" group-title="体育频道",云南电信丨云南康旅频道
+http://106.59.2.14:55555/rtp/239.200.200.31:8860
 #EXTINF:-1 tvg-id="福建文体" tvg-name="福建文体" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E7%A6%8F%E5%BB%BA%E6%96%87%E4%BD%93.png" group-title="体育频道",福建电信丨福建文体频道
 http://117.30.58.100:18888/rtp/239.61.2.160:8948
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" tvg-logo="https://gitee.com/wuxiyihu/logo/raw/master/tv/Tianjin5.png" group-title="体育频道",天津电信丨天津体育频道
 http://180.213.170.24:8188/rtp/239.5.1.3:5000
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2.png" group-title="体育频道",上海电信丨五星体育
-http://116.235.57.63:4022/rtp/239.45.3.210:5140
+http://116.235.57.60:4022/rtp/239.45.3.210:5140
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2.png" group-title="体育频道",上海电信丨五星体育
 http://223.167.230.159:4022/rtp/239.45.3.210:5140
 #EXTINF:-1 tvg-id="深圳体育健康" tvg-name="深圳体育健康" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%B7%B1%E5%9C%B3%E4%BD%93%E8%82%B2%E5%81%A5%E5%BA%B7.png" group-title="体育频道",广东电信丨深圳体育健康
 http://113.119.24.60:58888/udp/239.77.1.128:5146
 #EXTINF:-1 tvg-id="深圳体育健康" tvg-name="深圳体育健康" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%B7%B1%E5%9C%B3%E4%BD%93%E8%82%B2%E5%81%A5%E5%BA%B7.png" group-title="体育频道",广东电信丨深圳体育健康
-http://113.119.26.16:58888/udp/239.77.1.128:5146
+http://113.119.27.77:58888/udp/239.77.1.128:5146
 #EXTINF:-1 tvg-id="深圳体育健康" tvg-name="深圳体育健康" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%B7%B1%E5%9C%B3%E4%BD%93%E8%82%B2%E5%81%A5%E5%BA%B7.png" group-title="体育频道",广东电信丨深圳体育健康
 http://183.236.43.98:4013/udp/239.77.1.128:5146
 #EXTINF:-1 tvg-id="杭州青少体育" tvg-name="杭州青少体育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/%E6%9D%AD%E5%B7%9E%E9%9D%92%E5%B0%91.png" group-title="体育频道",浙江电信丨杭州青少
@@ -36,11 +40,7 @@ http://220.190.54.26:8188/udp/233.50.201.177:5140
 #EXTINF:-1 tvg-id="武汉文体" tvg-name="武汉文体" tvg-logo="https://gitee.com/wuxiyihu/logo/raw/master/tv/Wuhan5.png" group-title="体育频道",湖北电信丨武汉文体频道
 http://171.113.210.68:4022/rtp/239.69.1.147:10518
 #EXTINF:-1 tvg-id="成都公共" tvg-name="成都公共" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png" group-title="体育频道",四川电信丨成都公共频道
-http://171.213.148.109:8188/udp/239.93.1.231:5140
-#EXTINF:-1 tvg-id="成都公共" tvg-name="成都公共" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png" group-title="体育频道",四川电信丨成都公共频道
-http://171.213.153.157:8188/udp/239.93.1.231:5140
-#EXTINF:-1 tvg-id="成都公共" tvg-name="成都公共" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png" group-title="体育频道",四川电信丨成都公共频道
-http://171.213.153.222:8188/udp/239.93.1.231:5140
+http://171.213.146.58:8188/udp/239.93.1.231:5140
 #EXTINF:-1 tvg-id="成都公共" tvg-name="成都公共" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png" group-title="体育频道",四川电信丨成都公共频道
 http://171.213.218.135:8800/udp/239.93.1.231:5140
 #EXTINF:-1 tvg-id="成都公共" tvg-name="成都公共" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/cdtv5.png" group-title="体育频道",四川电信丨成都公共频道
@@ -49,6 +49,8 @@ http://171.213.243.118:8188/udp/239.93.1.231:5140
 http://121.231.65.114:8095/rtp/239.49.8.117:8000
 #EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E5%BA%86%E6%96%87%E4%BD%93%E5%A8%B1%E4%B9%90.png" group-title="体育频道",重庆电信丨重庆文体娱乐
 http://106.83.119.77:8188/rtp/235.254.198.187:7980
+#EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E5%BA%86%E6%96%87%E4%BD%93%E5%A8%B1%E4%B9%90.png" group-title="体育频道",重庆电信丨重庆文体娱乐
+http://125.80.253.108:7788/rtp/235.254.198.187:7980
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="体育频道",广东联通丨广东体育频道
 http://58.253.171.52:8188/udp/239.0.1.95:5057
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png" group-title="体育频道",广东联通丨CCTV-5体育
@@ -116,11 +118,11 @@ http://113.58.7.33:8188/rtp/239.254.96.83:7004
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV16.png" group-title="体育频道",海南联通丨CCTV-16奥林匹克
 http://113.58.7.33:8188/rtp/239.254.96.170:8206
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png" group-title="体育频道",山西联通丨CCTV-5体育
-http://118.78.196.30:55555/rtp/226.0.2.209:9584
+http://118.78.196.252:55555/rtp/226.0.2.209:9584
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV16.png" group-title="体育频道",山西联通丨CCTV-16奥林匹克
-http://118.78.196.30:55555/rtp/226.0.2.169:9264
+http://118.78.196.252:55555/rtp/226.0.2.169:9264
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png" group-title="体育频道",山西联通丨CCTV-5+体育赛事
-http://118.78.196.30:55555/rtp/226.0.2.168:9256
+http://118.78.196.252:55555/rtp/226.0.2.168:9256
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播1",山东卫视
 http://144.255.16.170:6688/udp/239.21.1.87:5002
 #EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="山东电信-组播1",山东体育频道
@@ -237,122 +239,6 @@ http://144.255.16.170:6688/udp/239.21.1.74:5002
 http://144.255.16.170:6688/udp/239.21.2.29:5002
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png" group-title="山东电信-组播1",CCTV-4 欧洲
 http://144.255.16.170:6688/udp/239.21.2.28:5002
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",山东卫视
-http://144.255.32.105:8288/udp/239.21.1.87:5002
-#EXTINF:-1 tvg-id="山东体育休闲" tvg-name="山东体育休闲" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="山东电信-组播2",山东体育频道
-http://144.255.32.105:8288/udp/239.21.1.141:5002
-#EXTINF:-1 tvg-id="山东农科" tvg-name="山东农科" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%86%9C%E7%A7%91.png" group-title="山东电信-组播2",山东农科频道
-http://144.255.32.105:8288/udp/239.21.1.183:5002
-#EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%B0%91%E5%84%BF.png" group-title="山东电信-组播2",山东少儿频道
-http://144.255.32.105:8288/udp/239.21.1.208:5002
-#EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2.png" group-title="山东电信-组播2",山东教育频道
-http://144.255.32.105:8288/udp/239.21.1.169:5002
-#EXTINF:-1 tvg-id="山东文旅" tvg-name="山东文旅" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%96%87%E6%97%85.png" group-title="山东电信-组播2",山东文旅频道
-http://144.255.32.105:8288/udp/239.21.1.176:5002
-#EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%96%B0%E9%97%BB.png" group-title="山东电信-组播2",山东新闻频道
-http://144.255.32.105:8288/udp/239.21.1.140:5002
-#EXTINF:-1 tvg-id="山东生活" tvg-name="山东生活" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E7%94%9F%E6%B4%BB.png" group-title="山东电信-组播2",山东生活频道
-http://144.255.32.105:8288/udp/239.21.1.175:5002
-#EXTINF:-1 tvg-id="山东综艺" tvg-name="山东综艺" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E7%BB%BC%E8%89%BA.png" group-title="山东电信-组播2",山东综艺频道
-http://144.255.32.105:8288/udp/239.21.1.177:5002
-#EXTINF:-1 tvg-id="山东齐鲁" tvg-name="山东齐鲁" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E9%BD%90%E9%B2%81.png" group-title="山东电信-组播2",山东齐鲁频道
-http://144.255.32.105:8288/udp/239.21.1.134:5002
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV1.png" group-title="山东电信-组播2",CCTV-1综合
-http://144.255.32.105:8288/udp/239.21.1.120:5002
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV2.png" group-title="山东电信-组播2",CCTV-2财经
-http://144.255.32.105:8288/udp/239.21.1.151:5002
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV3.png" group-title="山东电信-组播2",CCTV-3综艺
-http://144.255.32.105:8288/udp/239.21.2.45:5002
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4.png" group-title="山东电信-组播2",CCTV-4中文国际
-http://144.255.32.105:8288/udp/239.21.1.154:5002
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5.png" group-title="山东电信-组播2",CCTV-5体育
-http://144.255.32.105:8288/udp/239.21.2.46:5002
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV6.png" group-title="山东电信-组播2",CCTV-6电影
-http://144.255.32.105:8288/udp/239.21.2.47:5002
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV7.png" group-title="山东电信-组播2",CCTV-7国防军事
-http://144.255.32.105:8288/udp/239.21.1.152:5002
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV8.png" group-title="山东电信-组播2",CCTV-8电视剧
-http://144.255.32.105:8288/udp/239.21.2.48:5002
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV9.png" group-title="山东电信-组播2",CCTV-9纪录
-http://144.255.32.105:8288/udp/239.21.1.153:5002
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV10.png" group-title="山东电信-组播2",CCTV-10科教
-http://144.255.32.105:8288/udp/239.21.1.155:5002
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV11.png" group-title="山东电信-组播2",CCTV-11戏曲
-http://144.255.32.105:8288/udp/239.21.2.2:5002
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV12.png" group-title="山东电信-组播2",CCTV-12社会与法
-http://144.255.32.105:8288/udp/239.21.1.156:5002
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV13.png" group-title="山东电信-组播2",CCTV-13新闻
-http://144.255.32.105:8288/udp/239.21.2.3:5002
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV14.png" group-title="山东电信-组播2",CCTV-14少儿
-http://144.255.32.105:8288/udp/239.21.1.157:5002
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV15.png" group-title="山东电信-组播2",CCTV-15音乐
-http://144.255.32.105:8288/udp/239.21.2.4:5002
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV17.png" group-title="山东电信-组播2",CCTV-17农业农村
-http://144.255.32.105:8288/udp/239.21.1.186:5002
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV5+.png" group-title="山东电信-组播2",CCTV-5+体育赛事
-http://144.255.32.105:8288/udp/239.21.1.142:5002
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",江苏卫视
-http://144.255.32.105:8288/udp/239.21.1.89:5002
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",湖南卫视
-http://144.255.32.105:8288/udp/239.21.1.158:5002
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",浙江卫视
-http://144.255.32.105:8288/udp/239.21.1.90:5002
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",深圳卫视
-http://144.255.32.105:8288/udp/239.21.1.93:5002
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",湖北卫视
-http://144.255.32.105:8288/udp/239.21.1.163:5002
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",北京卫视
-http://144.255.32.105:8288/udp/239.21.1.88:5002
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",东南卫视
-http://144.255.32.105:8288/udp/239.21.1.113:5002
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",东方卫视
-http://144.255.32.105:8288/udp/239.21.1.111:5002
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",广东卫视
-http://144.255.32.105:8288/udp/239.21.1.92:5002
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",四川卫视
-http://144.255.32.105:8288/udp/239.21.2.15:5002
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",重庆卫视
-http://144.255.32.105:8288/udp/239.21.1.233:5002
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",天津卫视
-http://144.255.32.105:8288/udp/239.21.1.165:5002
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",安徽卫视
-http://144.255.32.105:8288/udp/239.21.1.159:5002
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",江西卫视
-http://144.255.32.105:8288/udp/239.21.1.167:5002
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",河北卫视
-http://144.255.32.105:8288/udp/239.21.1.168:5002
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",河南卫视
-http://144.255.32.105:8288/udp/239.21.2.37:5002
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",吉林卫视
-http://144.255.32.105:8288/udp/239.21.2.49:5002
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",海南卫视
-http://144.255.32.105:8288/udp/239.21.2.14:5002
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",青海卫视
-http://144.255.32.105:8288/udp/239.21.2.51:5002
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",甘肃卫视
-http://144.255.32.105:8288/udp/239.21.2.22:5002
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",贵州卫视
-http://144.255.32.105:8288/udp/239.21.1.166:5002
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",辽宁卫视
-http://144.255.32.105:8288/udp/239.21.1.164:5002
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="山东电信-组播2",黑龙江卫视
-http://144.255.32.105:8288/udp/239.21.1.28:5002
-#EXTINF:-1 tvg-id="青岛新闻综合" tvg-name="青岛新闻综合" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-1.png" group-title="山东电信-组播2",青岛1
-http://144.255.32.105:8288/udp/239.21.1.69:5002
-#EXTINF:-1 tvg-id="青岛生活服务" tvg-name="青岛生活服务" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-2.png" group-title="山东电信-组播2",青岛2
-http://144.255.32.105:8288/udp/239.21.1.70:5002
-#EXTINF:-1 tvg-id="青岛影视" tvg-name="青岛影视" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-3.png" group-title="山东电信-组播2",青岛3
-http://144.255.32.105:8288/udp/239.21.1.71:5002
-#EXTINF:-1 tvg-id="青岛都市" tvg-name="青岛都市" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-4.png" group-title="山东电信-组播2",青岛4
-http://144.255.32.105:8288/udp/239.21.1.72:5002
-#EXTINF:-1 tvg-id="青岛教育" tvg-name="青岛教育" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/QTV-5.png" group-title="山东电信-组播2",青岛5
-http://144.255.32.105:8288/udp/239.21.1.73:5002
-#EXTINF:-1 tvg-id="青岛tv6" tvg-name="青岛TV6" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/QTV6.png" group-title="山东电信-组播2",青岛6
-http://144.255.32.105:8288/udp/239.21.1.74:5002
-#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E7%BE%8E%E6%B4%B2.png" group-title="山东电信-组播2",CCTV-4 北美
-http://144.255.32.105:8288/udp/239.21.2.29:5002
-#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://raw.githubusercontent.com/wangjun99999/logo/refs/heads/main/CN/CCTV4%E6%AC%A7%E6%B4%B2.png" group-title="山东电信-组播2",CCTV-4 欧洲
-http://144.255.32.105:8288/udp/239.21.2.28:5002
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="山东联通-组播1",山东卫视
 http://39.77.26.54:4002/rtp/239.253.254.78:8000
 #EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/%E5%B1%B1%E4%B8%9C%E6%96%B0%E9%97%BB.png" group-title="山东联通-组播1",山东新闻频道
